@@ -1,0 +1,14 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.214Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "warnings": [
+      "Risk of orthostatic hypotension, especially during dose titration.",
+      "Potential for cataract development; eye exams recommended.",
+      "May cause metabolic changes including weight gain."
+    ],
+    "boxedWarning": "Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death.",
+    "note": "LLM-generated openFDA label cache stub."
+  }
+}

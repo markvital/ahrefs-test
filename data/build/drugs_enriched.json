@@ -1,0 +1,2149 @@
+{
+  "generatedAt": "2025-09-19T23:53:12.218Z",
+  "cacheTtlDays": 30,
+  "note": "LLM-generated synthetic dataset for static preview. Replace with live pipeline when available.",
+  "drugs": [
+    {
+      "rank": 1,
+      "slug": "sertraline",
+      "genericName": "Sertraline",
+      "brandNames": [
+        "Zoloft",
+        "Lustral"
+      ],
+      "alternateNames": [
+        "Sertraline HCl",
+        "Sertraline base"
+      ],
+      "activeIngredients": [
+        "Sertraline hydrochloride"
+      ],
+      "rxCui": "36567",
+      "atcClasses": [
+        "N06AB06"
+      ],
+      "molecularFormula": "C17H17Cl2N",
+      "searchVolume": 74000,
+      "searchTrend": [
+        {
+          "month": "2020-10",
+          "value": 69855
+        },
+        {
+          "month": "2020-11",
+          "value": 62549
+        },
+        {
+          "month": "2020-12",
+          "value": 64135
+        },
+        {
+          "month": "2021-01",
+          "value": 63861
+        },
+        {
+          "month": "2021-02",
+          "value": 64577
+        },
+        {
+          "month": "2021-03",
+          "value": 69280
+        },
+        {
+          "month": "2021-04",
+          "value": 75389
+        },
+        {
+          "month": "2021-05",
+          "value": 79613
+        },
+        {
+          "month": "2021-06",
+          "value": 75528
+        },
+        {
+          "month": "2021-07",
+          "value": 77663
+        },
+        {
+          "month": "2021-08",
+          "value": 79045
+        },
+        {
+          "month": "2021-09",
+          "value": 74357
+        },
+        {
+          "month": "2021-10",
+          "value": 65668
+        },
+        {
+          "month": "2021-11",
+          "value": 68183
+        },
+        {
+          "month": "2021-12",
+          "value": 67232
+        },
+        {
+          "month": "2022-01",
+          "value": 63977
+        },
+        {
+          "month": "2022-02",
+          "value": 69605
+        },
+        {
+          "month": "2022-03",
+          "value": 75010
+        },
+        {
+          "month": "2022-04",
+          "value": 74621
+        },
+        {
+          "month": "2022-05",
+          "value": 78846
+        },
+        {
+          "month": "2022-06",
+          "value": 79926
+        },
+        {
+          "month": "2022-07",
+          "value": 77026
+        },
+        {
+          "month": "2022-08",
+          "value": 76006
+        },
+        {
+          "month": "2022-09",
+          "value": 73221
+        },
+        {
+          "month": "2022-10",
+          "value": 68354
+        },
+        {
+          "month": "2022-11",
+          "value": 68520
+        },
+        {
+          "month": "2022-12",
+          "value": 63361
+        },
+        {
+          "month": "2023-01",
+          "value": 65915
+        },
+        {
+          "month": "2023-02",
+          "value": 66842
+        },
+        {
+          "month": "2023-03",
+          "value": 69113
+        },
+        {
+          "month": "2023-04",
+          "value": 75312
+        },
+        {
+          "month": "2023-05",
+          "value": 74197
+        },
+        {
+          "month": "2023-06",
+          "value": 77102
+        },
+        {
+          "month": "2023-07",
+          "value": 75933
+        },
+        {
+          "month": "2023-08",
+          "value": 76172
+        },
+        {
+          "month": "2023-09",
+          "value": 73154
+        },
+        {
+          "month": "2023-10",
+          "value": 69184
+        },
+        {
+          "month": "2023-11",
+          "value": 65731
+        },
+        {
+          "month": "2023-12",
+          "value": 64858
+        },
+        {
+          "month": "2024-01",
+          "value": 68253
+        },
+        {
+          "month": "2024-02",
+          "value": 66932
+        },
+        {
+          "month": "2024-03",
+          "value": 67882
+        },
+        {
+          "month": "2024-04",
+          "value": 71338
+        },
+        {
+          "month": "2024-05",
+          "value": 75087
+        },
+        {
+          "month": "2024-06",
+          "value": 79704
+        },
+        {
+          "month": "2024-07",
+          "value": 74770
+        },
+        {
+          "month": "2024-08",
+          "value": 75834
+        },
+        {
+          "month": "2024-09",
+          "value": 75995
+        },
+        {
+          "month": "2024-10",
+          "value": 68670
+        },
+        {
+          "month": "2024-11",
+          "value": 68972
+        },
+        {
+          "month": "2024-12",
+          "value": 64849
+        },
+        {
+          "month": "2025-01",
+          "value": 67075
+        },
+        {
+          "month": "2025-02",
+          "value": 69525
+        },
+        {
+          "month": "2025-03",
+          "value": 69585
+        },
+        {
+          "month": "2025-04",
+          "value": 76647
+        },
+        {
+          "month": "2025-05",
+          "value": 79906
+        },
+        {
+          "month": "2025-06",
+          "value": 74164
+        },
+        {
+          "month": "2025-07",
+          "value": 75356
+        },
+        {
+          "month": "2025-08",
+          "value": 78478
+        },
+        {
+          "month": "2025-09",
+          "value": 70886
+        }
+      ],
+      "medicarePartD": [
+        {
+          "year": 2022,
+          "claims": 1850000,
+          "beneficiaries": 910000
+        },
+        {
+          "year": 2021,
+          "claims": 1780000,
+          "beneficiaries": 880000
+        },
+        {
+          "year": 2020,
+          "claims": 1690000,
+          "beneficiaries": 845000
+        },
+        {
+          "year": 2019,
+          "claims": 1610000,
+          "beneficiaries": 810000
+        },
+        {
+          "year": 2018,
+          "claims": 1540000,
+          "beneficiaries": 775000
+        }
+      ],
+      "fda": {
+        "boxedWarning": "Antidepressants increased the risk compared to placebo of suicidal thinking and behavior in children, adolescents, and young adults.",
+        "warnings": [
+          "Serotonin syndrome risk when combined with other serotonergic drugs.",
+          "Potential for activation of mania or hypomania.",
+          "Discontinuation may result in withdrawal symptoms."
+        ],
+        "approvals": [
+          {
+            "applicationNumber": "NDA020990",
+            "approvalDate": "1991-12-30",
+            "status": "Approved",
+            "notes": "Initial approval for major depressive disorder."
+          }
+        ],
+        "earliestApprovalDate": "1991-12-30",
+        "hasUsApproval": true
+      },
+      "faers": {
+        "totalReports5y": 12940,
+        "topReactions": [
+          {
+            "name": "Drug ineffective",
+            "count": 1550
+          },
+          {
+            "name": "Anxiety",
+            "count": 820
+          },
+          {
+            "name": "Nausea",
+            "count": 740
+          }
+        ]
+      },
+      "clinicalTrials": {
+        "total": 312,
+        "last5y": 44,
+        "byStatus": [
+          {
+            "status": "Completed",
+            "count": 188
+          },
+          {
+            "status": "Recruiting",
+            "count": 32
+          },
+          {
+            "status": "Active, not recruiting",
+            "count": 27
+          }
+        ]
+      },
+      "metadata": {
+        "llmGenerated": true,
+        "sourcesCachedAt": {
+          "ahrefs": "2025-09-19T23:53:12.206Z",
+          "openfdaLabel": "2025-09-19T23:53:12.206Z",
+          "openfdaDrugsfda": "2025-09-19T23:53:12.206Z",
+          "faers": "2025-09-19T23:53:12.206Z",
+          "clinicalTrials": "2025-09-19T23:53:12.206Z",
+          "cms": "2025-09-19T23:53:12.206Z",
+          "pubchem": "2025-09-19T23:53:12.206Z",
+          "rxnorm": "2025-09-19T23:53:12.206Z"
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "slug": "fluoxetine",
+      "genericName": "Fluoxetine",
+      "brandNames": [
+        "Prozac",
+        "Sarafem"
+      ],
+      "alternateNames": [
+        "Fluoxetine HCl",
+        "Norfluoxetine"
+      ],
+      "activeIngredients": [
+        "Fluoxetine hydrochloride"
+      ],
+      "rxCui": "4493",
+      "atcClasses": [
+        "N06AB03"
+      ],
+      "molecularFormula": "C17H18F3NO",
+      "searchVolume": 60500,
+      "searchTrend": [
+        {
+          "month": "2020-10",
+          "value": 57813
+        },
+        {
+          "month": "2020-11",
+          "value": 50296
+        },
+        {
+          "month": "2020-12",
+          "value": 52080
+        },
+        {
+          "month": "2021-01",
+          "value": 53887
+        },
+        {
+          "month": "2021-02",
+          "value": 54279
+        },
+        {
+          "month": "2021-03",
+          "value": 55332
+        },
+        {
+          "month": "2021-04",
+          "value": 60980
+        },
+        {
+          "month": "2021-05",
+          "value": 66578
+        },
+        {
+          "month": "2021-06",
+          "value": 65305
+        },
+        {
+          "month": "2021-07",
+          "value": 66409
+        },
+        {
+          "month": "2021-08",
+          "value": 63778
+        },
+        {
+          "month": "2021-09",
+          "value": 60720
+        },
+        {
+          "month": "2021-10",
+          "value": 54512
+        },
+        {
+          "month": "2021-11",
+          "value": 54642
+        },
+        {
+          "month": "2021-12",
+          "value": 56143
+        },
+        {
+          "month": "2022-01",
+          "value": 54612
+        },
+        {
+          "month": "2022-02",
+          "value": 56053
+        },
+        {
+          "month": "2022-03",
+          "value": 61545
+        },
+        {
+          "month": "2022-04",
+          "value": 61159
+        },
+        {
+          "month": "2022-05",
+          "value": 64080
+        },
+        {
+          "month": "2022-06",
+          "value": 63295
+        },
+        {
+          "month": "2022-07",
+          "value": 66702
+        },
+        {
+          "month": "2022-08",
+          "value": 62285
+        },
+        {
+          "month": "2022-09",
+          "value": 59830
+        },
+        {
+          "month": "2022-10",
+          "value": 56062
+        },
+        {
+          "month": "2022-11",
+          "value": 57155
+        },
+        {
+          "month": "2022-12",
+          "value": 52577
+        },
+        {
+          "month": "2023-01",
+          "value": 52362
+        },
+        {
+          "month": "2023-02",
+          "value": 55086
+        },
+        {
+          "month": "2023-03",
+          "value": 56440
+        },
+        {
+          "month": "2023-04",
+          "value": 59012
+        },
+        {
+          "month": "2023-05",
+          "value": 64576
+        },
+        {
+          "month": "2023-06",
+          "value": 64603
+        },
+        {
+          "month": "2023-07",
+          "value": 66295
+        },
+        {
+          "month": "2023-08",
+          "value": 61429
+        },
+        {
+          "month": "2023-09",
+          "value": 62705
+        },
+        {
+          "month": "2023-10",
+          "value": 60617
+        },
+        {
+          "month": "2023-11",
+          "value": 56711
+        },
+        {
+          "month": "2023-12",
+          "value": 52971
+        },
+        {
+          "month": "2024-01",
+          "value": 55737
+        },
+        {
+          "month": "2024-02",
+          "value": 56826
+        },
+        {
+          "month": "2024-03",
+          "value": 55148
+        },
+        {
+          "month": "2024-04",
+          "value": 62046
+        },
+        {
+          "month": "2024-05",
+          "value": 65140
+        },
+        {
+          "month": "2024-06",
+          "value": 65944
+        },
+        {
+          "month": "2024-07",
+          "value": 64623
+        },
+        {
+          "month": "2024-08",
+          "value": 60351
+        },
+        {
+          "month": "2024-09",
+          "value": 60934
+        },
+        {
+          "month": "2024-10",
+          "value": 57991
+        },
+        {
+          "month": "2024-11",
+          "value": 52654
+        },
+        {
+          "month": "2024-12",
+          "value": 56108
+        },
+        {
+          "month": "2025-01",
+          "value": 53161
+        },
+        {
+          "month": "2025-02",
+          "value": 54242
+        },
+        {
+          "month": "2025-03",
+          "value": 58461
+        },
+        {
+          "month": "2025-04",
+          "value": 63485
+        },
+        {
+          "month": "2025-05",
+          "value": 65416
+        },
+        {
+          "month": "2025-06",
+          "value": 63776
+        },
+        {
+          "month": "2025-07",
+          "value": 65549
+        },
+        {
+          "month": "2025-08",
+          "value": 61638
+        },
+        {
+          "month": "2025-09",
+          "value": 62135
+        }
+      ],
+      "medicarePartD": [
+        {
+          "year": 2022,
+          "claims": 1320000,
+          "beneficiaries": 670000
+        },
+        {
+          "year": 2021,
+          "claims": 1280000,
+          "beneficiaries": 655000
+        },
+        {
+          "year": 2020,
+          "claims": 1210000,
+          "beneficiaries": 620000
+        },
+        {
+          "year": 2019,
+          "claims": 1170000,
+          "beneficiaries": 603000
+        },
+        {
+          "year": 2018,
+          "claims": 1100000,
+          "beneficiaries": 575000
+        }
+      ],
+      "fda": {
+        "boxedWarning": "Antidepressants increased the risk compared to placebo of suicidal thinking and behavior in children, adolescents, and young adults.",
+        "warnings": [
+          "Potential for QT prolongation when combined with other agents.",
+          "May cause activation of mania in bipolar disorder.",
+          "Risk of serotonin syndrome."
+        ],
+        "approvals": [
+          {
+            "applicationNumber": "NDA018936",
+            "approvalDate": "1987-12-29",
+            "status": "Approved",
+            "notes": "Initial approval for major depressive disorder."
+          }
+        ],
+        "earliestApprovalDate": "1987-12-29",
+        "hasUsApproval": true
+      },
+      "faers": {
+        "totalReports5y": 10120,
+        "topReactions": [
+          {
+            "name": "Drug ineffective",
+            "count": 1290
+          },
+          {
+            "name": "Suicidal ideation",
+            "count": 640
+          },
+          {
+            "name": "Depression",
+            "count": 610
+          }
+        ]
+      },
+      "clinicalTrials": {
+        "total": 284,
+        "last5y": 35,
+        "byStatus": [
+          {
+            "status": "Completed",
+            "count": 171
+          },
+          {
+            "status": "Recruiting",
+            "count": 26
+          },
+          {
+            "status": "Terminated",
+            "count": 21
+          }
+        ]
+      },
+      "metadata": {
+        "llmGenerated": true,
+        "sourcesCachedAt": {
+          "ahrefs": "2025-09-19T23:53:12.209Z",
+          "openfdaLabel": "2025-09-19T23:53:12.209Z",
+          "openfdaDrugsfda": "2025-09-19T23:53:12.209Z",
+          "faers": "2025-09-19T23:53:12.209Z",
+          "clinicalTrials": "2025-09-19T23:53:12.209Z",
+          "cms": "2025-09-19T23:53:12.209Z",
+          "pubchem": "2025-09-19T23:53:12.209Z",
+          "rxnorm": "2025-09-19T23:53:12.209Z"
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "slug": "escitalopram",
+      "genericName": "Escitalopram",
+      "brandNames": [
+        "Lexapro",
+        "Cipralex"
+      ],
+      "alternateNames": [
+        "S-Citalopram",
+        "Escitalopram oxalate"
+      ],
+      "activeIngredients": [
+        "Escitalopram oxalate"
+      ],
+      "rxCui": "35207",
+      "atcClasses": [
+        "N06AB10"
+      ],
+      "molecularFormula": "C20H21FN2O",
+      "searchVolume": 56200,
+      "searchTrend": [
+        {
+          "month": "2020-10",
+          "value": 51332
+        },
+        {
+          "month": "2020-11",
+          "value": 49738
+        },
+        {
+          "month": "2020-12",
+          "value": 47423
+        },
+        {
+          "month": "2021-01",
+          "value": 52027
+        },
+        {
+          "month": "2021-02",
+          "value": 52579
+        },
+        {
+          "month": "2021-03",
+          "value": 51166
+        },
+        {
+          "month": "2021-04",
+          "value": 59502
+        },
+        {
+          "month": "2021-05",
+          "value": 61145
+        },
+        {
+          "month": "2021-06",
+          "value": 59317
+        },
+        {
+          "month": "2021-07",
+          "value": 60665
+        },
+        {
+          "month": "2021-08",
+          "value": 57024
+        },
+        {
+          "month": "2021-09",
+          "value": 54952
+        },
+        {
+          "month": "2021-10",
+          "value": 51238
+        },
+        {
+          "month": "2021-11",
+          "value": 47696
+        },
+        {
+          "month": "2021-12",
+          "value": 49342
+        },
+        {
+          "month": "2022-01",
+          "value": 49520
+        },
+        {
+          "month": "2022-02",
+          "value": 49683
+        },
+        {
+          "month": "2022-03",
+          "value": 53787
+        },
+        {
+          "month": "2022-04",
+          "value": 57263
+        },
+        {
+          "month": "2022-05",
+          "value": 55620
+        },
+        {
+          "month": "2022-06",
+          "value": 59570
+        },
+        {
+          "month": "2022-07",
+          "value": 61631
+        },
+        {
+          "month": "2022-08",
+          "value": 56012
+        },
+        {
+          "month": "2022-09",
+          "value": 52145
+        },
+        {
+          "month": "2022-10",
+          "value": 51132
+        },
+        {
+          "month": "2022-11",
+          "value": 51966
+        },
+        {
+          "month": "2022-12",
+          "value": 48531
+        },
+        {
+          "month": "2023-01",
+          "value": 48462
+        },
+        {
+          "month": "2023-02",
+          "value": 49345
+        },
+        {
+          "month": "2023-03",
+          "value": 55278
+        },
+        {
+          "month": "2023-04",
+          "value": 55095
+        },
+        {
+          "month": "2023-05",
+          "value": 59495
+        },
+        {
+          "month": "2023-06",
+          "value": 61710
+        },
+        {
+          "month": "2023-07",
+          "value": 60767
+        },
+        {
+          "month": "2023-08",
+          "value": 57319
+        },
+        {
+          "month": "2023-09",
+          "value": 56459
+        },
+        {
+          "month": "2023-10",
+          "value": 52385
+        },
+        {
+          "month": "2023-11",
+          "value": 50370
+        },
+        {
+          "month": "2023-12",
+          "value": 46609
+        },
+        {
+          "month": "2024-01",
+          "value": 47877
+        },
+        {
+          "month": "2024-02",
+          "value": 51633
+        },
+        {
+          "month": "2024-03",
+          "value": 53177
+        },
+        {
+          "month": "2024-04",
+          "value": 53814
+        },
+        {
+          "month": "2024-05",
+          "value": 56233
+        },
+        {
+          "month": "2024-06",
+          "value": 57192
+        },
+        {
+          "month": "2024-07",
+          "value": 59123
+        },
+        {
+          "month": "2024-08",
+          "value": 56273
+        },
+        {
+          "month": "2024-09",
+          "value": 55284
+        },
+        {
+          "month": "2024-10",
+          "value": 51426
+        },
+        {
+          "month": "2024-11",
+          "value": 48112
+        },
+        {
+          "month": "2024-12",
+          "value": 47339
+        },
+        {
+          "month": "2025-01",
+          "value": 48788
+        },
+        {
+          "month": "2025-02",
+          "value": 49607
+        },
+        {
+          "month": "2025-03",
+          "value": 51017
+        },
+        {
+          "month": "2025-04",
+          "value": 53740
+        },
+        {
+          "month": "2025-05",
+          "value": 57729
+        },
+        {
+          "month": "2025-06",
+          "value": 55492
+        },
+        {
+          "month": "2025-07",
+          "value": 55927
+        },
+        {
+          "month": "2025-08",
+          "value": 58104
+        },
+        {
+          "month": "2025-09",
+          "value": 54532
+        }
+      ],
+      "medicarePartD": [
+        {
+          "year": 2022,
+          "claims": 1490000,
+          "beneficiaries": 740000
+        },
+        {
+          "year": 2021,
+          "claims": 1430000,
+          "beneficiaries": 710000
+        },
+        {
+          "year": 2020,
+          "claims": 1350000,
+          "beneficiaries": 675000
+        },
+        {
+          "year": 2019,
+          "claims": 1290000,
+          "beneficiaries": 640000
+        },
+        {
+          "year": 2018,
+          "claims": 1210000,
+          "beneficiaries": 605000
+        }
+      ],
+      "fda": {
+        "boxedWarning": "Antidepressants increased the risk compared to placebo of suicidal thinking and behavior in children, adolescents, and young adults.",
+        "warnings": [
+          "Risk of QT prolongation especially at high doses.",
+          "Serotonin syndrome when used with other serotonergic drugs.",
+          "Monitor for hyponatremia particularly in elderly patients."
+        ],
+        "approvals": [
+          {
+            "applicationNumber": "NDA021323",
+            "approvalDate": "2002-08-14",
+            "status": "Approved",
+            "notes": "Initial approval for major depressive disorder."
+          }
+        ],
+        "earliestApprovalDate": "2002-08-14",
+        "hasUsApproval": true
+      },
+      "faers": {
+        "totalReports5y": 8930,
+        "topReactions": [
+          {
+            "name": "Anxiety",
+            "count": 710
+          },
+          {
+            "name": "Nausea",
+            "count": 640
+          },
+          {
+            "name": "Headache",
+            "count": 580
+          }
+        ]
+      },
+      "clinicalTrials": {
+        "total": 205,
+        "last5y": 29,
+        "byStatus": [
+          {
+            "status": "Completed",
+            "count": 132
+          },
+          {
+            "status": "Recruiting",
+            "count": 19
+          },
+          {
+            "status": "Active, not recruiting",
+            "count": 18
+          }
+        ]
+      },
+      "metadata": {
+        "llmGenerated": true,
+        "sourcesCachedAt": {
+          "ahrefs": "2025-09-19T23:53:12.212Z",
+          "openfdaLabel": "2025-09-19T23:53:12.212Z",
+          "openfdaDrugsfda": "2025-09-19T23:53:12.212Z",
+          "faers": "2025-09-19T23:53:12.212Z",
+          "clinicalTrials": "2025-09-19T23:53:12.212Z",
+          "cms": "2025-09-19T23:53:12.212Z",
+          "pubchem": "2025-09-19T23:53:12.212Z",
+          "rxnorm": "2025-09-19T23:53:12.212Z"
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "slug": "aripiprazole",
+      "genericName": "Aripiprazole",
+      "brandNames": [
+        "Abilify",
+        "Abilify Maintena"
+      ],
+      "alternateNames": [
+        "Aripiprazole monohydrate",
+        "7-hydroxy aripiprazole"
+      ],
+      "activeIngredients": [
+        "Aripiprazole"
+      ],
+      "rxCui": "83367",
+      "atcClasses": [
+        "N05AX12"
+      ],
+      "molecularFormula": "C23H27Cl2N3O2",
+      "searchVolume": 48200,
+      "searchTrend": [
+        {
+          "month": "2020-10",
+          "value": 42904
+        },
+        {
+          "month": "2020-11",
+          "value": 40946
+        },
+        {
+          "month": "2020-12",
+          "value": 42698
+        },
+        {
+          "month": "2021-01",
+          "value": 41264
+        },
+        {
+          "month": "2021-02",
+          "value": 45318
+        },
+        {
+          "month": "2021-03",
+          "value": 48103
+        },
+        {
+          "month": "2021-04",
+          "value": 51132
+        },
+        {
+          "month": "2021-05",
+          "value": 52937
+        },
+        {
+          "month": "2021-06",
+          "value": 50266
+        },
+        {
+          "month": "2021-07",
+          "value": 53120
+        },
+        {
+          "month": "2021-08",
+          "value": 49280
+        },
+        {
+          "month": "2021-09",
+          "value": 47321
+        },
+        {
+          "month": "2021-10",
+          "value": 44535
+        },
+        {
+          "month": "2021-11",
+          "value": 42415
+        },
+        {
+          "month": "2021-12",
+          "value": 44482
+        },
+        {
+          "month": "2022-01",
+          "value": 40765
+        },
+        {
+          "month": "2022-02",
+          "value": 41400
+        },
+        {
+          "month": "2022-03",
+          "value": 45293
+        },
+        {
+          "month": "2022-04",
+          "value": 49116
+        },
+        {
+          "month": "2022-05",
+          "value": 49301
+        },
+        {
+          "month": "2022-06",
+          "value": 50641
+        },
+        {
+          "month": "2022-07",
+          "value": 49829
+        },
+        {
+          "month": "2022-08",
+          "value": 49413
+        },
+        {
+          "month": "2022-09",
+          "value": 48012
+        },
+        {
+          "month": "2022-10",
+          "value": 44764
+        },
+        {
+          "month": "2022-11",
+          "value": 43235
+        },
+        {
+          "month": "2022-12",
+          "value": 40166
+        },
+        {
+          "month": "2023-01",
+          "value": 39838
+        },
+        {
+          "month": "2023-02",
+          "value": 44241
+        },
+        {
+          "month": "2023-03",
+          "value": 47000
+        },
+        {
+          "month": "2023-04",
+          "value": 48585
+        },
+        {
+          "month": "2023-05",
+          "value": 50367
+        },
+        {
+          "month": "2023-06",
+          "value": 51282
+        },
+        {
+          "month": "2023-07",
+          "value": 50775
+        },
+        {
+          "month": "2023-08",
+          "value": 50794
+        },
+        {
+          "month": "2023-09",
+          "value": 49142
+        },
+        {
+          "month": "2023-10",
+          "value": 48713
+        },
+        {
+          "month": "2023-11",
+          "value": 43024
+        },
+        {
+          "month": "2023-12",
+          "value": 40516
+        },
+        {
+          "month": "2024-01",
+          "value": 44055
+        },
+        {
+          "month": "2024-02",
+          "value": 44613
+        },
+        {
+          "month": "2024-03",
+          "value": 44031
+        },
+        {
+          "month": "2024-04",
+          "value": 49066
+        },
+        {
+          "month": "2024-05",
+          "value": 49817
+        },
+        {
+          "month": "2024-06",
+          "value": 52129
+        },
+        {
+          "month": "2024-07",
+          "value": 50316
+        },
+        {
+          "month": "2024-08",
+          "value": 49120
+        },
+        {
+          "month": "2024-09",
+          "value": 50318
+        },
+        {
+          "month": "2024-10",
+          "value": 43437
+        },
+        {
+          "month": "2024-11",
+          "value": 42215
+        },
+        {
+          "month": "2024-12",
+          "value": 43490
+        },
+        {
+          "month": "2025-01",
+          "value": 43889
+        },
+        {
+          "month": "2025-02",
+          "value": 44511
+        },
+        {
+          "month": "2025-03",
+          "value": 46742
+        },
+        {
+          "month": "2025-04",
+          "value": 49566
+        },
+        {
+          "month": "2025-05",
+          "value": 48319
+        },
+        {
+          "month": "2025-06",
+          "value": 50986
+        },
+        {
+          "month": "2025-07",
+          "value": 51333
+        },
+        {
+          "month": "2025-08",
+          "value": 48821
+        },
+        {
+          "month": "2025-09",
+          "value": 47868
+        }
+      ],
+      "medicarePartD": [
+        {
+          "year": 2022,
+          "claims": 760000,
+          "beneficiaries": 310000
+        },
+        {
+          "year": 2021,
+          "claims": 735000,
+          "beneficiaries": 302000
+        },
+        {
+          "year": 2020,
+          "claims": 702000,
+          "beneficiaries": 289000
+        },
+        {
+          "year": 2019,
+          "claims": 671000,
+          "beneficiaries": 274000
+        },
+        {
+          "year": 2018,
+          "claims": 640000,
+          "beneficiaries": 261000
+        }
+      ],
+      "fda": {
+        "boxedWarning": "Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death.",
+        "warnings": [
+          "May cause pathologic gambling and other impulse-control problems.",
+          "Risk of neuroleptic malignant syndrome.",
+          "Monitor for metabolic changes including hyperglycemia."
+        ],
+        "approvals": [
+          {
+            "applicationNumber": "NDA021436",
+            "approvalDate": "2002-11-15",
+            "status": "Approved",
+            "notes": "Initial approval for schizophrenia."
+          }
+        ],
+        "earliestApprovalDate": "2002-11-15",
+        "hasUsApproval": true
+      },
+      "faers": {
+        "totalReports5y": 11220,
+        "topReactions": [
+          {
+            "name": "Weight increased",
+            "count": 910
+          },
+          {
+            "name": "Akathisia",
+            "count": 870
+          },
+          {
+            "name": "Drug ineffective",
+            "count": 690
+          }
+        ]
+      },
+      "clinicalTrials": {
+        "total": 258,
+        "last5y": 33,
+        "byStatus": [
+          {
+            "status": "Completed",
+            "count": 154
+          },
+          {
+            "status": "Recruiting",
+            "count": 24
+          },
+          {
+            "status": "Suspended",
+            "count": 9
+          }
+        ]
+      },
+      "metadata": {
+        "llmGenerated": true,
+        "sourcesCachedAt": {
+          "ahrefs": "2025-09-19T23:53:12.214Z",
+          "openfdaLabel": "2025-09-19T23:53:12.214Z",
+          "openfdaDrugsfda": "2025-09-19T23:53:12.214Z",
+          "faers": "2025-09-19T23:53:12.214Z",
+          "clinicalTrials": "2025-09-19T23:53:12.214Z",
+          "cms": "2025-09-19T23:53:12.214Z",
+          "pubchem": "2025-09-19T23:53:12.214Z",
+          "rxnorm": "2025-09-19T23:53:12.214Z"
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "slug": "quetiapine",
+      "genericName": "Quetiapine",
+      "brandNames": [
+        "Seroquel",
+        "Seroquel XR"
+      ],
+      "alternateNames": [
+        "Quetiapine fumarate",
+        "Quetiapine IR"
+      ],
+      "activeIngredients": [
+        "Quetiapine fumarate"
+      ],
+      "rxCui": "114938",
+      "atcClasses": [
+        "N05AH04"
+      ],
+      "molecularFormula": "C21H25N3O2S",
+      "searchVolume": 35100,
+      "searchTrend": [
+        {
+          "month": "2020-10",
+          "value": 34007
+        },
+        {
+          "month": "2020-11",
+          "value": 31525
+        },
+        {
+          "month": "2020-12",
+          "value": 31706
+        },
+        {
+          "month": "2021-01",
+          "value": 31968
+        },
+        {
+          "month": "2021-02",
+          "value": 33762
+        },
+        {
+          "month": "2021-03",
+          "value": 31850
+        },
+        {
+          "month": "2021-04",
+          "value": 37461
+        },
+        {
+          "month": "2021-05",
+          "value": 39102
+        },
+        {
+          "month": "2021-06",
+          "value": 38201
+        },
+        {
+          "month": "2021-07",
+          "value": 36723
+        },
+        {
+          "month": "2021-08",
+          "value": 37039
+        },
+        {
+          "month": "2021-09",
+          "value": 35095
+        },
+        {
+          "month": "2021-10",
+          "value": 30163
+        },
+        {
+          "month": "2021-11",
+          "value": 30618
+        },
+        {
+          "month": "2021-12",
+          "value": 29766
+        },
+        {
+          "month": "2022-01",
+          "value": 32327
+        },
+        {
+          "month": "2022-02",
+          "value": 33210
+        },
+        {
+          "month": "2022-03",
+          "value": 36117
+        },
+        {
+          "month": "2022-04",
+          "value": 37767
+        },
+        {
+          "month": "2022-05",
+          "value": 37865
+        },
+        {
+          "month": "2022-06",
+          "value": 38757
+        },
+        {
+          "month": "2022-07",
+          "value": 37709
+        },
+        {
+          "month": "2022-08",
+          "value": 37216
+        },
+        {
+          "month": "2022-09",
+          "value": 32968
+        },
+        {
+          "month": "2022-10",
+          "value": 34098
+        },
+        {
+          "month": "2022-11",
+          "value": 30962
+        },
+        {
+          "month": "2022-12",
+          "value": 32210
+        },
+        {
+          "month": "2023-01",
+          "value": 31113
+        },
+        {
+          "month": "2023-02",
+          "value": 31998
+        },
+        {
+          "month": "2023-03",
+          "value": 33969
+        },
+        {
+          "month": "2023-04",
+          "value": 34125
+        },
+        {
+          "month": "2023-05",
+          "value": 36929
+        },
+        {
+          "month": "2023-06",
+          "value": 39456
+        },
+        {
+          "month": "2023-07",
+          "value": 37977
+        },
+        {
+          "month": "2023-08",
+          "value": 33799
+        },
+        {
+          "month": "2023-09",
+          "value": 34264
+        },
+        {
+          "month": "2023-10",
+          "value": 35200
+        },
+        {
+          "month": "2023-11",
+          "value": 33378
+        },
+        {
+          "month": "2023-12",
+          "value": 29695
+        },
+        {
+          "month": "2024-01",
+          "value": 32361
+        },
+        {
+          "month": "2024-02",
+          "value": 31020
+        },
+        {
+          "month": "2024-03",
+          "value": 31224
+        },
+        {
+          "month": "2024-04",
+          "value": 36037
+        },
+        {
+          "month": "2024-05",
+          "value": 38210
+        },
+        {
+          "month": "2024-06",
+          "value": 36705
+        },
+        {
+          "month": "2024-07",
+          "value": 35909
+        },
+        {
+          "month": "2024-08",
+          "value": 37724
+        },
+        {
+          "month": "2024-09",
+          "value": 34374
+        },
+        {
+          "month": "2024-10",
+          "value": 32081
+        },
+        {
+          "month": "2024-11",
+          "value": 32544
+        },
+        {
+          "month": "2024-12",
+          "value": 31616
+        },
+        {
+          "month": "2025-01",
+          "value": 31735
+        },
+        {
+          "month": "2025-02",
+          "value": 32543
+        },
+        {
+          "month": "2025-03",
+          "value": 32486
+        },
+        {
+          "month": "2025-04",
+          "value": 34926
+        },
+        {
+          "month": "2025-05",
+          "value": 36648
+        },
+        {
+          "month": "2025-06",
+          "value": 35837
+        },
+        {
+          "month": "2025-07",
+          "value": 36760
+        },
+        {
+          "month": "2025-08",
+          "value": 38470
+        },
+        {
+          "month": "2025-09",
+          "value": 35842
+        }
+      ],
+      "medicarePartD": [
+        {
+          "year": 2022,
+          "claims": 920000,
+          "beneficiaries": 405000
+        },
+        {
+          "year": 2021,
+          "claims": 901000,
+          "beneficiaries": 398000
+        },
+        {
+          "year": 2020,
+          "claims": 874000,
+          "beneficiaries": 384000
+        },
+        {
+          "year": 2019,
+          "claims": 842000,
+          "beneficiaries": 371000
+        },
+        {
+          "year": 2018,
+          "claims": 810000,
+          "beneficiaries": 357000
+        }
+      ],
+      "fda": {
+        "boxedWarning": "Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death.",
+        "warnings": [
+          "Risk of orthostatic hypotension, especially during dose titration.",
+          "Potential for cataract development; eye exams recommended.",
+          "May cause metabolic changes including weight gain."
+        ],
+        "approvals": [
+          {
+            "applicationNumber": "NDA020639",
+            "approvalDate": "1997-09-26",
+            "status": "Approved",
+            "notes": "Initial approval for schizophrenia."
+          }
+        ],
+        "earliestApprovalDate": "1997-09-26",
+        "hasUsApproval": true
+      },
+      "faers": {
+        "totalReports5y": 9620,
+        "topReactions": [
+          {
+            "name": "Somnolence",
+            "count": 810
+          },
+          {
+            "name": "Weight increased",
+            "count": 720
+          },
+          {
+            "name": "Dizziness",
+            "count": 610
+          }
+        ]
+      },
+      "clinicalTrials": {
+        "total": 233,
+        "last5y": 27,
+        "byStatus": [
+          {
+            "status": "Completed",
+            "count": 148
+          },
+          {
+            "status": "Recruiting",
+            "count": 18
+          },
+          {
+            "status": "Terminated",
+            "count": 16
+          }
+        ]
+      },
+      "metadata": {
+        "llmGenerated": true,
+        "sourcesCachedAt": {
+          "ahrefs": "2025-09-19T23:53:12.216Z",
+          "openfdaLabel": "2025-09-19T23:53:12.216Z",
+          "openfdaDrugsfda": "2025-09-19T23:53:12.216Z",
+          "faers": "2025-09-19T23:53:12.216Z",
+          "clinicalTrials": "2025-09-19T23:53:12.216Z",
+          "cms": "2025-09-19T23:53:12.216Z",
+          "pubchem": "2025-09-19T23:53:12.216Z",
+          "rxnorm": "2025-09-19T23:53:12.216Z"
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "slug": "olanzapine",
+      "genericName": "Olanzapine",
+      "brandNames": [
+        "Zyprexa",
+        "Zyprexa Zydis"
+      ],
+      "alternateNames": [
+        "Olanzapine pamoate",
+        "Lybalvi"
+      ],
+      "activeIngredients": [
+        "Olanzapine"
+      ],
+      "rxCui": "6130",
+      "atcClasses": [
+        "N05AH03"
+      ],
+      "molecularFormula": "C17H20N4S",
+      "searchVolume": 29800,
+      "searchTrend": [
+        {
+          "month": "2020-10",
+          "value": 28064
+        },
+        {
+          "month": "2020-11",
+          "value": 24830
+        },
+        {
+          "month": "2020-12",
+          "value": 25878
+        },
+        {
+          "month": "2021-01",
+          "value": 25251
+        },
+        {
+          "month": "2021-02",
+          "value": 24941
+        },
+        {
+          "month": "2021-03",
+          "value": 26216
+        },
+        {
+          "month": "2021-04",
+          "value": 30546
+        },
+        {
+          "month": "2021-05",
+          "value": 32230
+        },
+        {
+          "month": "2021-06",
+          "value": 29527
+        },
+        {
+          "month": "2021-07",
+          "value": 29181
+        },
+        {
+          "month": "2021-08",
+          "value": 30478
+        },
+        {
+          "month": "2021-09",
+          "value": 27404
+        },
+        {
+          "month": "2021-10",
+          "value": 27278
+        },
+        {
+          "month": "2021-11",
+          "value": 27047
+        },
+        {
+          "month": "2021-12",
+          "value": 26450
+        },
+        {
+          "month": "2022-01",
+          "value": 24932
+        },
+        {
+          "month": "2022-02",
+          "value": 27549
+        },
+        {
+          "month": "2022-03",
+          "value": 30169
+        },
+        {
+          "month": "2022-04",
+          "value": 28110
+        },
+        {
+          "month": "2022-05",
+          "value": 29845
+        },
+        {
+          "month": "2022-06",
+          "value": 32723
+        },
+        {
+          "month": "2022-07",
+          "value": 33271
+        },
+        {
+          "month": "2022-08",
+          "value": 28379
+        },
+        {
+          "month": "2022-09",
+          "value": 27370
+        },
+        {
+          "month": "2022-10",
+          "value": 29483
+        },
+        {
+          "month": "2022-11",
+          "value": 26448
+        },
+        {
+          "month": "2022-12",
+          "value": 25078
+        },
+        {
+          "month": "2023-01",
+          "value": 25088
+        },
+        {
+          "month": "2023-02",
+          "value": 28418
+        },
+        {
+          "month": "2023-03",
+          "value": 28416
+        },
+        {
+          "month": "2023-04",
+          "value": 30690
+        },
+        {
+          "month": "2023-05",
+          "value": 31999
+        },
+        {
+          "month": "2023-06",
+          "value": 33398
+        },
+        {
+          "month": "2023-07",
+          "value": 30277
+        },
+        {
+          "month": "2023-08",
+          "value": 30702
+        },
+        {
+          "month": "2023-09",
+          "value": 27183
+        },
+        {
+          "month": "2023-10",
+          "value": 26559
+        },
+        {
+          "month": "2023-11",
+          "value": 25422
+        },
+        {
+          "month": "2023-12",
+          "value": 25744
+        },
+        {
+          "month": "2024-01",
+          "value": 25089
+        },
+        {
+          "month": "2024-02",
+          "value": 28322
+        },
+        {
+          "month": "2024-03",
+          "value": 26291
+        },
+        {
+          "month": "2024-04",
+          "value": 28052
+        },
+        {
+          "month": "2024-05",
+          "value": 32121
+        },
+        {
+          "month": "2024-06",
+          "value": 29535
+        },
+        {
+          "month": "2024-07",
+          "value": 31285
+        },
+        {
+          "month": "2024-08",
+          "value": 31686
+        },
+        {
+          "month": "2024-09",
+          "value": 28028
+        },
+        {
+          "month": "2024-10",
+          "value": 26205
+        },
+        {
+          "month": "2024-11",
+          "value": 24983
+        },
+        {
+          "month": "2024-12",
+          "value": 25843
+        },
+        {
+          "month": "2025-01",
+          "value": 25390
+        },
+        {
+          "month": "2025-02",
+          "value": 27744
+        },
+        {
+          "month": "2025-03",
+          "value": 25966
+        },
+        {
+          "month": "2025-04",
+          "value": 30441
+        },
+        {
+          "month": "2025-05",
+          "value": 30260
+        },
+        {
+          "month": "2025-06",
+          "value": 30418
+        },
+        {
+          "month": "2025-07",
+          "value": 29330
+        },
+        {
+          "month": "2025-08",
+          "value": 32200
+        },
+        {
+          "month": "2025-09",
+          "value": 29335
+        }
+      ],
+      "medicarePartD": [
+        {
+          "year": 2022,
+          "claims": 640000,
+          "beneficiaries": 259000
+        },
+        {
+          "year": 2021,
+          "claims": 618000,
+          "beneficiaries": 250000
+        },
+        {
+          "year": 2020,
+          "claims": 592000,
+          "beneficiaries": 239000
+        },
+        {
+          "year": 2019,
+          "claims": 561000,
+          "beneficiaries": 226000
+        },
+        {
+          "year": 2018,
+          "claims": 530000,
+          "beneficiaries": 214000
+        }
+      ],
+      "fda": {
+        "boxedWarning": "Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death.",
+        "warnings": [
+          "May cause severe metabolic changes including hyperglycemia.",
+          "Monitor for neuroleptic malignant syndrome.",
+          "Associated with weight gain and dyslipidemia."
+        ],
+        "approvals": [
+          {
+            "applicationNumber": "NDA020592",
+            "approvalDate": "1996-09-30",
+            "status": "Approved",
+            "notes": "Initial approval for schizophrenia."
+          }
+        ],
+        "earliestApprovalDate": "1996-09-30",
+        "hasUsApproval": true
+      },
+      "faers": {
+        "totalReports5y": 8450,
+        "topReactions": [
+          {
+            "name": "Weight increased",
+            "count": 770
+          },
+          {
+            "name": "Hyperglycemia",
+            "count": 520
+          },
+          {
+            "name": "Somnolence",
+            "count": 480
+          }
+        ]
+      },
+      "clinicalTrials": {
+        "total": 221,
+        "last5y": 24,
+        "byStatus": [
+          {
+            "status": "Completed",
+            "count": 142
+          },
+          {
+            "status": "Recruiting",
+            "count": 16
+          },
+          {
+            "status": "Withdrawn",
+            "count": 8
+          }
+        ]
+      },
+      "metadata": {
+        "llmGenerated": true,
+        "sourcesCachedAt": {
+          "ahrefs": "2025-09-19T23:53:12.218Z",
+          "openfdaLabel": "2025-09-19T23:53:12.218Z",
+          "openfdaDrugsfda": "2025-09-19T23:53:12.218Z",
+          "faers": "2025-09-19T23:53:12.218Z",
+          "clinicalTrials": "2025-09-19T23:53:12.218Z",
+          "cms": "2025-09-19T23:53:12.218Z",
+          "pubchem": "2025-09-19T23:53:12.218Z",
+          "rxnorm": "2025-09-19T23:53:12.218Z"
+        }
+      }
+    }
+  ]
+}

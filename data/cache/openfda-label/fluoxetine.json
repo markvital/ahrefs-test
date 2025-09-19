@@ -1,0 +1,14 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.207Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "warnings": [
+      "Potential for QT prolongation when combined with other agents.",
+      "May cause activation of mania in bipolar disorder.",
+      "Risk of serotonin syndrome."
+    ],
+    "boxedWarning": "Antidepressants increased the risk compared to placebo of suicidal thinking and behavior in children, adolescents, and young adults.",
+    "note": "LLM-generated openFDA label cache stub."
+  }
+}

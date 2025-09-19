@@ -1,0 +1,12 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.205Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "rxCui": "36567",
+    "atcClasses": [
+      "N06AB06"
+    ],
+    "note": "LLM-generated RxNorm/RxClass cache stub."
+  }
+}

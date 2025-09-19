@@ -1,0 +1,35 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.217Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "table": [
+      {
+        "year": 2022,
+        "claims": 640000,
+        "beneficiaries": 259000
+      },
+      {
+        "year": 2021,
+        "claims": 618000,
+        "beneficiaries": 250000
+      },
+      {
+        "year": 2020,
+        "claims": 592000,
+        "beneficiaries": 239000
+      },
+      {
+        "year": 2019,
+        "claims": 561000,
+        "beneficiaries": 226000
+      },
+      {
+        "year": 2018,
+        "claims": 530000,
+        "beneficiaries": 214000
+      }
+    ],
+    "note": "LLM-generated CMS Part D cache stub."
+  }
+}

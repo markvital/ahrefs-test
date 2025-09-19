@@ -1,0 +1,14 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.203Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "warnings": [
+      "Serotonin syndrome risk when combined with other serotonergic drugs.",
+      "Potential for activation of mania or hypomania.",
+      "Discontinuation may result in withdrawal symptoms."
+    ],
+    "boxedWarning": "Antidepressants increased the risk compared to placebo of suicidal thinking and behavior in children, adolescents, and young adults.",
+    "note": "LLM-generated openFDA label cache stub."
+  }
+}

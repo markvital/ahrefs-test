@@ -1,0 +1,25 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.215Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "summary": {
+      "totalReports5y": 9620,
+      "topReactions": [
+        {
+          "name": "Somnolence",
+          "count": 810
+        },
+        {
+          "name": "Weight increased",
+          "count": 720
+        },
+        {
+          "name": "Dizziness",
+          "count": 610
+        }
+      ]
+    },
+    "note": "LLM-generated FAERS cache stub."
+  }
+}

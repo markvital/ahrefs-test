@@ -1,0 +1,14 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.216Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "warnings": [
+      "May cause severe metabolic changes including hyperglycemia.",
+      "Monitor for neuroleptic malignant syndrome.",
+      "Associated with weight gain and dyslipidemia."
+    ],
+    "boxedWarning": "Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death.",
+    "note": "LLM-generated openFDA label cache stub."
+  }
+}

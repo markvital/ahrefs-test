@@ -1,0 +1,18 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.207Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "approvals": [
+      {
+        "applicationNumber": "NDA018936",
+        "approvalDate": "1987-12-29",
+        "status": "Approved",
+        "notes": "Initial approval for major depressive disorder."
+      }
+    ],
+    "earliestApprovalDate": "1987-12-29",
+    "hasUsApproval": true,
+    "note": "LLM-generated openFDA Drugs@FDA cache stub."
+  }
+}

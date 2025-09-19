@@ -1,0 +1,26 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.211Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "summary": {
+      "total": 205,
+      "last5y": 29,
+      "byStatus": [
+        {
+          "status": "Completed",
+          "count": 132
+        },
+        {
+          "status": "Recruiting",
+          "count": 19
+        },
+        {
+          "status": "Active, not recruiting",
+          "count": 18
+        }
+      ]
+    },
+    "note": "LLM-generated ClinicalTrials.gov cache stub."
+  }
+}

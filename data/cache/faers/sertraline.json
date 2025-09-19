@@ -1,0 +1,25 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.204Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "summary": {
+      "totalReports5y": 12940,
+      "topReactions": [
+        {
+          "name": "Drug ineffective",
+          "count": 1550
+        },
+        {
+          "name": "Anxiety",
+          "count": 820
+        },
+        {
+          "name": "Nausea",
+          "count": 740
+        }
+      ]
+    },
+    "note": "LLM-generated FAERS cache stub."
+  }
+}

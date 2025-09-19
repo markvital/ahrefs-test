@@ -1,0 +1,14 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.212Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "warnings": [
+      "May cause pathologic gambling and other impulse-control problems.",
+      "Risk of neuroleptic malignant syndrome.",
+      "Monitor for metabolic changes including hyperglycemia."
+    ],
+    "boxedWarning": "Elderly patients with dementia-related psychosis treated with antipsychotic drugs are at an increased risk of death.",
+    "note": "LLM-generated openFDA label cache stub."
+  }
+}

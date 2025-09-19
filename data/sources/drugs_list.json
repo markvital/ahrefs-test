@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "sertraline",
+    "name": "Sertraline",
+    "altNames": "Sertraline HCl|Sertraline base",
+    "activeIngredients": "Sertraline hydrochloride",
+    "_note": "LLM-generated sample seed data"
+  },
+  {
+    "slug": "fluoxetine",
+    "name": "Fluoxetine",
+    "altNames": "Fluoxetine HCl|Norfluoxetine",
+    "activeIngredients": "Fluoxetine hydrochloride",
+    "_note": "LLM-generated sample seed data"
+  },
+  {
+    "slug": "escitalopram",
+    "name": "Escitalopram",
+    "altNames": "S-Citalopram|Escitalopram oxalate",
+    "activeIngredients": "Escitalopram oxalate",
+    "_note": "LLM-generated sample seed data"
+  },
+  {
+    "slug": "aripiprazole",
+    "name": "Aripiprazole",
+    "altNames": "Aripiprazole monohydrate|7-hydroxy aripiprazole",
+    "activeIngredients": "Aripiprazole",
+    "_note": "LLM-generated sample seed data"
+  },
+  {
+    "slug": "quetiapine",
+    "name": "Quetiapine",
+    "altNames": "Quetiapine fumarate|Quetiapine IR",
+    "activeIngredients": "Quetiapine fumarate",
+    "_note": "LLM-generated sample seed data"
+  },
+  {
+    "slug": "olanzapine",
+    "name": "Olanzapine",
+    "altNames": "Olanzapine pamoate|Lybalvi",
+    "activeIngredients": "Olanzapine",
+    "_note": "LLM-generated sample seed data"
+  }
+]

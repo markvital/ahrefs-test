@@ -1,0 +1,25 @@
+{
+  "cachedAt": "2025-09-19T23:53:12.210Z",
+  "ttlDays": 30,
+  "llmGenerated": true,
+  "data": {
+    "summary": {
+      "totalReports5y": 8930,
+      "topReactions": [
+        {
+          "name": "Anxiety",
+          "count": 710
+        },
+        {
+          "name": "Nausea",
+          "count": 640
+        },
+        {
+          "name": "Headache",
+          "count": 580
+        }
+      ]
+    },
+    "note": "LLM-generated FAERS cache stub."
+  }
+}
