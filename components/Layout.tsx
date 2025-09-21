@@ -16,27 +16,47 @@ const Header = styled.header`
   top: 0;
   z-index: 10;
   background: rgba(13, 13, 18, 0.95);
+
+  @media (max-width: 600px) {
+    padding: 1.1rem 1.25rem 1rem;
+  }
 `;
 
 const Title = styled.h1`
   font-size: 1.75rem;
   margin: 0 0 0.5rem;
+
+  @media (max-width: 600px) {
+    font-size: 1.45rem;
+  }
 `;
 
 const Subtitle = styled.p`
   margin: 0;
   color: ${({ theme }) => theme.colors.textSecondary};
   max-width: 640px;
+  font-size: 1rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem;
+  }
 `;
 
 const NavLinks = styled.nav`
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 
   a {
     color: ${({ theme }) => theme.colors.accentSecondary};
     font-weight: 500;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
 `;
 
@@ -46,6 +66,10 @@ const Main = styled.main`
   margin: 0 auto;
   width: 100%;
   max-width: ${({ theme }) => theme.layout.maxWidth};
+
+  @media (max-width: 600px) {
+    padding: 1.5rem 1.25rem 3rem;
+  }
 `;
 
 export function Layout({ children }: { children: ReactNode }) {

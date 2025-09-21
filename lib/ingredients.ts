@@ -36,6 +36,7 @@ export interface IngredientData {
   description: string | null;
   wikipediaUrl: string | null;
   wikidataId: string | null;
+  imageUrl: string | null;
   synonyms: string[];
   search: SearchMetrics;
   trend: SearchTrendPoint[];
@@ -43,7 +44,7 @@ export interface IngredientData {
 }
 
 let ingredientsCache: Promise<IngredientData[]> | null = null;
-const wikipediaSummaryCache = new Map<string, string | null>();
+const wikipediaSummaryCache = new Map<string, { summary: string | null; imageUrl: string | null }>();
 
 async function fetchDataset(): Promise<Record<string, RawIngredient>> {
   try {
@@ -152,25 +153,41 @@ function determineWikipediaTitle(name: string, url?: string): { title: string; u
   return { title: slug, url: `https://en.wikipedia.org/wiki/${slug}` };
 }
 
-async function fetchWikipediaSummary(name: string, url?: string): Promise<{ summary?: string; wikipediaUrl?: string }> {
+async function fetchWikipediaSummary(
+  name: string,
+  url?: string
+): Promise<{ summary?: string; wikipediaUrl?: string; imageUrl?: string }> {
   const { title, url: resolvedUrl } = determineWikipediaTitle(name, url);
   if (wikipediaSummaryCache.has(title)) {
     const cached = wikipediaSummaryCache.get(title);
-    return { summary: cached ?? undefined, wikipediaUrl: resolvedUrl };
+    return {
+      summary: cached?.summary ?? undefined,
+      imageUrl: cached?.imageUrl ?? undefined,
+      wikipediaUrl: resolvedUrl,
+    };
   }
 
   try {
     const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
     if (!response.ok) {
-      wikipediaSummaryCache.set(title, null);
+      wikipediaSummaryCache.set(title, { summary: null, imageUrl: null });
       return { wikipediaUrl: resolvedUrl };
     }
-    const data = (await response.json()) as { extract?: string };
-    const summary = data.extract?.trim();
-    wikipediaSummaryCache.set(title, summary ?? null);
-    return { summary: summary ?? undefined, wikipediaUrl: resolvedUrl };
+    const data = (await response.json()) as {
+      extract?: string;
+      thumbnail?: { source?: string };
+      originalimage?: { source?: string };
+    };
+    const summary = data.extract?.trim() ?? null;
+    const imageUrl = data.originalimage?.source ?? data.thumbnail?.source ?? null;
+    wikipediaSummaryCache.set(title, { summary, imageUrl });
+    return {
+      summary: summary ?? undefined,
+      imageUrl: imageUrl ?? undefined,
+      wikipediaUrl: resolvedUrl,
+    };
   } catch {
-    wikipediaSummaryCache.set(title, null);
+    wikipediaSummaryCache.set(title, { summary: null, imageUrl: null });
     return { wikipediaUrl: resolvedUrl };
   }
 }
@@ -204,7 +221,7 @@ async function buildIngredientList(): Promise<IngredientData[]> {
   return Promise.all(
     sorted.map(async (candidate, index) => {
       const metrics = buildMetricsFromTrend(candidate.trend, index + 1);
-      const { summary, wikipediaUrl } = await fetchWikipediaSummary(
+      const { summary, wikipediaUrl, imageUrl } = await fetchWikipediaSummary(
         candidate.displayName,
         pickPreferredValue(candidate.raw.wikipedia)
       );
@@ -220,6 +237,7 @@ async function buildIngredientList(): Promise<IngredientData[]> {
         description: summary ?? null,
         wikipediaUrl: wikipediaUrl ?? null,
         wikidataId: wikidataId ?? null,
+        imageUrl: imageUrl ?? null,
         synonyms: flattenMultiValues(candidate.raw.synonyms).filter((synonym) => !synonym.includes('(')),
         search: metrics,
         trend: candidate.trend,

@@ -1,28 +1,60 @@
 import type { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Layout } from '../../components/Layout';
 import { SearchTrendChart, toLineSeries } from '../../components/SearchTrendChart';
 import type { IngredientData } from '../../lib/ingredients';
 import { getIngredientBySlug, getIngredientSlugs } from '../../lib/ingredients';
 
-const Header = styled.header`
+const Header = styled.header<{ $hasImage: boolean }>`
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  grid-template-columns: 1fr;
+  align-items: start;
+
+  ${({ $hasImage }) =>
+    $hasImage &&
+    css`
+      @media (min-width: 768px) {
+        grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+      }
+    `};
+`;
+
+const Visual = styled.div`
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(255, 183, 3, 0.16), rgba(142, 202, 230, 0.14));
+  aspect-ratio: 16 / 9;
+  max-width: 420px;
+`;
+
+const HeroImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+`;
+
+const HeaderContent = styled.div`
   display: grid;
   gap: 1rem;
-  margin-bottom: 2rem;
 `;
 
 const Title = styled.h1`
   margin: 0;
-  font-size: 2rem;
+  font-size: clamp(1.8rem, 4.5vw, 2.6rem);
 `;
 
 const Metadata = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: 1rem 1.25rem;
   color: ${({ theme }) => theme.colors.textSecondary};
+  font-size: 0.95rem;
+  line-height: 1.5;
 `;
 
 const Actions = styled.div`
@@ -58,6 +90,22 @@ const AttributeCard = styled.div`
   border-radius: 16px;
   padding: 1.2rem;
   line-height: 1.4;
+  color: ${({ theme }) => theme.colors.textSecondary};
+
+  strong {
+    display: block;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: ${({ theme }) => theme.colors.textSecondary};
+  }
+
+  p {
+    margin: 0;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    font-size: 0.95rem;
+  }
 `;
 
 interface IngredientPageProps {
@@ -95,28 +143,35 @@ export default function IngredientPage({ ingredient }: IngredientPageProps) {
       <Head>
         <title>{ingredient.displayName} search interest</title>
       </Head>
-      <Header>
-        <Title>{ingredient.displayName}</Title>
-        <Metadata>
-          <span>Rank #{ingredient.search.rank}</span>
-          <span>
-            {ingredient.search.averageMonthlySearches.toLocaleString()} average monthly searches •{' '}
-            {ingredient.search.totalMonthlySearches.toLocaleString()} searches over 12 months
-          </span>
-          {ingredient.superIngredients.length > 0 && (
-            <span>Super ingredient: {ingredient.superIngredients.join(', ')}</span>
-          )}
-        </Metadata>
-        <Actions>
-          <Link href={{ pathname: '/compare', query: { base: ingredient.slug } }} passHref legacyBehavior>
-            <ActionLink>Compare to another ingredient</ActionLink>
-          </Link>
-          {ingredient.wikipediaUrl && (
-            <ActionLink href={ingredient.wikipediaUrl} target="_blank" rel="noreferrer">
-              Read on Wikipedia
-            </ActionLink>
-          )}
-        </Actions>
+      <Header $hasImage={Boolean(ingredient.imageUrl)}>
+        {ingredient.imageUrl && (
+          <Visual>
+            <HeroImage src={ingredient.imageUrl} alt={ingredient.displayName} />
+          </Visual>
+        )}
+        <HeaderContent>
+          <Title>{ingredient.displayName}</Title>
+          <Metadata>
+            <span>Rank #{ingredient.search.rank}</span>
+            <span>
+              {ingredient.search.averageMonthlySearches.toLocaleString()} average monthly searches •{' '}
+              {ingredient.search.totalMonthlySearches.toLocaleString()} searches over 12 months
+            </span>
+            {ingredient.superIngredients.length > 0 && (
+              <span>Super ingredient: {ingredient.superIngredients.join(', ')}</span>
+            )}
+          </Metadata>
+          <Actions>
+            <Link href={{ pathname: '/compare', query: { base: ingredient.slug } }} passHref legacyBehavior>
+              <ActionLink>Compare to another ingredient</ActionLink>
+            </Link>
+            {ingredient.wikipediaUrl && (
+              <ActionLink href={ingredient.wikipediaUrl} target="_blank" rel="noreferrer">
+                Read on Wikipedia
+              </ActionLink>
+            )}
+          </Actions>
+        </HeaderContent>
       </Header>
       <Section>
         <h2>Search interest</h2>

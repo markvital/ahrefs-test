@@ -23,6 +23,32 @@ const Card = styled.button`
   }
 `;
 
+const Thumbnail = styled.div`
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(255, 183, 3, 0.15), rgba(142, 202, 230, 0.1));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+`;
+
+const ThumbnailImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+`;
+
+const ThumbnailFallback = styled.span`
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: ${({ theme }) => theme.colors.textSecondary};
+`;
+
 const Rank = styled.span`
   display: inline-flex;
   align-items: center;
@@ -83,6 +109,13 @@ export function IngredientCard({ ingredient, onSelect }: IngredientCardProps) {
 
   return (
     <Card type="button" onClick={() => onSelect(ingredient)}>
+      <Thumbnail>
+        {ingredient.imageUrl ? (
+          <ThumbnailImage src={ingredient.imageUrl} alt={ingredient.displayName} loading="lazy" />
+        ) : (
+          <ThumbnailFallback>No image</ThumbnailFallback>
+        )}
+      </Thumbnail>
       <Rank>
         <span>Rank #{ingredient.search.rank}</span>
         <span>•</span>

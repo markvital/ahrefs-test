@@ -24,11 +24,32 @@ const Modal = styled.div`
   overflow-y: auto;
 `;
 
+const Media = styled.div`
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(255, 183, 3, 0.18), rgba(142, 202, 230, 0.15));
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem 0;
+`;
+
+const MediaImage = styled.img`
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+`;
+
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: stretch;
+  }
 `;
 
 const Title = styled.h2`
@@ -48,19 +69,28 @@ const AttributeList = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem 1.5rem;
+`;
 
-  h3 {
-    font-weight: 600;
-    font-size: 0.95rem;
-    margin: 0;
-  }
+const AttributeItem = styled.div`
+  background: rgba(27, 27, 41, 0.7);
+  border-radius: 16px;
+  border: 1px solid ${({ theme }) => theme.colors.border};
+  padding: 1rem 1.1rem;
+`;
 
-  p {
-    margin: 0.5rem 0 0;
-    color: ${({ theme }) => theme.colors.textSecondary};
-    font-size: 0.9rem;
-    line-height: 1.4;
-  }
+const AttributeHeading = styled.h3`
+  margin: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: ${({ theme }) => theme.colors.textSecondary};
+`;
+
+const AttributeValues = styled.p`
+  margin: 0.6rem 0 0;
+  color: ${({ theme }) => theme.colors.textPrimary};
+  font-size: 0.95rem;
+  line-height: 1.45;
 `;
 
 const ButtonRow = styled.div`
@@ -109,12 +139,17 @@ export function IngredientModal({ ingredient, onClose }: IngredientModalProps) {
             ×
           </CloseButton>
         </Header>
+        {ingredient.imageUrl && (
+          <Media>
+            <MediaImage src={ingredient.imageUrl} alt={ingredient.displayName} />
+          </Media>
+        )}
         <AttributeList>
           {ingredient.attributes.map((attribute) => (
-            <div key={attribute.label}>
-              <h3>{attribute.label}</h3>
-              <p>{attribute.values.join(', ')}</p>
-            </div>
+            <AttributeItem key={attribute.label}>
+              <AttributeHeading>{attribute.label}</AttributeHeading>
+              <AttributeValues>{attribute.values.join(', ')}</AttributeValues>
+            </AttributeItem>
           ))}
         </AttributeList>
         <ButtonRow>

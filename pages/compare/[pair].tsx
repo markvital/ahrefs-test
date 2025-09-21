@@ -18,6 +18,59 @@ const Title = styled.h1`
   margin: 0;
 `;
 
+const HeroRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+`;
+
+const HeroCard = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 16px;
+  border: 1px solid ${({ theme }) => theme.colors.border};
+  background: rgba(27, 27, 41, 0.65);
+`;
+
+const HeroImage = styled.img`
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+`;
+
+const HeroFallback = styled.div`
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255, 183, 3, 0.18), rgba(142, 202, 230, 0.15));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: ${({ theme }) => theme.colors.textSecondary};
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+`;
+
+const HeroLabel = styled.div`
+  display: grid;
+  gap: 0.2rem;
+
+  strong {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: ${({ theme }) => theme.colors.textSecondary};
+  }
+`;
+
 const PairLabel = styled.p`
   margin: 0;
   color: ${({ theme }) => theme.colors.textSecondary};
@@ -105,6 +158,12 @@ const AttributeContent = styled.div`
     color: ${({ theme }) => theme.colors.textPrimary};
     margin-bottom: 0.35rem;
   }
+
+  p {
+    margin: 0;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    line-height: 1.45;
+  }
 `;
 
 interface ComparePairProps {
@@ -166,6 +225,30 @@ export default function ComparePairPage({ first, second }: ComparePairProps) {
         <Title>
           {first.displayName} vs {second.displayName}
         </Title>
+        <HeroRow>
+          <HeroCard>
+            {first.imageUrl ? (
+              <HeroImage src={first.imageUrl} alt={first.displayName} />
+            ) : (
+              <HeroFallback>{first.displayName.charAt(0).toUpperCase()}</HeroFallback>
+            )}
+            <HeroLabel>
+              <strong>{first.displayName}</strong>
+              <span>Rank #{first.search.rank}</span>
+            </HeroLabel>
+          </HeroCard>
+          <HeroCard>
+            {second.imageUrl ? (
+              <HeroImage src={second.imageUrl} alt={second.displayName} />
+            ) : (
+              <HeroFallback>{second.displayName.charAt(0).toUpperCase()}</HeroFallback>
+            )}
+            <HeroLabel>
+              <strong>{second.displayName}</strong>
+              <span>Rank #{second.search.rank}</span>
+            </HeroLabel>
+          </HeroCard>
+        </HeroRow>
         <PairLabel>
           Search demand signals derived from Ahrefs keyword volumes (synthetic demo data) combined
           with Open Food Facts metadata.
