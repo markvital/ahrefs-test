@@ -1,0 +1,7780 @@
+{
+  "en:bleu-de-gex": {
+    "description": {
+      "es": "El bleu de Gex es un queso francés de las mesetas del Alto Jura.",
+      "de": "Der Bleu de Gex, auch Bleu de Septmoncel oder Bleu du Haut Jura genannt, ist ein französischer Blauschimmelkäse.",
+      "en": "Bleu de Gex -also Bleu du Haut-Jura or Bleu de Septmoncel- is a creamy, semi-soft blue cheese made from unpasteurized milk in the Jura region of France.",
+      "nl": "De Bleu de Gex AOP is een Franse kaas, geproduceerd in de streek Haut Jura.",
+      "fr": "Le bleu de Gex Haut-Jura ou bleu de Septmoncel est un fromage au lait de vache à pâte persillée produit dans les plateaux du Haut-Jura."
+    },
+    "ciqual_food_code": {
+      "en": "12526"
+    },
+    "ciqual_food_name": {
+      "fr": "Bleu de Gex ou Fromage bleu du Haut-jura ou Bleu de septmoncel -AOC-",
+      "en": "Gex blue cheese, or Jura blue cheese or Septmoncel blue cheese, from cow's milk."
+    },
+    "parents": [
+      "en:blue-cheese",
+      "en:cow-cheese"
+    ],
+    "name": {
+      "zh": "布勒·德·吉克斯芝士",
+      "uk": "Бле-де-Жекс",
+      "ar": "بليو د جيكس",
+      "en": "Bleu de gex",
+      "az": "Blyö de Jeks",
+      "xx": "Bleu de gex",
+      "hy": "Բլյո դը Ժեքս",
+      "ru": "Блё де Жекс"
+    },
+    "synonyms": {
+      "uk": [
+        "Бле-де-Жекс"
+      ],
+      "zh": [
+        "布勒·德·吉克斯芝士"
+      ],
+      "en": [
+        "bleu de gex"
+      ],
+      "az": [
+        "Blyö de Jeks"
+      ],
+      "ar": [
+        "بليو د جيكس"
+      ],
+      "hy": [
+        "Բլյո դը Ժեքս"
+      ],
+      "xx": [
+        "bleu de gex",
+        "Bleu du Haut-Jura",
+        "Bleu de septmoncel"
+      ],
+      "ru": [
+        "Блё де Жекс"
+      ]
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Bleu_de_Gex"
+    },
+    "wikidata": {
+      "en": "Q1231078"
+    }
+  },
+  "en:bogdanuša": {
+    "wikidata": {
+      "en": "Q847023"
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Bogdanu%C5%A1a"
+    },
+    "synonyms": {
+      "ca": [
+        "Bogdanusa"
+      ],
+      "es": [
+        "Bogdanuša"
+      ],
+      "sh": [
+        "Bogdanuša"
+      ],
+      "it": [
+        "bogdanuša"
+      ],
+      "hr": [
+        "bogdanuša"
+      ],
+      "de": [
+        "Bogdanusa"
+      ],
+      "en": [
+        "Bogdanuša"
+      ]
+    },
+    "parents": [
+      "en:varietal"
+    ],
+    "name": {
+      "en": "Bogdanuša",
+      "hr": "Bogdanuša",
+      "de": "Bogdanusa",
+      "it": "Bogdanuša",
+      "es": "Bogdanuša",
+      "ca": "Bogdanusa",
+      "sh": "Bogdanuša"
+    }
+  },
+  "en:yeast-extract": {
+    "name": {
+      "uk": "Екстракт дріжджів",
+      "ro": "Extract de drojdie",
+      "da": "Gærekstrakt",
+      "en": "Yeast extract",
+      "sk": "Extrakt z droždia",
+      "fr": "Extrait de levure",
+      "zh": "酵母抽提物",
+      "nl": "Gistextract",
+      "it": "Estratto di lievito",
+      "sl": "Izvlecek kvasa",
+      "ru": "Дрожжевой экстракт",
+      "lt": "Mielių ekstraktas",
+      "es": "Extracto de levadura",
+      "bg": "Екстракт от мая",
+      "cs": "Výtažek z kvasnic",
+      "de": "Hefeextrakt",
+      "el": "Εκχύλισμα μαιάς",
+      "ja": "酵母エキス",
+      "pl": "Ekstrakt drożdżowy",
+      "ca": "Extracte de llevat",
+      "nn": "Gjærekstrakt",
+      "hu": "Élesztőkivonat",
+      "fi": "Hiivauute",
+      "pt": "Extrato de levedura",
+      "tr": "Maya özütü",
+      "et": "Pärmiekstrakt",
+      "nb": "Gjærekstrakt",
+      "sv": "Jästextrakt",
+      "bs": "Ekstrakt kvasca",
+      "is": "Gerseyði"
+    },
+    "children": [
+      "en:autolyzed-yeast-extract",
+      "en:yeast-extract-aroma",
+      "en:yeast-extract-powder"
+    ],
+    "parents": [
+      "en:yeast"
+    ],
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Yeast_extract"
+    },
+    "synonyms": {
+      "es": [
+        "extracto de levadura"
+      ],
+      "lt": [
+        "mielių ekstraktas",
+        "mieliu ekstraktas"
+      ],
+      "bg": [
+        "екстракт от мая",
+        "екстракти от мая"
+      ],
+      "ru": [
+        "Дрожжевой экстракт"
+      ],
+      "sl": [
+        "izvlecek kvasa",
+        "kvasni ekstrakt"
+      ],
+      "it": [
+        "estratto di lievito"
+      ],
+      "nl": [
+        "gistextract"
+      ],
+      "zh": [
+        "酵母抽提物"
+      ],
+      "fr": [
+        "extrait de levure",
+        "extrait de levures",
+        "extraits de levure"
+      ],
+      "sk": [
+        "extrakt z droždia"
+      ],
+      "en": [
+        "yeast extract"
+      ],
+      "ro": [
+        "extract de drojdie",
+        "extract din drojdie"
+      ],
+      "uk": [
+        "Екстракт дріжджів"
+      ],
+      "da": [
+        "gærekstrakt"
+      ],
+      "is": [
+        "gerseyði"
+      ],
+      "bs": [
+        "ekstrakt kvasca"
+      ],
+      "sv": [
+        "jästextrakt"
+      ],
+      "nb": [
+        "gjærekstrakt"
+      ],
+      "et": [
+        "pärmiekstrakt"
+      ],
+      "tr": [
+        "maya özütü"
+      ],
+      "pt": [
+        "extrato de levedura",
+        "extracto de levedura"
+      ],
+      "fi": [
+        "hiivauute"
+      ],
+      "hu": [
+        "élesztőkivonat"
+      ],
+      "nn": [
+        "gjærekstrakt"
+      ],
+      "ca": [
+        "Extracte de llevat"
+      ],
+      "ja": [
+        "酵母エキス"
+      ],
+      "pl": [
+        "ekstrakt drożdżowy",
+        "ekstrakt z drożdży"
+      ],
+      "el": [
+        "εκχύλισμα μαιάς"
+      ],
+      "de": [
+        "Hefeextrakt"
+      ],
+      "cs": [
+        "Výtažek z kvasnic",
+        "kvasnicový extrakt",
+        "kvasničný extrakt"
+      ]
+    }
+  },
+  "en:peanut": {
+    "synonyms": {
+      "en": [
+        "peanut",
+        "peanuts"
+      ],
+      "da": [
+        "jordnødder",
+        "jordnød",
+        "peanuts"
+      ],
+      "fr": [
+        "arachides",
+        "arachide",
+        "cacahuètes",
+        "cacahuète",
+        "cacahouètes",
+        "cacahouète"
+      ],
+      "ha": [
+        "Gyaɗa"
+      ],
+      "sk": [
+        "arašidy"
+      ],
+      "za": [
+        "Duhdoem"
+      ],
+      "nl": [
+        "pinda",
+        "pinda's",
+        "aardnoot",
+        "aardnoten",
+        "pindanoten",
+        "pindas",
+        "vliespinda's"
+      ],
+      "es": [
+        "cacahuetes",
+        "cacahuete",
+        "cacahuates",
+        "cacahuate",
+        "maní"
+      ],
+      "bg": [
+        "фъстък",
+        "фъстъци"
+      ],
+      "ru": [
+        "арахис"
+      ],
+      "it": [
+        "arachide",
+        "arachidi"
+      ],
+      "lv": [
+        "zemesrieksti",
+        "zemesriekstus"
+      ],
+      "de": [
+        "Erdnuss",
+        "Erdnüsse",
+        "Erdnüssen",
+        "Erdnusse",
+        "Erdnusskerne"
+      ],
+      "hr": [
+        "kikiriki",
+        "kikirikija"
+      ],
+      "mt": [
+        "karawett"
+      ],
+      "he": [
+        "בוטן",
+        "בוטנים",
+        "חמאת בוטנים"
+      ],
+      "ca": [
+        "Cacauet",
+        "cacauets"
+      ],
+      "ja": [
+        "ラッカセイ",
+        "落花生"
+      ],
+      "gu": [
+        "મગફળી"
+      ],
+      "tr": [
+        "Yer fıstığı",
+        "yerfıstığı"
+      ],
+      "pt": [
+        "amendois",
+        "amendoins",
+        "amendoim"
+      ],
+      "nv": [
+        "Neeshchʼííłbáhí"
+      ],
+      "la": [
+        "arachis hypogaea"
+      ],
+      "uz": [
+        "Yeryongʻoq"
+      ],
+      "ku": [
+        "Fistiqa axê"
+      ],
+      "bs": [
+        "kikiriki"
+      ],
+      "sn": [
+        "Nzungu"
+      ],
+      "et": [
+        "Maapähkel",
+        "maapähklid",
+        "maapähkleid"
+      ],
+      "az": [
+        "Araxis"
+      ],
+      "sr": [
+        "кикирики"
+      ],
+      "ka": [
+        "არაქისი"
+      ],
+      "ro": [
+        "alune",
+        "arahide"
+      ],
+      "ay": [
+        "Chuqupa"
+      ],
+      "ga": [
+        "Cnó talún",
+        "piseanna"
+      ],
+      "zh": [
+        "花生仁",
+        "花生"
+      ],
+      "th": [
+        "ถั่วลิสง"
+      ],
+      "lt": [
+        "žemės riešutai",
+        "žemės riešutų"
+      ],
+      "sl": [
+        "arašidi",
+        "araśidi",
+        "kikiriki"
+      ],
+      "el": [
+        "αραχίδες",
+        "αραχίδα",
+        "αραπικα φιστικια"
+      ],
+      "cs": [
+        "arašídy"
+      ],
+      "mr": [
+        "भुईमूग"
+      ],
+      "yi": [
+        "סטאשקע"
+      ],
+      "ko": [
+        "땅콩"
+      ],
+      "ln": [
+        "Ngúba"
+      ],
+      "pl": [
+        "orzeszki",
+        "orzeszki arachidowe",
+        "orzeszki ziemne",
+        "arachidowe",
+        "orzechy arachidowe",
+        "orzeszków ziemnych",
+        "orzeszków arachidowych",
+        "orzechów ziemnych",
+        "orzechów arachidowych",
+        "orzechy ziemne"
+      ],
+      "eo": [
+        "ternukso"
+      ],
+      "tt": [
+        "җир чикләвеге"
+      ],
+      "ia": [
+        "cacahuete"
+      ],
+      "hu": [
+        "földimogyoró"
+      ],
+      "fi": [
+        "maapähkinä",
+        "maapähkinät",
+        "maapähkinää"
+      ],
+      "ar": [
+        "فول سوداني"
+      ],
+      "nn": [
+        "peanøtter"
+      ],
+      "sv": [
+        "jordnötter"
+      ],
+      "nb": [
+        "peanøtter"
+      ]
+    },
+    "ecobalyse_labels_en_organic": {
+      "en": "peanut-organic"
+    },
+    "name": {
+      "ay": "Chuqupa",
+      "az": "Araxis",
+      "sr": "Кикирики",
+      "ro": "Alune",
+      "ka": "არაქისი",
+      "lt": "Žemės riešutai",
+      "th": "ถั่วลิสง",
+      "sl": "Arašidi",
+      "ga": "Cnó talún",
+      "zh": "花生仁",
+      "pl": "Orzeszki",
+      "mr": "भुईमूग",
+      "cs": "Arašídy",
+      "el": "Αραχίδες",
+      "ln": "Ngúba",
+      "ko": "땅콩",
+      "yi": "סטאשקע",
+      "nb": "Peanøtter",
+      "sv": "Jordnötter",
+      "ar": "فول سوداني",
+      "hu": "Földimogyoró",
+      "fi": "Maapähkinä",
+      "ia": "Cacahuete",
+      "tt": "Җир чикләвеге",
+      "eo": "Ternukso",
+      "nn": "Peanøtter",
+      "ha": "Gyaɗa",
+      "sk": "Arašidy",
+      "fr": "Arachides",
+      "en": "Peanut",
+      "da": "Jordnødder",
+      "ru": "Арахис",
+      "bg": "Фъстък",
+      "es": "Cacahuetes",
+      "it": "Arachide",
+      "za": "Duhdoem",
+      "nl": "Pinda",
+      "ca": "Cacauet",
+      "he": "בוטן",
+      "gu": "મગફળી",
+      "ja": "ラッカセイ",
+      "mt": "Karawett",
+      "lv": "Zemesrieksti",
+      "de": "Erdnuss",
+      "hr": "Kikiriki",
+      "bs": "Kikiriki",
+      "ku": "Fistiqa axê",
+      "uz": "Yeryongʻoq",
+      "et": "Maapähkel",
+      "sn": "Nzungu",
+      "nv": "Neeshchʼííłbáhí",
+      "tr": "Yer fıstığı",
+      "pt": "Amendois",
+      "la": "Arachis hypogaea"
+    },
+    "parents": [
+      "en:nut"
+    ],
+    "allergens": {
+      "en": "en:peanuts"
+    },
+    "ciqual_food_name": {
+      "en": "Peanut"
+    },
+    "ciqual_food_code": {
+      "en": "15001"
+    },
+    "children": [
+      "en:peanut-butter",
+      "en:peanut-flour",
+      "en:peanut-paste",
+      "en:peanut-with-shell",
+      "en:roasted-peanuts",
+      "en:shelled-peanuts"
+    ],
+    "ecobalyse": {
+      "en": "peanut-non-eu"
+    }
+  },
+  "en:concentrated-white-grape-juice": {
+    "children": [
+      "en:organic-concentrated-white-grape-juice"
+    ],
+    "name": {
+      "fi": "Vaalea rypälemehutiiviste",
+      "es": "Zumo de uva blanca concentrado",
+      "en": "Concentrated white grape juice",
+      "hr": "Koncentriranog soka od bijelog grožđa",
+      "it": "Succo d'uva bianca concentrato",
+      "fr": "Jus de raisin blanc concentré"
+    },
+    "parents": [
+      "en:white-grape-juice"
+    ],
+    "synonyms": {
+      "es": [
+        "zumo de uva blanca concentrado",
+        "jugo de uva blanca concentrado"
+      ],
+      "fi": [
+        "vaalea rypälemehutiiviste"
+      ],
+      "en": [
+        "concentrated white grape juice",
+        "white grape juice concentrate"
+      ],
+      "hr": [
+        "koncentriranog soka od bijelog grožđa"
+      ],
+      "it": [
+        "succo d'uva bianca concentrato"
+      ],
+      "fr": [
+        "jus de raisin blanc concentré"
+      ]
+    }
+  },
+  "en:wild-cranberry": {
+    "parents": [
+      "en:cranberry"
+    ],
+    "name": {
+      "it": "Mirtillo rosso selvatico",
+      "hr": "Šumska brusnica",
+      "en": "Wild cranberry"
+    },
+    "synonyms": {
+      "it": [
+        "mirtillo rosso selvatico"
+      ],
+      "en": [
+        "wild cranberry"
+      ],
+      "hr": [
+        "šumska brusnica"
+      ]
+    }
+  },
+  "en:scaber-stalk": {
+    "name": {
+      "en": "Scaber stalk",
+      "de": "Gemeiner Birkenpilz",
+      "cs": "Kozák březový",
+      "pl": "Koźlarz babka",
+      "sk": "Kozák brezový",
+      "xx": "Leccinum scabrum"
+    },
+    "parents": [
+      "en:leccinum"
+    ],
+    "synonyms": {
+      "cs": [
+        "kozák březový"
+      ],
+      "en": [
+        "scaber stalk",
+        "birch bolete",
+        "rough-stemmed bolete"
+      ],
+      "de": [
+        "Gemeiner Birkenpilz"
+      ],
+      "sk": [
+        "kozák brezový"
+      ],
+      "xx": [
+        "Leccinum scabrum"
+      ],
+      "pl": [
+        "koźlarz babka"
+      ]
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Leccinum_scabrum"
+    },
+    "wikidata": {
+      "en": "Q628977"
+    }
+  },
+  "en:peanut-oil": {
+    "ciqual_food_name": {
+      "en": "Peanut oil",
+      "fr": "Huile d'arachide"
+    },
+    "ciqual_food_code": {
+      "en": "17040"
+    },
+    "description": {
+      "en": "PEANUT OIL, also known as groundnut oil or arachis oil, is a mild-tasting vegetable oil derived from peanuts."
+    },
+    "ecobalyse": {
+      "en": "c704400c-9108-49a8-a79a-b830eccb6b5e"
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Peanut_oil"
+    },
+    "synonyms": {
+      "sv": [
+        "Jordnötsolja"
+      ],
+      "te": [
+        "వేరుశనగ నూనె"
+      ],
+      "nb": [
+        "Peanøttolje"
+      ],
+      "nn": [
+        "Jordnøttolje"
+      ],
+      "pt": [
+        "Óleo de amendoim"
+      ],
+      "eo": [
+        "Arakida oleo"
+      ],
+      "fi": [
+        "Maapähkinäöljy"
+      ],
+      "hu": [
+        "földimogyoró olaj",
+        "földimogyoróolaj",
+        "földimogyoró-olaj"
+      ],
+      "ar": [
+        "زيت فول سوداني"
+      ],
+      "pl": [
+        "Olej arachidowy",
+        "olej z orzeszków ziemnych"
+      ],
+      "ja": [
+        "ピーナッツオイル"
+      ],
+      "eu": [
+        "Kakahuete olio"
+      ],
+      "ca": [
+        "Oli de cacauet"
+      ],
+      "ko": [
+        "땅콩기름"
+      ],
+      "de": [
+        "Erdnussöl"
+      ],
+      "gl": [
+        "Aceite de cacahuete"
+      ],
+      "hr": [
+        "ulje od kikirikija"
+      ],
+      "mr": [
+        "शेंगदाणा तेल"
+      ],
+      "cs": [
+        "jádra podzemnice olejné"
+      ],
+      "fa": [
+        "روغن بادام زمینی"
+      ],
+      "it": [
+        "Olio di semi di arachide"
+      ],
+      "ta": [
+        "கடலையெண்ணெய்"
+      ],
+      "id": [
+        "Minyak kacang"
+      ],
+      "lt": [
+        "Žemės riešutų aliejus"
+      ],
+      "bg": [
+        "Фъстъчено олио"
+      ],
+      "es": [
+        "Aceite de cacahuete",
+        "aceite de cacahuate",
+        "aceite de maní"
+      ],
+      "ru": [
+        "Арахисовое масло"
+      ],
+      "nl": [
+        "Pindaolie"
+      ],
+      "be": [
+        "Арахісавы алей"
+      ],
+      "kn": [
+        "ಶೇಂಗಾ ಎಣ್ಣೆ"
+      ],
+      "zh": [
+        "花生油"
+      ],
+      "fr": [
+        "huile d'arachide",
+        "huiles végétales d'arachide"
+      ],
+      "ms": [
+        "Minyak kacang"
+      ],
+      "da": [
+        "Peanutolie"
+      ],
+      "en": [
+        "peanut oil"
+      ]
+    },
+    "wikidata": {
+      "en": "Q265878"
+    },
+    "name": {
+      "sv": "Jordnötsolja",
+      "te": "వేరుశనగ నూనె",
+      "nb": "Peanøttolje",
+      "nn": "Jordnøttolje",
+      "fi": "Maapähkinäöljy",
+      "hu": "Földimogyoró olaj",
+      "ar": "زيت فول سوداني",
+      "eo": "Arakida oleo",
+      "pt": "Óleo de amendoim",
+      "eu": "Kakahuete olio",
+      "pl": "Olej arachidowy",
+      "ja": "ピーナッツオイル",
+      "ca": "Oli de cacauet",
+      "ko": "땅콩기름",
+      "cs": "Jádra podzemnice olejné",
+      "mr": "शेंगदाणा तेल",
+      "fa": "روغن بادام زمینی",
+      "de": "Erdnussöl",
+      "gl": "Aceite de cacahuete",
+      "hr": "Ulje od kikirikija",
+      "it": "Olio di semi di arachide",
+      "ta": "கடலையெண்ணெய்",
+      "lt": "Žemės riešutų aliejus",
+      "es": "Aceite de cacahuete",
+      "bg": "Фъстъчено олио",
+      "ru": "Арахисовое масло",
+      "id": "Minyak kacang",
+      "kn": "ಶೇಂಗಾ ಎಣ್ಣೆ",
+      "zh": "花生油",
+      "nl": "Pindaolie",
+      "be": "Арахісавы алей",
+      "fr": "Huile d'arachide",
+      "ms": "Minyak kacang",
+      "da": "Peanutolie",
+      "en": "Peanut oil"
+    },
+    "parents": [
+      "en:vegetable-oil"
+    ],
+    "allergens": {
+      "en": "en:peanuts"
+    },
+    "children": [
+      "en:peanut-oil-or-hazelnut-oil"
+    ],
+    "from_palm_oil": {
+      "en": "no"
+    }
+  },
+  "en:free-range-eggs": {
+    "synonyms": {
+      "ja": [
+        "平飼い卵"
+      ],
+      "pl": [
+        "jaja z wolnego wybiegu",
+        "jajka z wolnego wybiegu",
+        "jaja z chowu na wolnym wybiegu"
+      ],
+      "fr": [
+        "Oeufs d'élevage en plein air",
+        "Oeufs élevés en plein air",
+        "oeufs plein air",
+        "œufs d'élevage en plein air"
+      ],
+      "en": [
+        "free range eggs",
+        "free range whole egg"
+      ],
+      "de": [
+        "Freilandeier"
+      ],
+      "hr": [
+        "jaja slobodnog uzgoja"
+      ],
+      "it": [
+        "uova da allevamento a terra",
+        "Uova di allevamento all'aperto"
+      ],
+      "es": [
+        "Huevos de corral",
+        "huevos de gallinas criadas en el suelo"
+      ],
+      "bg": [
+        "яйца от свободни кокошки"
+      ],
+      "nl": [
+        "vrije-uitloopei",
+        "vrije uitloop ei"
+      ],
+      "fi": [
+        "ulkomunat"
+      ]
+    },
+    "parents": [
+      "en:egg"
+    ],
+    "children": [
+      "en:free-range-chicken-eggs",
+      "en:liquid-whole-free-range-egg"
+    ],
+    "name": {
+      "en": "Free range eggs",
+      "de": "Freilandeier",
+      "hr": "Jaja slobodnog uzgoja",
+      "pl": "Jaja z wolnego wybiegu",
+      "fr": "Oeufs d'élevage en plein air",
+      "ja": "平飼い卵",
+      "fi": "Ulkomunat",
+      "nl": "Vrije-uitloopei",
+      "bg": "Яйца от свободни кокошки",
+      "es": "Huevos de corral",
+      "it": "Uova da allevamento a terra"
+    }
+  },
+  "en:ham-sausages": {
+    "parents": [
+      "en:pork-sausage"
+    ],
+    "name": {
+      "hr": "Kobasice od šunke",
+      "en": "Ham sausages",
+      "fr": "Saucisses de jambon pur porc",
+      "it": "Salsicce di prosciutto"
+    },
+    "ciqual_food_code": {
+      "en": "30764"
+    },
+    "ciqual_food_name": {
+      "fr": "Saucisse de jambon pur porc",
+      "en": "Ham sausage"
+    },
+    "synonyms": {
+      "en": [
+        "Ham sausages"
+      ],
+      "hr": [
+        "kobasice od šunke"
+      ],
+      "it": [
+        "salsicce di prosciutto"
+      ],
+      "fr": [
+        "Saucisses de jambon pur porc"
+      ]
+    }
+  },
+  "en:deep-water-cape-hake": {
+    "name": {
+      "pl": "Morszczuk głebokowodny",
+      "af": "Diepwater stokvis",
+      "fr": "Merlu noir du Cap",
+      "sl": "Globokomorski kapski oslič",
+      "bg": "Дълбоководни бели мерлузи",
+      "la": "Merluccius paradoxus",
+      "zh": "深水無鬚鱈",
+      "en": "Deep-water Cape hake",
+      "de": "Tiefwasserkaphecht",
+      "hr": "Dubokovodni rtski oslić",
+      "fi": "Teräskummeli"
+    },
+    "parents": [
+      "en:hake"
+    ],
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Merluccius_paradoxus"
+    },
+    "wikidata": {
+      "en": "Q2461954"
+    },
+    "synonyms": {
+      "sl": [
+        "Globokomorski kapski oslič"
+      ],
+      "af": [
+        "Diepwater stokvis"
+      ],
+      "pl": [
+        "morszczuk głebokowodny"
+      ],
+      "fr": [
+        "merlu noir du Cap"
+      ],
+      "bg": [
+        "дълбоководни бели мерлузи"
+      ],
+      "la": [
+        "Merluccius paradoxus"
+      ],
+      "zh": [
+        "深水無鬚鱈"
+      ],
+      "de": [
+        "Tiefwasserkaphecht",
+        "Tiefenwasser Kap Seehecht"
+      ],
+      "hr": [
+        "dubokovodni rtski oslić"
+      ],
+      "en": [
+        "deep-water Cape hake",
+        "Cape black hake"
+      ],
+      "fi": [
+        "teräskummeli"
+      ]
+    }
+  },
+  "en:purple-sweet-potato": {
+    "synonyms": {
+      "en": [
+        "purple sweet potato"
+      ],
+      "it": [
+        "patata dolce viola"
+      ],
+      "ja": [
+        "ムラサキイモ",
+        "紫芋",
+        "紫いも",
+        "むらさきいも",
+        "有色甘藷"
+      ]
+    },
+    "parents": [
+      "en:sweet-potato"
+    ],
+    "name": {
+      "ja": "ムラサキイモ",
+      "it": "Patata dolce viola",
+      "en": "Purple sweet potato"
+    }
+  },
+  "en:e905cii": {
+    "efsa_evaluation_date": {
+      "en": "2013-04-04"
+    },
+    "vegetarian": {
+      "en": "yes"
+    },
+    "vegan": {
+      "en": "yes"
+    },
+    "synonyms": {
+      "en": [
+        "E905cii",
+        "Paraffin wax"
+      ],
+      "sd": [
+        "E905cii",
+        "paraffin wax"
+      ],
+      "da": [
+        "E905cii",
+        "Paraffin"
+      ],
+      "ur": [
+        "E905cii",
+        "نالفین"
+      ],
+      "fr": [
+        "E905cii",
+        "Cire de paraffine",
+        "Paraffine",
+        "Paraffines",
+        "Paraffine synthétique"
+      ],
+      "nl": [
+        "E905cii",
+        "Parafine was"
+      ],
+      "es": [
+        "E905cii",
+        "parafina"
+      ],
+      "bg": [
+        "E905cii",
+        "Парафин"
+      ],
+      "ru": [
+        "E905cii",
+        "парафин"
+      ],
+      "id": [
+        "E905cii",
+        "Parafin"
+      ],
+      "it": [
+        "E905cii",
+        "Paraffina"
+      ],
+      "ta": [
+        "E905cii",
+        "பாராஃபின் மெழுகு"
+      ],
+      "hy": [
+        "E905cii",
+        "Պարաֆին"
+      ],
+      "mt": [
+        "E905cii",
+        "E905c(ii) food additive"
+      ],
+      "fa": [
+        "E905cii",
+        "پارافین"
+      ],
+      "lv": [
+        "E905cii",
+        "parafīns"
+      ],
+      "de": [
+        "E905cii",
+        "Paraffin"
+      ],
+      "hr": [
+        "E905cii",
+        "Parafin"
+      ],
+      "kk": [
+        "E905cii",
+        "Парафин"
+      ],
+      "he": [
+        "E905cii",
+        "פרפין"
+      ],
+      "ca": [
+        "E905cii",
+        "Parafina"
+      ],
+      "eu": [
+        "E905cii",
+        "Parafina"
+      ],
+      "ja": [
+        "E905cii",
+        "パラフィン"
+      ],
+      "tr": [
+        "E905cii",
+        "Parafin"
+      ],
+      "pt": [
+        "E905cii",
+        "parafina"
+      ],
+      "la": [
+        "E905cii",
+        "Paraffinum"
+      ],
+      "gd": [
+        "E905cii",
+        "Parabhan"
+      ],
+      "cy": [
+        "E905cii",
+        "Paraffîn"
+      ],
+      "is": [
+        "E905cii",
+        "Paraffínvax"
+      ],
+      "et": [
+        "E905cii",
+        "Parafiin",
+        "Toorparafiin"
+      ],
+      "az": [
+        "E905cii",
+        "Parafin"
+      ],
+      "uk": [
+        "E905cii",
+        "Парафін"
+      ],
+      "ro": [
+        "E905cii",
+        "E905c(ii)",
+        "Parafină"
+      ],
+      "ga": [
+        "E905cii",
+        "Céir pharaifín"
+      ],
+      "vi": [
+        "E905cii",
+        "Parafin"
+      ],
+      "zh": [
+        "E905cii",
+        "石蜡"
+      ],
+      "be": [
+        "E905cii",
+        "Парафін"
+      ],
+      "lt": [
+        "E905cii",
+        "Parafinas"
+      ],
+      "th": [
+        "E905cii",
+        "พาราฟิน"
+      ],
+      "hi": [
+        "E905cii",
+        "पैराफिन"
+      ],
+      "sl": [
+        "E905cii",
+        "Parafin"
+      ],
+      "cs": [
+        "E905cii",
+        "Parafín"
+      ],
+      "gl": [
+        "E905cii",
+        "Parafina"
+      ],
+      "ko": [
+        "E905cii",
+        "파라핀"
+      ],
+      "yi": [
+        "E905cii",
+        "פאראפין"
+      ],
+      "xx": [
+        "E905cii"
+      ],
+      "pl": [
+        "E905cii",
+        "Parafina"
+      ],
+      "fi": [
+        "E905cii",
+        "Parafiini",
+        "Parafiinia"
+      ],
+      "hu": [
+        "E905cii",
+        "Paraffin"
+      ],
+      "ar": [
+        "E905cii",
+        "برافين"
+      ],
+      "eo": [
+        "E905cii",
+        "parafino"
+      ],
+      "tt": [
+        "E905cii",
+        "Парафин"
+      ],
+      "ba": [
+        "E905cii",
+        "Парафин"
+      ],
+      "nn": [
+        "E905cii",
+        "parafinvoks"
+      ],
+      "sv": [
+        "E905cii",
+        "Paraffin"
+      ],
+      "ml": [
+        "E905cii",
+        "പാരഫിൻ മെഴുക്"
+      ]
+    },
+    "wikidata": {
+      "en": "Q579764"
+    },
+    "efsa_evaluation": {
+      "en": "Scientific Opinion on the re-evaluation of microcrystalline wax -E 905- as a food additive."
+    },
+    "efsa_evaluation_url": {
+      "en": "http://dx.doi.org/10.2903/j.efsa.2013.3146"
+    },
+    "name": {
+      "az": "E905cii",
+      "uk": "E905cii",
+      "ro": "E905cii",
+      "lt": "E905cii",
+      "th": "E905cii",
+      "hi": "E905cii",
+      "sl": "E905cii",
+      "ga": "E905cii",
+      "vi": "E905cii",
+      "zh": "E905cii",
+      "be": "E905cii",
+      "xx": "E905cii",
+      "pl": "E905cii",
+      "cs": "E905cii",
+      "gl": "E905cii",
+      "ko": "E905cii",
+      "yi": "E905cii",
+      "sv": "E905cii",
+      "ml": "E905cii",
+      "hu": "E905cii",
+      "fi": "E905cii",
+      "ar": "E905cii",
+      "tt": "E905cii",
+      "eo": "E905cii",
+      "ba": "E905cii",
+      "nn": "E905cii",
+      "ur": "E905cii",
+      "fr": "E905cii",
+      "en": "E905cii",
+      "sd": "E905cii",
+      "da": "E905cii",
+      "es": "E905cii",
+      "bg": "E905cii",
+      "ru": "E905cii",
+      "id": "E905cii",
+      "it": "E905cii",
+      "ta": "E905cii",
+      "hy": "E905cii",
+      "nl": "E905cii",
+      "he": "E905cii",
+      "ca": "E905cii",
+      "eu": "E905cii",
+      "ja": "E905cii",
+      "mt": "E905cii",
+      "fa": "E905cii",
+      "lv": "E905cii",
+      "de": "E905cii",
+      "hr": "E905cii",
+      "kk": "E905cii",
+      "gd": "E905cii",
+      "cy": "E905cii",
+      "is": "E905cii",
+      "et": "E905cii",
+      "tr": "E905cii",
+      "pt": "E905cii",
+      "la": "E905cii"
+    },
+    "e_number": {
+      "en": "905c"
+    },
+    "parents": [
+      "en:e905c"
+    ]
+  },
+  "en:soft-white-cheese": {
+    "name": {
+      "fi": "Tuorejuusto",
+      "hu": "Fehér lágysajt",
+      "nl": "Zachte witte kaas",
+      "sv": "Färskost",
+      "es": "Queso blanco blando",
+      "nb": "Ferskost",
+      "it": "Formaggio fresco",
+      "en": "Soft white cheese",
+      "de": "Frischkäse",
+      "hr": "Svježi sir",
+      "da": "Friskost",
+      "ca": "Formatge blanc suau",
+      "fr": "Fromage frais"
+    },
+    "parents": [
+      "en:cheese"
+    ],
+    "synonyms": {
+      "it": [
+        "formaggio fresco"
+      ],
+      "sv": [
+        "färskost"
+      ],
+      "es": [
+        "Queso blanco blando"
+      ],
+      "nb": [
+        "ferskost"
+      ],
+      "nl": [
+        "Zachte witte kaas"
+      ],
+      "hu": [
+        "fehér lágysajt"
+      ],
+      "fi": [
+        "tuorejuusto",
+        "salaattijuusto"
+      ],
+      "fr": [
+        "fromage frais"
+      ],
+      "ca": [
+        "formatge blanc suau"
+      ],
+      "da": [
+        "friskost"
+      ],
+      "en": [
+        "soft white cheese"
+      ],
+      "hr": [
+        "svježi sir",
+        "svježi sirevi",
+        "meki bijeli sir"
+      ],
+      "de": [
+        "Frischkäse"
+      ]
+    },
+    "carbon_footprint_fr_foodges_ingredient": {
+      "fr": "Fromage frais 58% MG"
+    },
+    "children": [
+      "en:petit-suisse",
+      "en:saint-moret",
+      "en:skimmed-soft-white-cheese",
+      "fr:fromage-frais-a-0-de-matiere-grasse",
+      "fr:fromage-frais-a-la-ciboulette",
+      "fr:fromage-frais-au-lait-demi-ecreme",
+      "fr:fromage-frais-au-lait-demi-ecreme-pasteurise",
+      "fr:fromage-frais-au-lait-pasteurise"
+    ],
+    "carbon_footprint_fr_foodges_value": {
+      "fr": "3.5"
+    }
+  },
+  "en:pasteurised-goat-milk": {
+    "synonyms": {
+      "hr": [
+        "pasterizirano kozje mlijeko"
+      ],
+      "de": [
+        "pasteurisierte Ziegenmilch"
+      ],
+      "en": [
+        "pasteurised goat milk",
+        "pasteurized goat milk",
+        "pasteurised goatmilk"
+      ],
+      "hu": [
+        "pasztőrözött kecsketej"
+      ],
+      "fi": [
+        "pastöroitu vuohenmaito"
+      ],
+      "ro": [
+        "lapte de capră pasteurizat",
+        "lapte de capra pasteurizat"
+      ],
+      "nl": [
+        "gepasteuriseerde geitenmelk"
+      ],
+      "ca": [
+        "llet de cabra pasteuritzada",
+        "llet pasteuritzada de cabra"
+      ],
+      "bg": [
+        "пастьоризирано козе мляко"
+      ],
+      "es": [
+        "leche de cabra pasteurizada",
+        "leche pasteurizada de cabra"
+      ],
+      "fr": [
+        "lait de chèvre pasteurisé",
+        "lait pasteurisé de chèvre"
+      ],
+      "it": [
+        "latte di capra pastorizzato"
+      ]
+    },
+    "parents": [
+      "en:goat-milk"
+    ],
+    "name": {
+      "bg": "Пастьоризирано козе мляко",
+      "es": "Leche de cabra pasteurizada",
+      "ca": "Llet de cabra pasteuritzada",
+      "it": "Latte di capra pastorizzato",
+      "fr": "Lait de chèvre pasteurisé",
+      "fi": "Pastöroitu vuohenmaito",
+      "hu": "Pasztőrözött kecsketej",
+      "en": "Pasteurised goat milk",
+      "hr": "Pasterizirano kozje mlijeko",
+      "de": "Pasteurisierte Ziegenmilch",
+      "nl": "Gepasteuriseerde geitenmelk",
+      "ro": "Lapte de capră pasteurizat"
+    },
+    "children": [
+      "en:whole-goat-milk-uht"
+    ]
+  },
+  "en:whole-cane-sugar": {
+    "name": {
+      "fi": "Täysruokosokeri",
+      "hr": "Cijeli šećer od trske",
+      "de": "Vollrohrzucker",
+      "en": "Whole cane sugar",
+      "nl": "Ruwe rietsuiker",
+      "es": "Azucar de caña integral",
+      "it": "Zucchero di canna integrale",
+      "fr": "Sucre de canne complet"
+    },
+    "children": [
+      "en:unrefined-whole-cane-sugar",
+      "en:whole-brown-cane-sugar"
+    ],
+    "parents": [
+      "en:unrefined-cane-sugar"
+    ],
+    "synonyms": {
+      "es": [
+        "azucar de caña integral",
+        "azucar integral de caña"
+      ],
+      "fr": [
+        "sucre de canne complet",
+        "suc de canne intégral",
+        "sucre de canne intégral",
+        "sucre complet de canne"
+      ],
+      "it": [
+        "zucchero di canna integrale"
+      ],
+      "de": [
+        "Vollrohrzucker"
+      ],
+      "hr": [
+        "cijeli šećer od trske"
+      ],
+      "en": [
+        "whole cane sugar"
+      ],
+      "fi": [
+        "täysruokosokeri"
+      ],
+      "nl": [
+        "ruwe rietsuiker"
+      ]
+    }
+  },
+  "en:pine-flavouring": {
+    "parents": [
+      "en:natural-flavouring"
+    ],
+    "name": {
+      "hr": "Aroma borovice",
+      "en": "Pine flavouring",
+      "es": "Aroma de pino",
+      "it": "Aroma di pino"
+    },
+    "synonyms": {
+      "es": [
+        "aroma de pino",
+        "aromas de pino"
+      ],
+      "hr": [
+        "aroma borovice"
+      ],
+      "en": [
+        "pine flavouring"
+      ],
+      "it": [
+        "aroma di pino"
+      ]
+    }
+  },
+  "en:seaweed-extract": {
+    "name": {
+      "fi": "Merileväuute",
+      "en": "Seaweed extract",
+      "de": "Seealgenextrakt",
+      "hr": "Ekstrakt morske trave",
+      "sv": "Tångextrakt",
+      "it": "Estratto di alghe marine",
+      "fr": "Extrait d'algues marines"
+    },
+    "parents": [
+      "en:algae-extract",
+      "en:seaweed"
+    ],
+    "synonyms": {
+      "sv": [
+        "tångextrakt"
+      ],
+      "fr": [
+        "extrait d'algues marines"
+      ],
+      "it": [
+        "estratto di alghe marine"
+      ],
+      "en": [
+        "seaweed extract"
+      ],
+      "de": [
+        "Seealgenextrakt"
+      ],
+      "hr": [
+        "ekstrakt morske trave"
+      ],
+      "fi": [
+        "merileväuute"
+      ]
+    }
+  },
+  "en:e222": {
+    "description": {
+      "en": "SODIUM BISULFITE is a chemical compound with the chemical formula NaHSO3."
+    },
+    "vegetarian": {
+      "en": "yes"
+    },
+    "efsa_evaluation_overexposure_risk": {
+      "en": "en:high"
+    },
+    "name": {
+      "sr": "E222",
+      "az": "E222",
+      "en": "E222",
+      "da": "E222",
+      "ro": "E222",
+      "sk": "E222",
+      "fr": "E222",
+      "zh": "E222",
+      "vi": "E222",
+      "nl": "E222",
+      "es": "E222",
+      "lt": "E222",
+      "bg": "E222",
+      "it": "E222",
+      "hy": "E222",
+      "sl": "E222",
+      "mt": "E222",
+      "cs": "E222",
+      "fa": "E222",
+      "hr": "E222",
+      "de": "E222",
+      "el": "E222",
+      "lv": "E222",
+      "ca": "E222",
+      "he": "E222",
+      "sh": "E222",
+      "xx": "E222",
+      "pl": "E222",
+      "ja": "E222",
+      "fi": "E222",
+      "hu": "E222",
+      "tr": "E222",
+      "eo": "E222",
+      "pt": "E222",
+      "sv": "E222",
+      "et": "E222"
+    },
+    "efsa_evaluation": {
+      "en": "Scientific Opinion on the re-evaluation of sulfur dioxide -E 220-, sodium sulfite -E 221-, sodium bisulfite -E 222-, sodium metabisulfite -E 223-, potassium metabisulfite -E 224-, calcium sulfite -E 226-, calcium bisulfite -E 227- and potassium bisulfite -E 228- as food additives"
+    },
+    "efsa_evaluation_exposure_mean_greater_than_adi": {
+      "en": "en:adults, en:elderly, en:adolescents, en:children, en:toddlers, en:infants"
+    },
+    "synonyms": {
+      "sk": [
+        "E222",
+        "Hydrogensiričitan sodný"
+      ],
+      "fr": [
+        "E222",
+        "Bisulfite de sodium",
+        "Sulfite acide de sodium",
+        "NaHSO3",
+        "Bisulfite de soude",
+        "Hydrogénosulfite de sodium"
+      ],
+      "en": [
+        "E222",
+        "Sodium bisulphite",
+        "Sodium bisulfite"
+      ],
+      "az": [
+        "E222",
+        "Natrium bisulfit"
+      ],
+      "sr": [
+        "E222",
+        "Natrijum bisulfit"
+      ],
+      "ro": [
+        "E222",
+        "Bisulfit de sodiu",
+        "Bisulfit de sodiu"
+      ],
+      "da": [
+        "E222",
+        "Natriumhydrogensulfit",
+        "Natriumbisulfit"
+      ],
+      "bg": [
+        "E222",
+        "Натриев бисулфит",
+        "Натриев бисулфит"
+      ],
+      "lt": [
+        "E222",
+        "Natrio bisulfitas",
+        "Natrio bisulfitas"
+      ],
+      "es": [
+        "E222",
+        "Sulfito ácido de sodio",
+        "Bisulfito de sodio",
+        "Bisulfito sódico",
+        "Hidrogeno sulfito sódico",
+        "E 222"
+      ],
+      "it": [
+        "E222",
+        "Sodio bisolfito",
+        "Bisolfito di sodio",
+        "Idrogenosolfito di sodio"
+      ],
+      "hy": [
+        "E222",
+        "Նատրիումի հիդրոսուլֆիտ"
+      ],
+      "sl": [
+        "E222",
+        "Natrijev bisulfit",
+        "natrijev bisulfit"
+      ],
+      "vi": [
+        "E222",
+        "Natri bisunfit"
+      ],
+      "zh": [
+        "E222",
+        "亚硫酸氢钠"
+      ],
+      "nl": [
+        "E222",
+        "Natriumwaterstofsulfiet",
+        "Natriumwaterstofsulfiet",
+        "Natriumbisulfiet"
+      ],
+      "he": [
+        "E222",
+        "ביסולפיט"
+      ],
+      "ca": [
+        "E222",
+        "Bisulfit de sodi",
+        "sulfit àcid de sodi"
+      ],
+      "sh": [
+        "E222",
+        "Natrijum bisulfit"
+      ],
+      "xx": [
+        "E222"
+      ],
+      "ja": [
+        "E222",
+        "亜硫酸水素ナトリウム"
+      ],
+      "pl": [
+        "E222",
+        "Wodorosiarczyn sodu",
+        "Kwaśny siarczyn sodu",
+        "Siarczyn sodowo-wodorowy",
+        "WodorosiarczanIV sodu"
+      ],
+      "cs": [
+        "E222",
+        "Hydrogensiřičitan sodný",
+        "Hydrogensiřičitan sodný",
+        "NaHSO3",
+        "E 222",
+        "Kyselý siřičitan sodný",
+        "Hydrosulfit"
+      ],
+      "mt": [
+        "E222",
+        "Bisulfit tas-sodju",
+        "Bisulfit tas-sodju"
+      ],
+      "fa": [
+        "E222",
+        "سدیم بی‌سولفیت"
+      ],
+      "hr": [
+        "E222",
+        "Natrijev bisulfit"
+      ],
+      "de": [
+        "E222",
+        "Natriumhydrogensulfit",
+        "Natriumbisulfit",
+        "NaHSO3",
+        "E 222"
+      ],
+      "el": [
+        "E222",
+        "Οξινο θειωδες νατριο"
+      ],
+      "lv": [
+        "E222",
+        "Nātrija bisulfīts",
+        "Nātrija bisulfīts"
+      ],
+      "sv": [
+        "E222",
+        "Natriumvätesulfit",
+        "Natriumvätesulfit"
+      ],
+      "et": [
+        "E222",
+        "Naatriumvesiniksulfit"
+      ],
+      "fi": [
+        "E222",
+        "Natriumvetysulfiitti",
+        "Natriumbisulfiitti",
+        "Natriumvetysulfiittia",
+        "Natriumbisulfiittia"
+      ],
+      "hu": [
+        "E222",
+        "Nátrium-hidrogén-szulfit",
+        "Nátrium-biszulfit"
+      ],
+      "eo": [
+        "E222",
+        "Natria bisulfito"
+      ],
+      "tr": [
+        "E222",
+        "Sodyum bisülfit",
+        "Sodyum hidrojen sülfit"
+      ],
+      "pt": [
+        "E222",
+        "Hidrogenossulfito de sódio",
+        "Bissulfito de sódio",
+        "Hidrogenosulfito de sódio"
+      ]
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Sodium_bisulfite"
+    },
+    "wikidata": {
+      "en": "Q407891"
+    },
+    "vegan": {
+      "en": "yes"
+    },
+    "additives_classes": {
+      "en": "en:antioxidant, en:preservative"
+    },
+    "efsa_evaluation_exposure_95th_greater_than_adi": {
+      "en": "en:adults, en:elderly, en:adolescents, en:children, en:toddlers, en:infants"
+    },
+    "efsa_evaluation_adi": {
+      "en": "0.7"
+    },
+    "efsa_evaluation_date": {
+      "en": "2016-04-14"
+    },
+    "e_number": {
+      "en": "222"
+    },
+    "efsa_evaluation_url": {
+      "en": "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    },
+    "anses_additives_of_interest": {
+      "en": "yes"
+    }
+  },
+  "en:waffle": {
+    "name": {
+      "ta": "வாஃப்பில்",
+      "it": "Gaufre",
+      "hy": "Վաֆլի",
+      "ru": "Вафля",
+      "bg": "Гофрета",
+      "es": "Waffle",
+      "id": "Wafel",
+      "oc": "Gofra",
+      "kn": "ವಾಫ಼ಲ್",
+      "nl": "Wafel",
+      "fr": "Gaufre",
+      "tv": "Вафля",
+      "da": "Vaffel",
+      "ms": "Wafel",
+      "en": "Waffle",
+      "is": "Vaffla",
+      "cy": "Waffl",
+      "jv": "Wafel",
+      "tr": "Waffle",
+      "pt": "Waffle",
+      "eu": "Gaufre",
+      "ja": "ワッフル",
+      "mk": "Вафла",
+      "ca": "Gofra",
+      "he": "ופל",
+      "kk": "Вафли",
+      "fa": "وافل",
+      "lv": "Vafele",
+      "hr": "Vafel",
+      "de": "Waffel",
+      "th": "Waffel",
+      "zh": "窩夫",
+      "vi": "Waffle",
+      "io": "Vaflo",
+      "uk": "Вафлі",
+      "sr": "Бакин колач",
+      "az": "Vafli",
+      "nb": "Vaffel",
+      "sv": "Våffla",
+      "nn": "Vaffel",
+      "ar": "وافل",
+      "fi": "Vohveli",
+      "hu": "Gofri",
+      "tt": "Вафил",
+      "eo": "Vaflo",
+      "pl": "Gofr",
+      "lb": "Eisekuch",
+      "wa": "Wåfe",
+      "ko": "와플",
+      "li": "Waffel",
+      "cs": "Vafle",
+      "el": "Βάφλα"
+    },
+    "children": [
+      "en:waffle-with-cocoa"
+    ],
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Waffle"
+    },
+    "synonyms": {
+      "de": [
+        "Waffel"
+      ],
+      "lv": [
+        "vafele"
+      ],
+      "hr": [
+        "vafel",
+        "vafel proizvod",
+        "vafla"
+      ],
+      "fa": [
+        "وافل"
+      ],
+      "kk": [
+        "Вафли"
+      ],
+      "he": [
+        "ופל"
+      ],
+      "ca": [
+        "gofra"
+      ],
+      "ja": [
+        "ワッフル"
+      ],
+      "mk": [
+        "вафла"
+      ],
+      "eu": [
+        "gaufre"
+      ],
+      "tr": [
+        "Waffle"
+      ],
+      "pt": [
+        "waffle"
+      ],
+      "jv": [
+        "Wafel"
+      ],
+      "cy": [
+        "Waffl"
+      ],
+      "is": [
+        "Vaffla"
+      ],
+      "en": [
+        "waffle"
+      ],
+      "ms": [
+        "Wafel"
+      ],
+      "da": [
+        "vaffel"
+      ],
+      "tv": [
+        "Вафля"
+      ],
+      "fr": [
+        "gaufre"
+      ],
+      "nl": [
+        "wafel"
+      ],
+      "kn": [
+        "ವಾಫ಼ಲ್"
+      ],
+      "oc": [
+        "Gofra"
+      ],
+      "id": [
+        "Wafel"
+      ],
+      "bg": [
+        "Гофрета"
+      ],
+      "es": [
+        "waffle"
+      ],
+      "ru": [
+        "вафля"
+      ],
+      "hy": [
+        "Վաֆլի"
+      ],
+      "it": [
+        "gaufre"
+      ],
+      "ta": [
+        "வாஃப்பில்"
+      ],
+      "el": [
+        "Βάφλα"
+      ],
+      "cs": [
+        "vafle"
+      ],
+      "li": [
+        "Waffel"
+      ],
+      "ko": [
+        "와플"
+      ],
+      "wa": [
+        "Wåfe"
+      ],
+      "lb": [
+        "Eisekuch"
+      ],
+      "pl": [
+        "gofr",
+        "gofry"
+      ],
+      "eo": [
+        "vaflo"
+      ],
+      "tt": [
+        "вафил"
+      ],
+      "fi": [
+        "vohveli"
+      ],
+      "hu": [
+        "gofri"
+      ],
+      "ar": [
+        "وافل"
+      ],
+      "nn": [
+        "vaffel"
+      ],
+      "sv": [
+        "Våffla"
+      ],
+      "nb": [
+        "vaffel"
+      ],
+      "az": [
+        "Vafli"
+      ],
+      "sr": [
+        "бакин колач"
+      ],
+      "uk": [
+        "вафлі"
+      ],
+      "io": [
+        "Vaflo"
+      ],
+      "vi": [
+        "Waffle"
+      ],
+      "zh": [
+        "窩夫"
+      ],
+      "th": [
+        "Waffel"
+      ]
+    },
+    "wikidata": {
+      "en": "Q375"
+    }
+  },
+  "en:black-carrot-extract": {
+    "name": {
+      "it": "Estratto di carota nera",
+      "en": "Black carrot extract"
+    },
+    "parents": [
+      "en:black-carrot",
+      "en:carrot-extract"
+    ],
+    "synonyms": {
+      "it": [
+        "estratto di carota nera",
+        "estratto di carote nere"
+      ],
+      "en": [
+        "black carrot extract"
+      ]
+    }
+  },
+  "en:lactiplantibacillus": {
+    "children": [
+      "en:lactiplantibacillus-plantarum"
+    ],
+    "wikidata": {
+      "en": "Q107536944"
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Lactiplantibacillus"
+    },
+    "synonyms": {
+      "en": [
+        "Lactiplantibacillus"
+      ],
+      "xx": [
+        "Lactiplantibacillus"
+      ]
+    },
+    "name": {
+      "xx": "Lactiplantibacillus",
+      "en": "Lactiplantibacillus"
+    },
+    "parents": [
+      "en:lactic-ferments"
+    ]
+  },
+  "en:concentrated-blueberry-juice": {
+    "synonyms": {
+      "sv": [
+        "blåbärssaftkoncentrat"
+      ],
+      "es": [
+        "concentrado de jugo de arándano"
+      ],
+      "it": [
+        "succo di mirtillo concentrato"
+      ],
+      "fr": [
+        "jus de myrtille concentré"
+      ],
+      "en": [
+        "concentrated blueberry juice"
+      ],
+      "de": [
+        "Heidelbeer-Saftkonzentrat"
+      ],
+      "hr": [
+        "koncentrirani sok od borovnice"
+      ],
+      "nl": [
+        "geconcentreerd bosbessensap"
+      ]
+    },
+    "parents": [
+      "en:blueberry-juice"
+    ],
+    "name": {
+      "nl": "Geconcentreerd bosbessensap",
+      "en": "Concentrated blueberry juice",
+      "de": "Heidelbeer-Saftkonzentrat",
+      "hr": "Koncentrirani sok od borovnice",
+      "fr": "Jus de myrtille concentré",
+      "it": "Succo di mirtillo concentrato",
+      "sv": "Blåbärssaftkoncentrat",
+      "es": "Concentrado de jugo de arándano"
+    }
+  },
+  "en:mango-flavouring": {
+    "synonyms": {
+      "hr": [
+        "aroma manga"
+      ],
+      "de": [
+        "Mangoaroma"
+      ],
+      "en": [
+        "mango flavouring"
+      ],
+      "fi": [
+        "mangoaromi"
+      ],
+      "es": [
+        "aroma de mango"
+      ],
+      "sv": [
+        "mangoarom"
+      ],
+      "pl": [
+        "aromat mango"
+      ],
+      "fr": [
+        "arôme de mangue"
+      ],
+      "it": [
+        "aroma di mango"
+      ]
+    },
+    "name": {
+      "fi": "Mangoaromi",
+      "de": "Mangoaroma",
+      "hr": "Aroma manga",
+      "en": "Mango flavouring",
+      "it": "Aroma di mango",
+      "pl": "Aromat mango",
+      "fr": "Arôme de mangue",
+      "es": "Aroma de mango",
+      "sv": "Mangoarom"
+    },
+    "parents": [
+      "en:flavouring"
+    ]
+  },
+  "en:salt-substitute": {
+    "name": {
+      "id": "Pengganti garam",
+      "th": "สารทดแทนเกลือ",
+      "ru": "Заменитель соли",
+      "lt": "Druskos pakaitalas",
+      "bg": "Заместител на сол",
+      "es": "Sustituto de la sal",
+      "sl": "Nadomestek soli",
+      "it": "Sostituto del sale",
+      "ga": "Ionadach salainn",
+      "nl": "Zoutvervanger",
+      "zh": "盐替代品",
+      "vi": "Chất thay thế muối",
+      "fr": "Substitut du sel",
+      "sk": "Náhrada soli",
+      "sr": "Замена за со",
+      "en": "Salt substitute",
+      "uk": "Замінник солі",
+      "da": "Salterstatning",
+      "ro": "Înlocuitor de sare",
+      "ms": "Pengganti garam",
+      "is": "Salt staðgengill",
+      "nb": "Salterstatning",
+      "sv": "Salt substitut",
+      "et": "Soolaasendaja",
+      "pt": "Substituto do sal",
+      "tr": "Tuz ikamesi",
+      "ar": "بديل الملح",
+      "fi": "Suolan korvike",
+      "hu": "Sópótló",
+      "ca": "Substitut de la sal",
+      "he": "תחליף מלח",
+      "pl": "Substytut soli",
+      "ja": "塩代替品",
+      "mk": "Замена за сол",
+      "lv": "Sāls aizstājējs",
+      "hr": "Zamjena za sol",
+      "el": "Υποκατάστατο αλατιού",
+      "de": "Speisesalzersatz",
+      "sq": "Zëvendësues i kripës",
+      "mt": "Sostitut tas-melħ",
+      "cs": "Náhražka soli",
+      "ko": "소금 대체품"
+    },
+    "synonyms": {
+      "ru": [
+        "заменитель соли"
+      ],
+      "bg": [
+        "заместител на сол"
+      ],
+      "lt": [
+        "druskos pakaitalas"
+      ],
+      "es": [
+        "sustituto de la sal"
+      ],
+      "id": [
+        "pengganti garam"
+      ],
+      "th": [
+        "สารทดแทนเกลือ"
+      ],
+      "it": [
+        "sostituto del sale"
+      ],
+      "sl": [
+        "nadomestek soli"
+      ],
+      "ga": [
+        "ionadach salainn"
+      ],
+      "zh": [
+        "盐替代品"
+      ],
+      "vi": [
+        "chất thay thế muối"
+      ],
+      "nl": [
+        "zoutvervanger"
+      ],
+      "sk": [
+        "náhrada soli"
+      ],
+      "fr": [
+        "substitut du sel"
+      ],
+      "sr": [
+        "замена за со"
+      ],
+      "en": [
+        "salt substitute"
+      ],
+      "ro": [
+        "înlocuitor de sare"
+      ],
+      "uk": [
+        "замінник солі"
+      ],
+      "da": [
+        "salterstatning"
+      ],
+      "ms": [
+        "pengganti garam"
+      ],
+      "nb": [
+        "salterstatning"
+      ],
+      "sv": [
+        "salt substitut"
+      ],
+      "is": [
+        "salt staðgengill"
+      ],
+      "et": [
+        "soolaasendaja"
+      ],
+      "ar": [
+        "بديل الملح"
+      ],
+      "fi": [
+        "suolan korvike"
+      ],
+      "hu": [
+        "Sópótló"
+      ],
+      "pt": [
+        "substituto do sal"
+      ],
+      "tr": [
+        "tuz ikamesi"
+      ],
+      "ca": [
+        "substitut de la sal"
+      ],
+      "he": [
+        "תחליף מלח"
+      ],
+      "pl": [
+        "substytut soli"
+      ],
+      "mk": [
+        "замена за сол"
+      ],
+      "ja": [
+        "塩代替品"
+      ],
+      "mt": [
+        "sostitut tas-melħ"
+      ],
+      "cs": [
+        "náhražka soli"
+      ],
+      "lv": [
+        "sāls aizstājējs"
+      ],
+      "hr": [
+        "zamjena za sol"
+      ],
+      "el": [
+        "υποκατάστατο αλατιού"
+      ],
+      "de": [
+        "Speisesalzersatz",
+        "kochsalzersatz"
+      ],
+      "sq": [
+        "zëvendësues i kripës"
+      ],
+      "ko": [
+        "소금 대체품"
+      ]
+    }
+  },
+  "en:liquorice-dragees": {
+    "synonyms": {
+      "sv": [
+        "lakritsdragé"
+      ],
+      "it": [
+        "dragées alla liquirizia"
+      ],
+      "de": [
+        "Lakritzdragees",
+        "Lakritzdragées",
+        "Süßholzdragees"
+      ],
+      "hr": [
+        "dražeje od sladića"
+      ],
+      "en": [
+        "liquorice dragées"
+      ],
+      "fi": [
+        "lakritsirae"
+      ]
+    },
+    "name": {
+      "sv": "Lakritsdragé",
+      "it": "Dragées alla liquirizia",
+      "en": "Liquorice dragées",
+      "hr": "Dražeje od sladića",
+      "de": "Lakritzdragees",
+      "fi": "Lakritsirae"
+    }
+  },
+  "en:dark-cep": {
+    "parents": [
+      "en:mushroom"
+    ],
+    "name": {
+      "en": "Dark cep",
+      "de": "Dunkler Steinpilz",
+      "la": "Boletus aereus",
+      "it": "Porcino nero",
+      "xx": "Boletus aereus",
+      "fr": "Cèpe bronzé",
+      "pl": "Borowik ciemnobrązowy"
+    },
+    "synonyms": {
+      "xx": [
+        "Boletus aereus"
+      ],
+      "it": [
+        "Porcino nero",
+        "fungo Porcino nero",
+        "Moreccio"
+      ],
+      "fr": [
+        "Cèpe bronzé"
+      ],
+      "pl": [
+        "borowik ciemnobrązowy"
+      ],
+      "la": [
+        "Boletus aereus",
+        "aereus"
+      ],
+      "de": [
+        "dunkler Steinpilz"
+      ],
+      "en": [
+        "dark cep",
+        "bronze bolete"
+      ]
+    },
+    "wikidata": {
+      "en": "Q757127"
+    }
+  },
+  "en:roasted-peanuts": {
+    "synonyms": {
+      "tr": [
+        "kavrulmuş yer fıstığı",
+        "kavrulmuş yerfıstığı"
+      ],
+      "fi": [
+        "paahdettu maapähkinä",
+        "paahdetut maapähkinät"
+      ],
+      "nl": [
+        "geroosterde pinda's",
+        "geroosterde pindanoten"
+      ],
+      "es": [
+        "cacahuetes tostados",
+        "maní tostado"
+      ],
+      "lt": [
+        "skrudinti žemės riešutai"
+      ],
+      "bg": [
+        "печени фъстъци"
+      ],
+      "ru": [
+        "арахис обжаренный"
+      ],
+      "it": [
+        "arachidi tostate"
+      ],
+      "en": [
+        "roasted peanuts"
+      ],
+      "hr": [
+        "prženi kikiriki"
+      ],
+      "de": [
+        "geröstete Erdnüsse"
+      ],
+      "da": [
+        "ristede peanuts"
+      ],
+      "ja": [
+        "ローストピーナッツ"
+      ],
+      "fr": [
+        "cacahuètes grillées"
+      ]
+    },
+    "ciqual_food_name": {
+      "en": "Peanut, grilled",
+      "fr": "Cacahuète, grillée"
+    },
+    "ciqual_food_code": {
+      "en": "15037"
+    },
+    "children": [
+      "en:milled-roasted-peanuts",
+      "en:organic-roasted-peanuts"
+    ],
+    "name": {
+      "fr": "Cacahuètes grillées",
+      "ja": "ローストピーナッツ",
+      "de": "Geröstete Erdnüsse",
+      "hr": "Prženi kikiriki",
+      "en": "Roasted peanuts",
+      "da": "Ristede peanuts",
+      "ru": "Арахис обжаренный",
+      "bg": "Печени фъстъци",
+      "lt": "Skrudinti žemės riešutai",
+      "es": "Cacahuetes tostados",
+      "it": "Arachidi tostate",
+      "tr": "Kavrulmuş yer fıstığı",
+      "fi": "Paahdettu maapähkinä",
+      "nl": "Geroosterde pinda's"
+    },
+    "parents": [
+      "en:peanut"
+    ]
+  },
+  "en:acerola-juice-from-concentrate": {
+    "name": {
+      "es": "Jugo de acerola concentrado",
+      "it": "Succo di acerola concentrato",
+      "fr": "Jus d'acérola concentré",
+      "de": "Acerolasaft aus Acerolasaftkonzentrat",
+      "hr": "Sok acerole iz koncentrata",
+      "en": "Acerola juice from concentrate",
+      "nl": "Acerolajuice uit concentraat"
+    },
+    "parents": [
+      "en:acerola-juice"
+    ],
+    "synonyms": {
+      "fr": [
+        "jus d'acérola concentré"
+      ],
+      "it": [
+        "succo di acerola concentrato"
+      ],
+      "es": [
+        "jugo de acerola concentrado"
+      ],
+      "nl": [
+        "acerolajuice uit concentraat"
+      ],
+      "en": [
+        "acerola juice from concentrate"
+      ],
+      "de": [
+        "Acerolasaft aus Acerolasaftkonzentrat"
+      ],
+      "hr": [
+        "sok acerole iz koncentrata"
+      ]
+    }
+  },
+  "en:pink-salt": {
+    "name": {
+      "de": "Himmalaja-Salz",
+      "hr": "Ružičasta sol",
+      "en": "Pink salt",
+      "it": "Sale rosa",
+      "fr": "Sel rose",
+      "pl": "Sól różowa",
+      "ca": "Sal rosa",
+      "es": "Sal rosa",
+      "bg": "Розова сол"
+    },
+    "children": [
+      "en:himalayan-pink-salt"
+    ],
+    "parents": [
+      "en:salt"
+    ],
+    "synonyms": {
+      "it": [
+        "Sale rosa"
+      ],
+      "fr": [
+        "Sel rose"
+      ],
+      "pl": [
+        "sól różowa",
+        "soli różowej"
+      ],
+      "ca": [
+        "Sal rosa"
+      ],
+      "bg": [
+        "розова сол"
+      ],
+      "es": [
+        "Sal rosa"
+      ],
+      "de": [
+        "Himmalaja-Salz"
+      ],
+      "hr": [
+        "ružičasta sol"
+      ],
+      "en": [
+        "pink salt"
+      ]
+    }
+  },
+  "en:bergamot": {
+    "synonyms": {
+      "en": [
+        "bergamot"
+      ],
+      "fr": [
+        "bergamote"
+      ]
+    },
+    "name": {
+      "en": "Bergamot",
+      "fr": "Bergamote"
+    },
+    "children": [
+      "en:bergamot-flower",
+      "en:bergamot-leaf"
+    ],
+    "parents": [
+      "en:citrus-fruit"
+    ]
+  },
+  "en:hazelnut-filling": {
+    "synonyms": {
+      "es": [
+        "relleno de avellana"
+      ],
+      "fr": [
+        "garniture à la noisette"
+      ],
+      "pl": [
+        "nadzienie z orzechów laskowych"
+      ],
+      "it": [
+        "ripieno di nocciole"
+      ],
+      "hr": [
+        "punjenje od lješnjaka"
+      ],
+      "en": [
+        "hazelnut filling"
+      ],
+      "nl": [
+        "hazelnootvulling"
+      ]
+    },
+    "name": {
+      "hr": "Punjenje od lješnjaka",
+      "en": "Hazelnut filling",
+      "nl": "Hazelnootvulling",
+      "es": "Relleno de avellana",
+      "it": "Ripieno di nocciole",
+      "pl": "Nadzienie z orzechów laskowych",
+      "fr": "Garniture à la noisette"
+    },
+    "parents": [
+      "en:filling"
+    ]
+  },
+  "en:strawberry-preparation": {
+    "synonyms": {
+      "en": [
+        "strawberry preparation"
+      ],
+      "hr": [
+        "pripravak od jagoda",
+        "pripravak od jagode"
+      ],
+      "fr": [
+        "préparation de fraise"
+      ],
+      "it": [
+        "preparazione di fragole"
+      ]
+    },
+    "parents": [
+      "en:preparation"
+    ],
+    "name": {
+      "hr": "Pripravak od jagoda",
+      "en": "Strawberry preparation",
+      "fr": "Préparation de fraise",
+      "it": "Preparazione di fragole"
+    }
+  },
+  "en:extruded-buckwheat-flour": {
+    "name": {
+      "it": "Estruso di farina di grano saraceno",
+      "hr": "Ekstrudirano heljdino brašno",
+      "en": "Extruded buckwheat flour"
+    },
+    "parents": [
+      "en:buckwheat-flour"
+    ],
+    "synonyms": {
+      "it": [
+        "estruso di farina di grano saraceno",
+        "farina di grano saraceno estrusa",
+        "farina di estruso di grano saraceno"
+      ],
+      "hr": [
+        "ekstrudirano heljdino brašno"
+      ],
+      "en": [
+        "extruded buckwheat flour"
+      ]
+    }
+  },
+  "en:guarana-extract": {
+    "name": {
+      "it": "Estratto di guarana",
+      "sv": "Guaranaextrakt",
+      "es": "Extracto de guaraná",
+      "ru": "Экстракт гуараны",
+      "nl": "Guarana-extract",
+      "fi": "Guaranauute",
+      "fr": "Extrait de guarana",
+      "da": "Guarana-ekstrakt",
+      "en": "Guarana extract",
+      "hr": "Ekstrakt guarane",
+      "de": "Guarana-Extrakt"
+    },
+    "parents": [
+      "en:guarana"
+    ],
+    "synonyms": {
+      "ru": [
+        "экстракт гуараны"
+      ],
+      "sv": [
+        "guaranaextrakt"
+      ],
+      "es": [
+        "Extracto de guaraná"
+      ],
+      "it": [
+        "estratto di guarana"
+      ],
+      "fi": [
+        "guaranauute"
+      ],
+      "nl": [
+        "guarana-extract"
+      ],
+      "fr": [
+        "extrait de guarana"
+      ],
+      "de": [
+        "Guarana-Extrakt"
+      ],
+      "hr": [
+        "ekstrakt guarane"
+      ],
+      "en": [
+        "guarana extract"
+      ],
+      "da": [
+        "guarana-ekstrakt"
+      ]
+    }
+  },
+  "en:cottonseed-fat": {
+    "parents": [
+      "en:vegetable-fat"
+    ],
+    "name": {
+      "hr": "Mast sjemenki pamuka",
+      "de": "Baumwollsaatfett",
+      "en": "Cottonseed fat",
+      "it": "Grasso di semi di cotone",
+      "fr": "Matières grasses de coton"
+    },
+    "synonyms": {
+      "fr": [
+        "matières grasses de coton",
+        "matières grasses végétales de coton"
+      ],
+      "it": [
+        "grasso di semi di cotone"
+      ],
+      "en": [
+        "cottonseed fat"
+      ],
+      "de": [
+        "Baumwollsaatfett",
+        "Baumwollfett"
+      ],
+      "hr": [
+        "mast sjemenki pamuka"
+      ]
+    }
+  },
+  "en:natural-salmon-flavouring": {
+    "synonyms": {
+      "it": [
+        "aroma naturale di salmone"
+      ],
+      "fr": [
+        "arôme naturel de saumon"
+      ],
+      "fi": [
+        "luontainen lohiaromi"
+      ],
+      "hu": [
+        "természetes lazac aroma"
+      ],
+      "en": [
+        "natural salmon flavouring"
+      ],
+      "hr": [
+        "prirodna aroma lososa"
+      ],
+      "de": [
+        "natürliches Lachsaroma",
+        "natürliches Lachs-Aroms"
+      ]
+    },
+    "vegan": {
+      "en": "no"
+    },
+    "parents": [
+      "en:natural-flavouring"
+    ],
+    "vegetarian": {
+      "en": "no"
+    },
+    "name": {
+      "it": "Aroma naturale di salmone",
+      "fr": "Arôme naturel de saumon",
+      "fi": "Luontainen lohiaromi",
+      "hu": "Természetes lazac aroma",
+      "hr": "Prirodna aroma lososa",
+      "de": "Natürliches Lachsaroma",
+      "en": "Natural salmon flavouring"
+    }
+  },
+  "en:rutabaga": {
+    "name": {
+      "fr": "Rutabaga",
+      "de": "Kohlrübe",
+      "hr": "Rutabaga",
+      "en": "Rutabaga",
+      "da": "Kålroe",
+      "nb": "Kålrot",
+      "es": "Colinabo",
+      "bg": "Кръмно цвекло",
+      "sv": "Kålrot",
+      "et": "Kaalikas",
+      "it": "Rutabaga",
+      "fi": "Lanttu"
+    },
+    "parents": [
+      "en:root-vegetable",
+      "en:taproot-vegetable"
+    ],
+    "synonyms": {
+      "fi": [
+        "lanttu"
+      ],
+      "nb": [
+        "kålrot"
+      ],
+      "sv": [
+        "kålrot"
+      ],
+      "bg": [
+        "кръмно цвекло"
+      ],
+      "es": [
+        "colinabo",
+        "nabicol"
+      ],
+      "et": [
+        "kaalikas"
+      ],
+      "it": [
+        "rutabaga"
+      ],
+      "hr": [
+        "rutabaga"
+      ],
+      "de": [
+        "Kohlrübe"
+      ],
+      "en": [
+        "rutabaga",
+        "swede"
+      ],
+      "da": [
+        "kålroe"
+      ],
+      "fr": [
+        "rutabaga"
+      ]
+    },
+    "wikidata": {
+      "en": "Q104733765"
+    },
+    "children": [
+      "en:cooked-rutabaga"
+    ],
+    "eurocode_2_group_3": {
+      "en": "8.38.42"
+    },
+    "ciqual_food_code": {
+      "en": "20201"
+    },
+    "ciqual_food_name": {
+      "en": "Rutabaga or Swede, raw",
+      "fr": "Rutabaga, cru"
+    }
+  },
+  "en:apricot-pulp": {
+    "synonyms": {
+      "en": [
+        "apricot pulp"
+      ],
+      "cs": [
+        "meruňková dřeň"
+      ]
+    },
+    "name": {
+      "en": "Apricot pulp",
+      "cs": "Meruňková dřeň"
+    },
+    "parents": [
+      "en:apricot"
+    ]
+  },
+  "en:idared-red-apple": {
+    "parents": [
+      "en:idared-apple",
+      "en:red-apple"
+    ],
+    "name": {
+      "da": "Idared rødt æble",
+      "it": "Mela rossa Idared",
+      "en": "Idared red apple",
+      "sv": "Idared rött äpple"
+    },
+    "synonyms": {
+      "da": [
+        "Idared rødt æble",
+        "Idared røde æbler"
+      ],
+      "it": [
+        "mela rossa Idared"
+      ],
+      "en": [
+        "Idared red apple"
+      ],
+      "sv": [
+        "Idared rött äpple",
+        "Idared röda äpplen"
+      ]
+    }
+  },
+  "en:tarragon": {
+    "eurocode_2_group_2": {
+      "en": "12.20"
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Tarragon"
+    },
+    "synonyms": {
+      "eo": [
+        "estragono"
+      ],
+      "fi": [
+        "rakuuna"
+      ],
+      "hu": [
+        "tárkony"
+      ],
+      "ar": [
+        "طرخون"
+      ],
+      "nn": [
+        "estragon",
+        "estragonblader"
+      ],
+      "sv": [
+        "dragon"
+      ],
+      "nb": [
+        "estragon",
+        "estragonblader"
+      ],
+      "af": [
+        "draakplant"
+      ],
+      "el": [
+        "εστραγκόν"
+      ],
+      "gl": [
+        "estragón"
+      ],
+      "cs": [
+        "estragon"
+      ],
+      "ko": [
+        "타라곤"
+      ],
+      "pl": [
+        "draganek",
+        "estragon",
+        "estragonu"
+      ],
+      "ga": [
+        "dragan"
+      ],
+      "io": [
+        "estragono"
+      ],
+      "be": [
+        "эстрагон"
+      ],
+      "zh": [
+        "龍蒿"
+      ],
+      "lt": [
+        "estragonas"
+      ],
+      "sl": [
+        "pehtran"
+      ],
+      "br": [
+        "stragon"
+      ],
+      "pa": [
+        "ਤਰਖ਼ੋਨ"
+      ],
+      "sr": [
+        "естрагон"
+      ],
+      "az": [
+        "tərxun"
+      ],
+      "ka": [
+        "ტარხუნა"
+      ],
+      "uk": [
+        "тархун"
+      ],
+      "ro": [
+        "tarhon"
+      ],
+      "gv": [
+        "dragane"
+      ],
+      "pt": [
+        "estragão"
+      ],
+      "tr": [
+        "tarhun"
+      ],
+      "la": [
+        "artemisia dracunculus"
+      ],
+      "ku": [
+        "tarxûn"
+      ],
+      "uz": [
+        "sherolgʻin"
+      ],
+      "cy": [
+        "taragon"
+      ],
+      "bs": [
+        "estragon"
+      ],
+      "et": [
+        "estragon"
+      ],
+      "sq": [
+        "terragoni"
+      ],
+      "hr": [
+        "zmijina trava"
+      ],
+      "de": [
+        "estragon"
+      ],
+      "fa": [
+        "ترخون"
+      ],
+      "bn": [
+        "তার্খুন"
+      ],
+      "kk": [
+        "шырғалжың"
+      ],
+      "he": [
+        "לַעֲנָה"
+      ],
+      "ca": [
+        "estragó"
+      ],
+      "mk": [
+        "естрагон"
+      ],
+      "ja": [
+        "タラゴン"
+      ],
+      "eu": [
+        "binagrera"
+      ],
+      "nl": [
+        "dragon"
+      ],
+      "oc": [
+        "estragon"
+      ],
+      "id": [
+        "tarragon"
+      ],
+      "os": [
+        "мæзæрæу"
+      ],
+      "bg": [
+        "естрагон"
+      ],
+      "es": [
+        "dragón",
+        "estragon"
+      ],
+      "ru": [
+        "эстрагон"
+      ],
+      "hy": [
+        "թարխուն"
+      ],
+      "it": [
+        "dragoncello"
+      ],
+      "en": [
+        "tarragon"
+      ],
+      "ms": [
+        "taragon"
+      ],
+      "no": [
+        "estragon",
+        "estragonblader"
+      ],
+      "da": [
+        "estragon"
+      ],
+      "fr": [
+        "estragon"
+      ],
+      "sk": [
+        "estragón"
+      ]
+    },
+    "wikidata": {
+      "en": "Q103554747"
+    },
+    "parents": [
+      "en:herb"
+    ],
+    "name": {
+      "kk": "Шырғалжың",
+      "bn": "তার্খুন",
+      "fa": "ترخون",
+      "sq": "Terragoni",
+      "hr": "Zmijina trava",
+      "de": "Estragon",
+      "eu": "Binagrera",
+      "mk": "Естрагон",
+      "ja": "タラゴン",
+      "he": "לַעֲנָה",
+      "ca": "Estragó",
+      "la": "Artemisia dracunculus",
+      "tr": "Tarhun",
+      "pt": "Estragão",
+      "et": "Estragon",
+      "cy": "Taragon",
+      "uz": "Sherolgʻin",
+      "ku": "Tarxûn",
+      "bs": "Estragon",
+      "ms": "Taragon",
+      "da": "Estragon",
+      "no": "Estragon",
+      "en": "Tarragon",
+      "sk": "Estragón",
+      "fr": "Estragon",
+      "nl": "Dragon",
+      "it": "Dragoncello",
+      "hy": "Թարխուն",
+      "os": "Мæзæрæу",
+      "es": "Dragón",
+      "bg": "Естрагон",
+      "ru": "Эстрагон",
+      "oc": "Estragon",
+      "id": "Tarragon",
+      "ko": "타라곤",
+      "cs": "Estragon",
+      "el": "Εστραγκόν",
+      "gl": "Estragón",
+      "pl": "Draganek",
+      "nn": "Estragon",
+      "fi": "Rakuuna",
+      "hu": "Tárkony",
+      "ar": "طرخون",
+      "eo": "Estragono",
+      "af": "Draakplant",
+      "sv": "Dragon",
+      "nb": "Estragon",
+      "gv": "Dragane",
+      "ka": "ტარხუნა",
+      "ro": "Tarhon",
+      "uk": "Тархун",
+      "sr": "Естрагон",
+      "az": "Tərxun",
+      "zh": "龍蒿",
+      "be": "Эстрагон",
+      "ga": "Dragan",
+      "io": "Estragono",
+      "br": "Stragon",
+      "pa": "ਤਰਖ਼ੋਨ",
+      "sl": "Pehtran",
+      "lt": "Estragonas"
+    },
+    "ciqual_food_code": {
+      "en": "11092"
+    },
+    "ciqual_food_name": {
+      "fr": "Estragon, frais",
+      "en": "Tarragon, fresh"
+    },
+    "eurocode_2_group_3": {
+      "en": "12.20.68"
+    }
+  },
+  "en:dried-apricots": {
+    "children": [
+      "en:pitted-dried-apricots"
+    ],
+    "name": {
+      "fr": "Abricots secs",
+      "it": "Albicocche secche",
+      "es": "Albaricoques deshidratados",
+      "bg": "Сушени кайсии",
+      "nl": "Gedroogde abrikozen",
+      "da": "Tørret abrikos",
+      "en": "Dried apricots",
+      "hr": "Suhe marelice",
+      "de": "Getrocknete Aprikosen",
+      "fi": "Kuivattu aprikoosi"
+    },
+    "parents": [
+      "en:apricot"
+    ],
+    "synonyms": {
+      "it": [
+        "albicocche secche"
+      ],
+      "fr": [
+        "abricots secs",
+        "abricots séchés"
+      ],
+      "es": [
+        "albaricoques deshidratados"
+      ],
+      "bg": [
+        "сушени кайсии"
+      ],
+      "da": [
+        "tørret abrikos",
+        "tørrede abrikoser"
+      ],
+      "nl": [
+        "gedroogde abrikozen"
+      ],
+      "fi": [
+        "kuivattu aprikoosi",
+        "kuivatut aprikoosit"
+      ],
+      "hr": [
+        "suhe marelice"
+      ],
+      "de": [
+        "getrocknete Aprikosen"
+      ],
+      "en": [
+        "dried apricots"
+      ]
+    }
+  },
+  "en:dulse": {
+    "synonyms": {
+      "pl": [
+        "algi morskie dulse",
+        "dulse"
+      ],
+      "ja": [
+        "ダルス"
+      ],
+      "fr": [
+        "dulse"
+      ],
+      "en": [
+        "dulse"
+      ],
+      "de": [
+        "Lappentang"
+      ],
+      "hr": [
+        "dulse"
+      ],
+      "da": [
+        "Søl"
+      ],
+      "es": [
+        "Dulse"
+      ],
+      "gd": [
+        "Duileasg"
+      ],
+      "is": [
+        "Söl"
+      ],
+      "it": [
+        "Dulse"
+      ],
+      "fi": [
+        "herkkupunakämmen"
+      ],
+      "hu": [
+        "Vörös pálmamoszat"
+      ],
+      "ga": [
+        "Duileasc"
+      ],
+      "ar": [
+        "الدلسي"
+      ],
+      "nl": [
+        "Dulse"
+      ],
+      "nn": [
+        "Søl"
+      ]
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Palmaria_palmata"
+    },
+    "parents": [
+      "en:algae"
+    ],
+    "name": {
+      "nl": "Dulse",
+      "nn": "Søl",
+      "ga": "Duileasc",
+      "hu": "Vörös pálmamoszat",
+      "fi": "Herkkupunakämmen",
+      "ar": "الدلسي",
+      "it": "Dulse",
+      "gd": "Duileasg",
+      "es": "Dulse",
+      "is": "Söl",
+      "da": "Søl",
+      "en": "Dulse",
+      "hr": "Dulse",
+      "de": "Lappentang",
+      "fr": "Dulse",
+      "pl": "Algi morskie dulse",
+      "ja": "ダルス"
+    },
+    "ciqual_food_code": {
+      "en": "20988"
+    },
+    "ciqual_food_name": {
+      "fr": "Dulse -Palmaria palmata-, séchée ou déshydratée",
+      "en": "Dulse -Palmaria palmata-, dried or dehydrated"
+    },
+    "description": {
+      "en": "Palmaria palmata, also called dulse, dillisk or dilsk -from Irish/Scottish Gaelic duileasc/duileasg-, red dulse, sea lettuce flakes, or creathnach, is a red alga -Rhodophyta- previously referred to as Rhodymenia palmata."
+    },
+    "children": [
+      "en:palmaria-palmata"
+    ]
+  },
+  "en:green-and-black-olives": {
+    "name": {
+      "it": "Olive verdi e nere",
+      "fr": "Olives vertes et noires",
+      "es": "Aceitunas verdes y negras",
+      "bg": "Зелени и черни маслини",
+      "no": "Grønne og svarte oliven",
+      "fi": "Vihreä ja musta oliivi",
+      "en": "Green and black olives",
+      "hr": "Zelene i crne masline",
+      "de": "Grüne und schwarze Oliven"
+    },
+    "parents": [
+      "en:black-olive"
+    ],
+    "synonyms": {
+      "no": [
+        "grønne og svarte oliven"
+      ],
+      "en": [
+        "green and black olives",
+        "black and green olives"
+      ],
+      "hr": [
+        "zelene i crne masline"
+      ],
+      "de": [
+        "grüne und schwarze Oliven"
+      ],
+      "fi": [
+        "vihreä ja musta oliivi",
+        "vihreät ja mustat oliivit"
+      ],
+      "fr": [
+        "olives vertes et noires"
+      ],
+      "it": [
+        "olive verdi e nere"
+      ],
+      "es": [
+        "aceitunas verdes y negras",
+        "aceitunas negras y verdes",
+        "aceituna verde y negra"
+      ],
+      "bg": [
+        "зелени и черни маслини",
+        "черни и зелени маслини"
+      ]
+    }
+  },
+  "en:taproot-vegetable": {
+    "name": {
+      "eo": "Radiklegomo kun ĉefa radiko",
+      "fi": "Pääjuurikas",
+      "ar": "خضروات الجذر الرئيسية",
+      "et": "Põhijuurega juurviljad",
+      "it": "Radice fittonante vegetale",
+      "hi": "मुख्य जड़वाले सब्जी",
+      "cy": "Llysieuyn gwreidd-prif",
+      "es": "Verdura de raíz principal",
+      "bg": "Коренесто зеленчуково растение",
+      "da": "Rodfrugt med hovedrod",
+      "en": "Taproot vegetable",
+      "de": "Wurzelgemüse mit Hauptwurzel",
+      "hr": "Korjenasto povrće s glavnim korijenom",
+      "el": "Λαχανικό με κύρια ρίζα",
+      "fa": "سبزیجات ریشه‌ای با ریشه اصلی",
+      "cs": "Kořenová zelenina s hlavním kořenem",
+      "bn": "ট্যাপরুট সবজি",
+      "fr": "Légume-racine à racine principale",
+      "he": "ירק שורש עם שורש ראשי",
+      "ca": "Verdura de tija principal"
+    },
+    "children": [
+      "en:beetroot",
+      "en:carrot",
+      "en:celeriac",
+      "en:parsley-root",
+      "en:parsnip",
+      "en:radish",
+      "en:rutabaga",
+      "en:salsify",
+      "en:turnip"
+    ],
+    "parents": [
+      "en:vegetable"
+    ],
+    "synonyms": {
+      "fr": [
+        "légume-racine à racine principale"
+      ],
+      "he": [
+        "ירק שורש עם שורש ראשי"
+      ],
+      "ca": [
+        "Verdura de tija principal",
+        "verdura de tija arrel"
+      ],
+      "da": [
+        "Rodfrugt med hovedrod"
+      ],
+      "fa": [
+        "سبزیجات ریشه‌ای با ریشه اصلی"
+      ],
+      "cs": [
+        "Kořenová zelenina s hlavním kořenem"
+      ],
+      "bn": [
+        "ট্যাপরুট সবজি",
+        "ট্যাপ-রুট সবজি"
+      ],
+      "en": [
+        "taproot vegetable",
+        "tap-root vegetable"
+      ],
+      "hr": [
+        "korjenasto povrće s glavnim korijenom"
+      ],
+      "el": [
+        "Λαχανικό με κύρια ρίζα"
+      ],
+      "de": [
+        "Wurzelgemüse mit Hauptwurzel"
+      ],
+      "it": [
+        "radice fittonante vegetale"
+      ],
+      "hi": [
+        "मुख्य जड़वाले सब्जी"
+      ],
+      "et": [
+        "Põhijuurega juurviljad"
+      ],
+      "bg": [
+        "Коренесто зеленчуково растение"
+      ],
+      "es": [
+        "verdura de raíz principal",
+        "verdura de raíz principal"
+      ],
+      "cy": [
+        "llysieuyn gwreidd-prif"
+      ],
+      "fi": [
+        "Pääjuurikas"
+      ],
+      "ar": [
+        "خضروات الجذر الرئيسية"
+      ],
+      "eo": [
+        "Radiklegomo kun ĉefa radiko"
+      ]
+    },
+    "eurocode_2_group_2": {
+      "en": "8.38"
+    }
+  },
+  "en:gai-lan": {
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Gai_lan"
+    },
+    "wikidata": {
+      "en": "Q1677369"
+    },
+    "synonyms": {
+      "nl": [
+        "kailan"
+      ],
+      "zh": [
+        "芥藍"
+      ],
+      "eo": [
+        "ĉina brokolo"
+      ],
+      "za": [
+        "byaekgaiqlanz"
+      ],
+      "fi": [
+        "härmekaali",
+        "kiinanbrokkoli",
+        "kailaan"
+      ],
+      "it": [
+        "brassica oleracea var. alboglabra"
+      ],
+      "id": [
+        "kailan"
+      ],
+      "th": [
+        "คะน้า"
+      ],
+      "es": [
+        "brassica oleracea var. alboglabra"
+      ],
+      "sv": [
+        "daggkål",
+        "kinesisk broccoli"
+      ],
+      "ms": [
+        "kailan"
+      ],
+      "ko": [
+        "가이란"
+      ],
+      "de": [
+        "kai-lan"
+      ],
+      "hr": [
+        "gai lan"
+      ],
+      "en": [
+        "gai lan",
+        "chinese broccoli",
+        "chinese kale",
+        "gai-lan",
+        "kailan",
+        "kai-lan"
+      ],
+      "fa": [
+        "کلم‌برگ چینی"
+      ],
+      "fr": [
+        "brocoli chinois"
+      ],
+      "ja": [
+        "カイラン"
+      ],
+      "eu": [
+        "kai-lan"
+      ],
+      "ca": [
+        "bròquil xinès"
+      ],
+      "he": [
+        "ברוקולי סיני"
+      ]
+    },
+    "parents": [
+      "en:cabbage"
+    ],
+    "name": {
+      "es": "Brassica oleracea var. alboglabra",
+      "sv": "Daggkål",
+      "id": "Kailan",
+      "th": "คะน้า",
+      "it": "Brassica oleracea var. alboglabra",
+      "fi": "Härmekaali",
+      "eo": "Ĉina brokolo",
+      "za": "Byaekgaiqlanz",
+      "zh": "芥藍",
+      "nl": "Kailan",
+      "ca": "Bròquil xinès",
+      "he": "ברוקולי סיני",
+      "eu": "Kai-lan",
+      "ja": "カイラン",
+      "fr": "Brocoli chinois",
+      "fa": "کلم‌برگ چینی",
+      "hr": "Gai lan",
+      "de": "Kai-lan",
+      "en": "Gai lan",
+      "ko": "가이란",
+      "ms": "Kailan"
+    }
+  },
+  "en:fresh-yeast": {
+    "synonyms": {
+      "nl": [
+        "verse gist"
+      ],
+      "fi": [
+        "tuorehiiva"
+      ],
+      "de": [
+        "Frischhefe"
+      ],
+      "en": [
+        "fresh yeast"
+      ],
+      "it": [
+        "lievito fresco"
+      ],
+      "fr": [
+        "levure fraîche"
+      ],
+      "bg": [
+        "прясна мая"
+      ],
+      "es": [
+        "levadura fresca"
+      ]
+    },
+    "parents": [
+      "en:baker-s-yeast"
+    ],
+    "name": {
+      "en": "Fresh yeast",
+      "de": "Frischhefe",
+      "fi": "Tuorehiiva",
+      "nl": "Verse gist",
+      "es": "Levadura fresca",
+      "bg": "Прясна мая",
+      "fr": "Levure fraîche",
+      "it": "Lievito fresco"
+    }
+  },
+  "en:organic-long-grain-white-rice": {
+    "synonyms": {
+      "it": [
+        "riso bianco a grani lunghi biologico"
+      ],
+      "fr": [
+        "riz long blanc bio"
+      ],
+      "fi": [
+        "luomu pitkäjyväinen valkoinen riisi"
+      ],
+      "en": [
+        "organic long grain white rice"
+      ],
+      "hr": [
+        "organska bijela riža dugog zrna"
+      ]
+    },
+    "parents": [
+      "en:organic-long-grain-rice"
+    ],
+    "name": {
+      "it": "Riso bianco a grani lunghi biologico",
+      "fr": "Riz long blanc bio",
+      "fi": "Luomu pitkäjyväinen valkoinen riisi",
+      "en": "Organic long grain white rice",
+      "hr": "Organska bijela riža dugog zrna"
+    }
+  },
+  "en:natural-almond-flavouring": {
+    "synonyms": {
+      "es": [
+        "aroma natural de almendra"
+      ],
+      "it": [
+        "aroma naturale di mandorle"
+      ],
+      "pl": [
+        "naturalny aromat migdałowy"
+      ],
+      "fr": [
+        "arôme naturel d'amande"
+      ],
+      "fi": [
+        "luontainen manteliaromi"
+      ],
+      "hu": [
+        "természetes mandula aroma"
+      ],
+      "de": [
+        "natürliches Mandelaroma"
+      ],
+      "hr": [
+        "prirodna aroma badema"
+      ],
+      "en": [
+        "natural almond flavouring"
+      ],
+      "pt": [
+        "aroma natural de amêndoa"
+      ]
+    },
+    "parents": [
+      "en:natural-flavouring"
+    ],
+    "name": {
+      "en": "Natural almond flavouring",
+      "pt": "Aroma natural de amêndoa",
+      "hr": "Prirodna aroma badema",
+      "de": "Natürliches Mandelaroma",
+      "hu": "Természetes mandula aroma",
+      "fi": "Luontainen manteliaromi",
+      "pl": "Naturalny aromat migdałowy",
+      "fr": "Arôme naturel d'amande",
+      "it": "Aroma naturale di mandorle",
+      "es": "Aroma natural de almendra"
+    }
+  },
+  "en:chocolate-and-hazelnut-coating": {
+    "parents": [
+      "en:chocolate-coating",
+      "en:hazelnut-coating"
+    ],
+    "name": {
+      "it": "Copertura al cioccolato e nocciole",
+      "hr": "Preljev s čokoladom i lješnjacima",
+      "en": "Chocolate and hazelnut coating"
+    },
+    "synonyms": {
+      "it": [
+        "copertura al cioccolato e nocciole"
+      ],
+      "hr": [
+        "preljev s čokoladom i lješnjacima"
+      ],
+      "en": [
+        "chocolate and hazelnut coating"
+      ]
+    }
+  },
+  "en:spaghetti-squash-pulp": {
+    "ciqual_food_code": {
+      "en": "20145"
+    },
+    "ciqual_food_name": {
+      "en": "Squash, spaghetti, pulp, raw",
+      "fr": "Courge spaghetti, pulpe, crue"
+    },
+    "synonyms": {
+      "en": [
+        "spaghetti squash pulp"
+      ],
+      "it": [
+        "polpa di zucca per spaghetti"
+      ],
+      "fr": [
+        "pulpe de courge spaghetti"
+      ]
+    },
+    "parents": [
+      "en:spaghetti-squash"
+    ],
+    "name": {
+      "en": "Spaghetti squash pulp",
+      "it": "Polpa di zucca per spaghetti",
+      "fr": "Pulpe de courge spaghetti"
+    }
+  },
+  "en:e322ii": {
+    "additives_classes": {
+      "en": "en:antioxidant, en:emulsifier"
+    },
+    "name": {
+      "mt": "E322ii",
+      "cs": "E322ii",
+      "de": "E322ii",
+      "lv": "E322ii",
+      "el": "E322ii",
+      "xx": "E322ii",
+      "pl": "E322ii",
+      "hu": "E322ii",
+      "fi": "E322ii",
+      "pt": "E322ii",
+      "et": "E322ii",
+      "sv": "E322ii",
+      "da": "E322ii",
+      "ro": "E322ii",
+      "en": "E322ii",
+      "sk": "E322ii",
+      "fr": "E322ii",
+      "nl": "E322ii",
+      "it": "E322ii",
+      "sl": "E322ii",
+      "bg": "E322ii",
+      "lt": "E322ii",
+      "es": "E322ii"
+    },
+    "organic_eu": {
+      "en": "authorized"
+    },
+    "e_number": {
+      "en": "322"
+    },
+    "parents": [
+      "en:e322"
+    ],
+    "wikidata": {
+      "en": "Q241595"
+    },
+    "synonyms": {
+      "da": [
+        "E322ii",
+        "Delvist hydrolyseret lecithin"
+      ],
+      "ro": [
+        "E322ii",
+        "Lecitină parțial hidrolizată"
+      ],
+      "en": [
+        "E322ii",
+        "Partially hydrolyzed lecithin"
+      ],
+      "fr": [
+        "E322ii",
+        "Lécithine partiellement hydrolysée"
+      ],
+      "sk": [
+        "E322ii",
+        "Čiastočne hydrolyzovaný lecitín"
+      ],
+      "nl": [
+        "E322ii",
+        "Gedeeltelijk gehydrolyseerde lecithine"
+      ],
+      "sl": [
+        "E322ii",
+        "Delno hidrolizirana lecitin"
+      ],
+      "it": [
+        "E322ii",
+        "Lecitina parzialmente idrolizzata"
+      ],
+      "es": [
+        "E322ii",
+        "Lecitina parcialmente hidrolizada"
+      ],
+      "lt": [
+        "E322ii",
+        "Dalinai hidrolizuotas lecitinas"
+      ],
+      "bg": [
+        "E322ii",
+        "Частично хидролизирана лецитин"
+      ],
+      "de": [
+        "E322ii",
+        "Teilweise hydrolysiertes Lecithin"
+      ],
+      "lv": [
+        "E322ii",
+        "Daļēji hidrolizēts lecitīns"
+      ],
+      "el": [
+        "E322ii",
+        "Μερικώς υδρολυμένη λεκιθίνη"
+      ],
+      "cs": [
+        "E322ii",
+        "Částečně hydrolyzovaný lecitin"
+      ],
+      "mt": [
+        "E322ii",
+        "Lecitina parzjalment idrolizzata"
+      ],
+      "pl": [
+        "E322ii",
+        "Częściowo uwodorniony lecytyna"
+      ],
+      "xx": [
+        "E322ii"
+      ],
+      "pt": [
+        "E322ii",
+        "Lecitina parcialmente hidrolisada"
+      ],
+      "hu": [
+        "E322ii",
+        "Részben hidrolizált lecitin"
+      ],
+      "fi": [
+        "E322ii",
+        "Osittain hydrolysoitu lesitiini",
+        "Osittain hydrolysoitua lesitiiniä"
+      ],
+      "et": [
+        "E322ii",
+        "Osaühendatud letsitiin"
+      ],
+      "sv": [
+        "E322ii",
+        "Delvis hydrolyserad lecitin"
+      ]
+    }
+  },
+  "en:gin": {
+    "synonyms": {
+      "gv": [
+        "Jeneeve"
+      ],
+      "ka": [
+        "ჯინი"
+      ],
+      "uk": [
+        "Джин"
+      ],
+      "ro": [
+        "Gin"
+      ],
+      "sr": [
+        "Џин"
+      ],
+      "vi": [
+        "Gin"
+      ],
+      "zh": [
+        "琴酒"
+      ],
+      "be": [
+        "Джын"
+      ],
+      "io": [
+        "Jino"
+      ],
+      "my": [
+        "ဂျင်"
+      ],
+      "sl": [
+        "Gin"
+      ],
+      "lt": [
+        "Džinas"
+      ],
+      "th": [
+        "ยิน"
+      ],
+      "ko": [
+        "진"
+      ],
+      "yi": [
+        "דזשין"
+      ],
+      "cs": [
+        "gin"
+      ],
+      "gl": [
+        "Xenebra"
+      ],
+      "el": [
+        "Τζιν"
+      ],
+      "pl": [
+        "gin",
+        "dżin",
+        "ginu",
+        "dżinu"
+      ],
+      "nn": [
+        "gin"
+      ],
+      "fi": [
+        "gini"
+      ],
+      "hu": [
+        "gin"
+      ],
+      "ar": [
+        "جن"
+      ],
+      "eo": [
+        "ĝino"
+      ],
+      "sv": [
+        "Gin"
+      ],
+      "nb": [
+        "gin"
+      ],
+      "da": [
+        "gin"
+      ],
+      "en": [
+        "gin"
+      ],
+      "fo": [
+        "Ginn"
+      ],
+      "sk": [
+        "Gin"
+      ],
+      "fr": [
+        "gin",
+        "london-dry-gin"
+      ],
+      "nl": [
+        "gin"
+      ],
+      "it": [
+        "gin"
+      ],
+      "ta": [
+        "ஜின்"
+      ],
+      "hy": [
+        "Ջին"
+      ],
+      "bg": [
+        "Джин"
+      ],
+      "es": [
+        "ginebra"
+      ],
+      "ru": [
+        "джин"
+      ],
+      "oc": [
+        "Gin"
+      ],
+      "id": [
+        "Gin"
+      ],
+      "kk": [
+        "Джин"
+      ],
+      "fa": [
+        "جین"
+      ],
+      "lv": [
+        "džins"
+      ],
+      "de": [
+        "Gin"
+      ],
+      "hr": [
+        "gin"
+      ],
+      "eu": [
+        "gin"
+      ],
+      "mk": [
+        "Џин"
+      ],
+      "ja": [
+        "ジン"
+      ],
+      "he": [
+        "ג'ין"
+      ],
+      "ca": [
+        "ginebra"
+      ],
+      "sh": [
+        "Džin"
+      ],
+      "la": [
+        "Gin"
+      ],
+      "tr": [
+        "Cin"
+      ],
+      "pt": [
+        "gim"
+      ],
+      "cv": [
+        "Джин"
+      ],
+      "et": [
+        "Džinn"
+      ],
+      "cy": [
+        "Jin"
+      ],
+      "is": [
+        "Gin"
+      ]
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Gin"
+    },
+    "wikidata": {
+      "en": "Q959362"
+    },
+    "name": {
+      "sv": "Gin",
+      "nb": "Gin",
+      "hu": "Gin",
+      "fi": "Gini",
+      "ar": "جن",
+      "eo": "Ĝino",
+      "nn": "Gin",
+      "pl": "Gin",
+      "cs": "Gin",
+      "gl": "Xenebra",
+      "el": "Τζιν",
+      "ko": "진",
+      "yi": "דזשין",
+      "lt": "Džinas",
+      "th": "ยิน",
+      "my": "ဂျင်",
+      "sl": "Gin",
+      "io": "Jino",
+      "vi": "Gin",
+      "zh": "琴酒",
+      "be": "Джын",
+      "sr": "Џин",
+      "gv": "Jeneeve",
+      "ka": "ჯინი",
+      "ro": "Gin",
+      "uk": "Джин",
+      "cy": "Jin",
+      "is": "Gin",
+      "cv": "Джин",
+      "et": "Džinn",
+      "pt": "Gim",
+      "tr": "Cin",
+      "la": "Gin",
+      "he": "ג'ין",
+      "ca": "Ginebra",
+      "sh": "Džin",
+      "eu": "Gin",
+      "mk": "Џин",
+      "ja": "ジン",
+      "fa": "جین",
+      "lv": "Džins",
+      "de": "Gin",
+      "hr": "Gin",
+      "kk": "Джин",
+      "es": "Ginebra",
+      "bg": "Джин",
+      "ru": "Джин",
+      "oc": "Gin",
+      "id": "Gin",
+      "it": "Gin",
+      "ta": "ஜின்",
+      "hy": "Ջին",
+      "nl": "Gin",
+      "sk": "Gin",
+      "fr": "Gin",
+      "en": "Gin",
+      "fo": "Ginn",
+      "da": "Gin"
+    },
+    "parents": [
+      "en:alcohol"
+    ],
+    "ciqual_food_code": {
+      "en": "1002"
+    },
+    "ciqual_food_name": {
+      "fr": "Gin",
+      "en": "Gin"
+    }
+  },
+  "en:e129": {
+    "e_number": {
+      "en": "129"
+    },
+    "anses_additives_of_interest": {
+      "en": "yes"
+    },
+    "efsa_evaluation_url": {
+      "en": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4007"
+    },
+    "additives_classes": {
+      "en": "en:colour"
+    },
+    "vegan": {
+      "en": "yes"
+    },
+    "efsa_evaluation_date": {
+      "en": "2015/02/13"
+    },
+    "name": {
+      "nl": "E129",
+      "bg": "E129",
+      "lt": "E129",
+      "es": "E129",
+      "it": "E129",
+      "sl": "E129",
+      "en": "E129",
+      "ro": "E129",
+      "da": "E129",
+      "sk": "E129",
+      "fr": "E129",
+      "hu": "E129",
+      "fi": "E129",
+      "pt": "E129",
+      "sv": "E129",
+      "et": "E129",
+      "mt": "E129",
+      "cs": "E129",
+      "hr": "E129",
+      "de": "E129",
+      "lv": "E129",
+      "el": "E129",
+      "ca": "E129",
+      "xx": "E129",
+      "pl": "E129"
+    },
+    "synonyms": {
+      "en": [
+        "E129",
+        "Allura red",
+        "Allura red ac",
+        "Allura Red AC",
+        "FD&C Red 40",
+        "FD and C Red 40",
+        "Red 40",
+        "Red no40",
+        "Red no. 40",
+        "FD and C Red no. 40",
+        "Food Red 17",
+        "C.I. 16035",
+        "Red 40 lake"
+      ],
+      "da": [
+        "E129",
+        "Allura red ac"
+      ],
+      "ro": [
+        "E129",
+        "Roșu allura ac"
+      ],
+      "sk": [
+        "E129",
+        "Červená allura ac"
+      ],
+      "fr": [
+        "E129",
+        "Rouge allura AC",
+        "Rouge Allura",
+        "Rouge alimentaire 17",
+        "FD&C Rouge 40",
+        "Allura Red",
+        "Food Red 17",
+        "C.I. 16035",
+        "FD&C Red 40",
+        "Red 40 lake",
+        "Red 40",
+        "2-naphthalenesulfonic acid disodium salt",
+        "Allura Red AC",
+        "C18H14N2Na2O8S2"
+      ],
+      "nl": [
+        "E129",
+        "Allurarood ac",
+        "Allura rood AC",
+        "Allura Rood",
+        "CI 16035"
+      ],
+      "lt": [
+        "E129",
+        "Alura raudonasis ac"
+      ],
+      "es": [
+        "E129",
+        "Rojo allura ac",
+        "E 129",
+        "Rojo Allura 2C",
+        "rojo FD&C 40",
+        "rojo 40",
+        "rojo allura"
+      ],
+      "bg": [
+        "E129",
+        "Алура червено ac"
+      ],
+      "it": [
+        "E129",
+        "Rosso allura ac"
+      ],
+      "sl": [
+        "E129",
+        "Alura rdeče ac"
+      ],
+      "mt": [
+        "E129",
+        "Aħmar allura ac"
+      ],
+      "cs": [
+        "E129",
+        "Allura red ac",
+        "červeň ac",
+        "Červeň Allura AC"
+      ],
+      "lv": [
+        "E129",
+        "Alūra sarkanais ac"
+      ],
+      "de": [
+        "E129",
+        "Allurarot ac",
+        "Allurarot",
+        "E 129"
+      ],
+      "hr": [
+        "E129"
+      ],
+      "el": [
+        "E129",
+        "Ερυθρο allura ac"
+      ],
+      "ca": [
+        "E129",
+        "Vermell Allure 2C",
+        "Vermell allura AC"
+      ],
+      "xx": [
+        "E129"
+      ],
+      "pl": [
+        "E129",
+        "Czerwień allura ac",
+        "Czerwień FD&C",
+        "Czerwień Allura"
+      ],
+      "fi": [
+        "E129",
+        "Alluranpunainen ac",
+        "Alluranpunainen",
+        "E 129",
+        "CI 16035"
+      ],
+      "hu": [
+        "E129",
+        "Alluravörös AC",
+        "Allura Red AC"
+      ],
+      "pt": [
+        "E129",
+        "Vermelho allura ac"
+      ],
+      "sv": [
+        "E129",
+        "Allurarött ac",
+        "E 129"
+      ],
+      "et": [
+        "E129",
+        "Võlupunane ac"
+      ]
+    },
+    "wikidata": {
+      "en": "Q419895"
+    },
+    "colour_index": {
+      "en": "CI 16035"
+    },
+    "efsa_evaluation": {
+      "en": "Refined exposure assessment for Allura Red AC -E 129-"
+    },
+    "vegetarian": {
+      "en": "yes"
+    },
+    "efsa_evaluation_overexposure_risk": {
+      "en": "en:no"
+    },
+    "efsa": {
+      "en": "http://www.efsa.europa.eu/fr/efsajournal/doc/1327.pdf"
+    }
+  },
+  "en:refined-salt": {
+    "synonyms": {
+      "hr": [
+        "rafinirana sol"
+      ],
+      "de": [
+        "Raffiniertes Salz"
+      ],
+      "en": [
+        "refined salt"
+      ],
+      "ca": [
+        "sal refinada"
+      ],
+      "fr": [
+        "sel raffiné"
+      ],
+      "pl": [
+        "sól rafinowana"
+      ],
+      "pt": [
+        "sal refinado"
+      ],
+      "nl": [
+        "geraffineerd zout"
+      ],
+      "es": [
+        "sal refinada"
+      ],
+      "bg": [
+        "рафинирана сол"
+      ],
+      "it": [
+        "sale raffinato"
+      ]
+    },
+    "parents": [
+      "en:salt"
+    ],
+    "name": {
+      "en": "Refined salt",
+      "hr": "Rafinirana sol",
+      "de": "Raffiniertes Salz",
+      "fr": "Sel raffiné",
+      "pl": "Sól rafinowana",
+      "ca": "Sal refinada",
+      "nl": "Geraffineerd zout",
+      "pt": "Sal refinado",
+      "it": "Sale raffinato",
+      "bg": "Рафинирана сол",
+      "es": "Sal refinada"
+    }
+  },
+  "en:red-quinoa": {
+    "synonyms": {
+      "fi": [
+        "punainen kvinoa"
+      ],
+      "hu": [
+        "vörös kinoa"
+      ],
+      "hr": [
+        "quinoa crvena"
+      ],
+      "de": [
+        "rotes Quinoa",
+        "roter Quinoa",
+        "Quinoa rot"
+      ],
+      "en": [
+        "red quinoa"
+      ],
+      "bg": [
+        "червена киноа"
+      ],
+      "es": [
+        "Quinoa roja"
+      ],
+      "it": [
+        "Quinoa rossa"
+      ],
+      "pl": [
+        "komosa ryżowa czerwona"
+      ],
+      "fr": [
+        "quinoa rouge"
+      ]
+    },
+    "parents": [
+      "en:quinoa"
+    ],
+    "children": [
+      "en:red-and-white-quinoa"
+    ],
+    "name": {
+      "bg": "Червена киноа",
+      "es": "Quinoa roja",
+      "it": "Quinoa rossa",
+      "fr": "Quinoa rouge",
+      "pl": "Komosa ryżowa czerwona",
+      "hu": "Vörös kinoa",
+      "fi": "Punainen kvinoa",
+      "en": "Red quinoa",
+      "hr": "Quinoa crvena",
+      "de": "Rotes Quinoa"
+    }
+  },
+  "en:boiled-beef-oxtail": {
+    "ciqual_food_name": {
+      "en": "Beef, oxtail, boiled/cooked in water",
+      "fr": "Boeuf, queue, bouillie/cuite à l'eau"
+    },
+    "ciqual_food_code": {
+      "en": "6310"
+    },
+    "synonyms": {
+      "it": [
+        "coda di bue bollita"
+      ],
+      "fr": [
+        "Queue de boeuf bouillie",
+        "Queue de boeuf cuite à l'eau"
+      ],
+      "hr": [
+        "kuhani goveđi volovski rep"
+      ],
+      "en": [
+        "Boiled beef oxtail",
+        "Beef oxtail cooked in water"
+      ]
+    },
+    "parents": [
+      "en:beef-meat"
+    ],
+    "name": {
+      "it": "Coda di bue bollita",
+      "fr": "Queue de boeuf bouillie",
+      "hr": "Kuhani goveđi volovski rep",
+      "en": "Boiled beef oxtail"
+    }
+  },
+  "en:whole-grain-teff-flour": {
+    "synonyms": {
+      "en": [
+        "whole grain teff flour",
+        "whole teff flour"
+      ],
+      "hr": [
+        "teff brašno od cijelog zrna"
+      ],
+      "de": [
+        "Teffvollkornmehl",
+        "Teff-Vollkornmehl"
+      ],
+      "it": [
+        "farina di teff integrale"
+      ]
+    },
+    "name": {
+      "de": "Teffvollkornmehl",
+      "hr": "Teff brašno od cijelog zrna",
+      "en": "Whole grain teff flour",
+      "it": "Farina di teff integrale"
+    },
+    "parents": [
+      "en:teff",
+      "en:wholemeal-flour"
+    ]
+  },
+  "en:spinach-powder": {
+    "synonyms": {
+      "en": [
+        "spinach powder"
+      ],
+      "it": [
+        "polvere di spinaci"
+      ]
+    },
+    "name": {
+      "it": "Polvere di spinaci",
+      "en": "Spinach powder"
+    },
+    "parents": [
+      "en:spinach"
+    ]
+  },
+  "en:disaccharide": {
+    "synonyms": {
+      "hu": [
+        "diszacharid"
+      ],
+      "fi": [
+        "disakkaridi"
+      ],
+      "nl": [
+        "disaccharide"
+      ],
+      "bg": [
+        "дизахарид"
+      ],
+      "es": [
+        "disacárido"
+      ],
+      "it": [
+        "disaccaridi"
+      ],
+      "en": [
+        "disaccharide"
+      ],
+      "hr": [
+        "disaharid"
+      ],
+      "de": [
+        "disaccharid"
+      ],
+      "ca": [
+        "disacàrid"
+      ],
+      "fr": [
+        "disaccharide",
+        "diholoside"
+      ],
+      "pl": [
+        "disacharydy"
+      ]
+    },
+    "parents": [
+      "en:added-sugar"
+    ],
+    "children": [
+      "en:agave-syrup",
+      "en:barley-malt-syrup",
+      "en:cane-sugar-syrup",
+      "en:corn-syrup",
+      "en:isomaltulose",
+      "en:malt-syrup",
+      "en:maple-syrup",
+      "en:rice-syrup",
+      "en:sugar",
+      "en:sugar-beet-syrup",
+      "en:sugar-syrup",
+      "en:tapioca-syrup",
+      "en:wheat-syrup",
+      "fr:sirop-de-candi"
+    ],
+    "name": {
+      "en": "Disaccharide",
+      "hr": "Disaharid",
+      "de": "Disaccharid",
+      "ca": "Disacàrid",
+      "pl": "Disacharydy",
+      "fr": "Disaccharide",
+      "fi": "Disakkaridi",
+      "hu": "Diszacharid",
+      "nl": "Disaccharide",
+      "bg": "Дизахарид",
+      "es": "Disacárido",
+      "it": "Disaccaridi"
+    }
+  },
+  "en:e181": {
+    "synonyms": {
+      "da": [
+        "E181",
+        "Tannin",
+        "Garvesyre",
+        "Tanin"
+      ],
+      "uk": [
+        "E181",
+        "Танін"
+      ],
+      "ro": [
+        "E181",
+        "Tanin",
+        "Taninuri"
+      ],
+      "ms": [
+        "E181",
+        "Tanin"
+      ],
+      "az": [
+        "E181",
+        "Tannin"
+      ],
+      "sr": [
+        "E181",
+        "Танин"
+      ],
+      "en": [
+        "E181",
+        "Tannin"
+      ],
+      "sk": [
+        "E181",
+        "Tanín"
+      ],
+      "fr": [
+        "E181",
+        "Tannin",
+        "acide tannique",
+        "Tanin",
+        "Tannins",
+        "1401-55-4",
+        "Tanins"
+      ],
+      "zh": [
+        "E181",
+        "丹宁酸"
+      ],
+      "vi": [
+        "E181",
+        "Tanin"
+      ],
+      "nl": [
+        "E181",
+        "Looizuur",
+        "Tannine"
+      ],
+      "hi": [
+        "E181",
+        "टैनिन"
+      ],
+      "it": [
+        "E181",
+        "Tannino",
+        "Tannini"
+      ],
+      "sl": [
+        "E181",
+        "Čreslovina",
+        "Tanini",
+        "Tanin",
+        "Čreslovine"
+      ],
+      "ru": [
+        "E181",
+        "Танин"
+      ],
+      "lt": [
+        "E181",
+        "Taninas",
+        "Taninai"
+      ],
+      "es": [
+        "E181",
+        "Tanino",
+        "E 181",
+        "Taninos"
+      ],
+      "bg": [
+        "E181",
+        "Танин"
+      ],
+      "id": [
+        "E181",
+        "Tanin"
+      ],
+      "th": [
+        "E181",
+        "แทนนิน"
+      ],
+      "ko": [
+        "E181",
+        "탄닌"
+      ],
+      "cs": [
+        "E181",
+        "Třísloviny",
+        "Tříslovina",
+        "Taniny",
+        "Tanin"
+      ],
+      "hr": [
+        "E181",
+        "Tanin"
+      ],
+      "lv": [
+        "E181",
+        "Tanīns"
+      ],
+      "de": [
+        "E181",
+        "Tannine",
+        "E 181",
+        "Gerbsäure"
+      ],
+      "el": [
+        "E181",
+        "Τανίνη"
+      ],
+      "sq": [
+        "E181",
+        "Tanin"
+      ],
+      "xx": [
+        "E181"
+      ],
+      "mk": [
+        "E181",
+        "Танин"
+      ],
+      "pl": [
+        "E181",
+        "Taniny",
+        "Tanina"
+      ],
+      "ja": [
+        "E181",
+        "タンニン"
+      ],
+      "ca": [
+        "E181",
+        "Taní"
+      ],
+      "he": [
+        "E181",
+        "טַנִין"
+      ],
+      "ar": [
+        "E181",
+        "تانين"
+      ],
+      "fi": [
+        "E181",
+        "Tanniinit",
+        "Tanniini",
+        "Parkkihappo",
+        "Tanniineja",
+        "Tanniinia",
+        "Parkkihappoa"
+      ],
+      "hu": [
+        "E181",
+        "Csersav",
+        "Tannin",
+        "digalluszsav"
+      ],
+      "tr": [
+        "E181",
+        "Tanen"
+      ],
+      "pt": [
+        "E181",
+        "Tanino",
+        "Taninos",
+        "Tanante"
+      ],
+      "et": [
+        "E181",
+        "Tanniin"
+      ],
+      "af": [
+        "E181",
+        "Tannien"
+      ],
+      "sv": [
+        "E181",
+        "Tannin",
+        "Garvsyra"
+      ]
+    },
+    "wikidata": {
+      "en": "Q187607"
+    },
+    "e_number": {
+      "en": "181"
+    },
+    "name": {
+      "he": "E181",
+      "ca": "E181",
+      "pl": "E181",
+      "ja": "E181",
+      "mk": "E181",
+      "xx": "E181",
+      "sq": "E181",
+      "hr": "E181",
+      "lv": "E181",
+      "de": "E181",
+      "el": "E181",
+      "cs": "E181",
+      "ko": "E181",
+      "sv": "E181",
+      "af": "E181",
+      "et": "E181",
+      "tr": "E181",
+      "pt": "E181",
+      "fi": "E181",
+      "hu": "E181",
+      "ar": "E181",
+      "fr": "E181",
+      "sk": "E181",
+      "en": "E181",
+      "az": "E181",
+      "sr": "E181",
+      "ms": "E181",
+      "uk": "E181",
+      "ro": "E181",
+      "da": "E181",
+      "th": "E181",
+      "id": "E181",
+      "lt": "E181",
+      "es": "E181",
+      "bg": "E181",
+      "ru": "E181",
+      "sl": "E181",
+      "it": "E181",
+      "hi": "E181",
+      "nl": "E181",
+      "vi": "E181",
+      "zh": "E181"
+    },
+    "vegan": {
+      "en": "yes"
+    },
+    "additives_classes": {
+      "en": "en:colour, en:emulsifier, en:stabiliser, en:thickener"
+    },
+    "vegetarian": {
+      "en": "yes"
+    }
+  },
+  "en:linseed-oil": {
+    "wikidata": {
+      "en": "Q818405"
+    },
+    "synonyms": {
+      "ja": [
+        "亜麻仁油"
+      ],
+      "pl": [
+        "olej lniany"
+      ],
+      "ca": [
+        "oli de llinosa"
+      ],
+      "ko": [
+        "아마인유"
+      ],
+      "fa": [
+        "روغن بزرک"
+      ],
+      "cs": [
+        "Lněný olej"
+      ],
+      "de": [
+        "Leinöl"
+      ],
+      "el": [
+        "Λινέλαιο"
+      ],
+      "hr": [
+        "laneno ulje"
+      ],
+      "et": [
+        "Linaõli"
+      ],
+      "sv": [
+        "Linolja",
+        "linfröolja"
+      ],
+      "nb": [
+        "linolje"
+      ],
+      "te": [
+        "అవిసె నూనె"
+      ],
+      "uz": [
+        "Zigʻir moyi"
+      ],
+      "nn": [
+        "Linolje"
+      ],
+      "hu": [
+        "lenmagolaj",
+        "lenolaj"
+      ],
+      "fi": [
+        "pellavaöljy",
+        "pellavansiemenöljy",
+        "liinaöljy"
+      ],
+      "ar": [
+        "زيت بذر الكتان"
+      ],
+      "tr": [
+        "Keten yağı"
+      ],
+      "tt": [
+        "Җитен мае"
+      ],
+      "pt": [
+        "óleo de linhaça"
+      ],
+      "eo": [
+        "Linoleo"
+      ],
+      "fy": [
+        "Lynoalje"
+      ],
+      "fr": [
+        "huile de lin",
+        "huile végétale de lin"
+      ],
+      "uk": [
+        "Лляна олія"
+      ],
+      "da": [
+        "Linolie"
+      ],
+      "ro": [
+        "Ulei de in"
+      ],
+      "en": [
+        "linseed oil"
+      ],
+      "it": [
+        "olio di lino"
+      ],
+      "sl": [
+        "Laneno olje"
+      ],
+      "es": [
+        "aceite de linaza"
+      ],
+      "lt": [
+        "Sėmenų aliejus"
+      ],
+      "bg": [
+        "олио от ленено семе"
+      ],
+      "ru": [
+        "Льняное масло"
+      ],
+      "oc": [
+        "Òli de lin"
+      ],
+      "th": [
+        "น้ำมันเมล็ดฝ้าย"
+      ],
+      "vi": [
+        "Dầu lanh"
+      ],
+      "kn": [
+        "ಅಗಸೆ ಎಣ್ಣೆ"
+      ],
+      "zh": [
+        "亞麻子油"
+      ],
+      "nl": [
+        "lijnzaadolie"
+      ],
+      "be": [
+        "Ільняны алей"
+      ]
+    },
+    "from_palm_oil": {
+      "en": "no"
+    },
+    "parents": [
+      "en:vegetable-oil"
+    ],
+    "name": {
+      "et": "Linaõli",
+      "uz": "Zigʻir moyi",
+      "nb": "Linolje",
+      "te": "అవిసె నూనె",
+      "sv": "Linolja",
+      "nn": "Linolje",
+      "pt": "Óleo de linhaça",
+      "tt": "Җитен мае",
+      "tr": "Keten yağı",
+      "fy": "Lynoalje",
+      "eo": "Linoleo",
+      "ar": "زيت بذر الكتان",
+      "fi": "Pellavaöljy",
+      "hu": "Lenmagolaj",
+      "ja": "亜麻仁油",
+      "pl": "Olej lniany",
+      "ca": "Oli de llinosa",
+      "ko": "아마인유",
+      "hr": "Laneno ulje",
+      "de": "Leinöl",
+      "el": "Λινέλαιο",
+      "fa": "روغن بزرک",
+      "cs": "Lněný olej",
+      "sl": "Laneno olje",
+      "it": "Olio di lino",
+      "oc": "Òli de lin",
+      "th": "น้ำมันเมล็ดฝ้าย",
+      "ru": "Льняное масло",
+      "lt": "Sėmenų aliejus",
+      "es": "Aceite de linaza",
+      "bg": "Олио от ленено семе",
+      "be": "Ільняны алей",
+      "nl": "Lijnzaadolie",
+      "zh": "亞麻子油",
+      "kn": "ಅಗಸೆ ಎಣ್ಣೆ",
+      "vi": "Dầu lanh",
+      "fr": "Huile de lin",
+      "ro": "Ulei de in",
+      "uk": "Лляна олія",
+      "da": "Linolie",
+      "en": "Linseed oil"
+    },
+    "ciqual_food_name": {
+      "en": "Linseed oil"
+    },
+    "ciqual_food_code": {
+      "en": "17180"
+    },
+    "ecobalyse": {
+      "en": "61ede109-0eed-4aa3-93bb-aacf132b6bdd"
+    },
+    "children": [
+      "en:organic-linseed-oil"
+    ]
+  },
+  "en:smoked-duck-breast-fillet": {
+    "ciqual_food_code": {
+      "en": "8111"
+    },
+    "ciqual_food_name": {
+      "en": "Duck breast fillet, smoked",
+      "fr": "Canard, magret fumé"
+    },
+    "synonyms": {
+      "it": [
+        "filetto di petto d'anatra affumicato"
+      ],
+      "fr": [
+        "Magret de canard fumé"
+      ],
+      "en": [
+        "Smoked duck breast fillet"
+      ]
+    },
+    "parents": [
+      "en:duck-breast"
+    ],
+    "name": {
+      "en": "Smoked duck breast fillet",
+      "fr": "Magret de canard fumé",
+      "it": "Filetto di petto d'anatra affumicato"
+    }
+  },
+  "en:pineapple-juice": {
+    "parents": [
+      "en:fruit-juice",
+      "en:pineapple"
+    ],
+    "name": {
+      "zh": "菠萝汁",
+      "nl": "Ananassap",
+      "fi": "Ananasmehu",
+      "pt": "Suco de ananás",
+      "tr": "Ananas suyu",
+      "it": "Succo di ananas",
+      "es": "Zumo de piña",
+      "sv": "Ananasjuice",
+      "bg": "Сок от ананас",
+      "ru": "Ананасовый сок",
+      "nb": "Ananasjuice",
+      "ro": "Suc de ananas",
+      "da": "Ananasjuice",
+      "en": "Pineapple juice",
+      "de": "Ananassaft",
+      "fr": "Jus d'ananas",
+      "pl": "Sok ananasowy",
+      "ja": "パイナップルジュース",
+      "ca": "Suc de pinya"
+    },
+    "children": [
+      "en:concentrated-pineapple-juice",
+      "en:pineapple-juice-from-concentrate",
+      "en:pure-pineapple-juice"
+    ],
+    "ciqual_food_code": {
+      "en": "13716"
+    },
+    "ciqual_food_name": {
+      "en": "Pineapple, in pineapple juice, canned, drained"
+    },
+    "synonyms": {
+      "ro": [
+        "suc de ananas"
+      ],
+      "da": [
+        "Ananasjuice"
+      ],
+      "de": [
+        "Ananassaft"
+      ],
+      "en": [
+        "pineapple juice"
+      ],
+      "pl": [
+        "sok ananasowy",
+        "sok z ananasa"
+      ],
+      "ja": [
+        "パイナップルジュース",
+        "パイナップル果汁"
+      ],
+      "fr": [
+        "jus d'ananas",
+        "jus d'ananas victoria"
+      ],
+      "ca": [
+        "Suc de pinya"
+      ],
+      "nl": [
+        "Ananassap"
+      ],
+      "zh": [
+        "菠萝汁"
+      ],
+      "tr": [
+        "ananas suyu"
+      ],
+      "pt": [
+        "Suco de ananás",
+        "sumo de ananás"
+      ],
+      "fi": [
+        "ananasmehu",
+        "ananastäysmehu"
+      ],
+      "it": [
+        "succo di ananas"
+      ],
+      "nb": [
+        "ananasjuice"
+      ],
+      "ru": [
+        "Ананасовый сок"
+      ],
+      "bg": [
+        "сок от ананас"
+      ],
+      "sv": [
+        "ananasjuice"
+      ],
+      "es": [
+        "Zumo de piña",
+        "jugo de piña",
+        "zumo de ananas",
+        "jugo de ananas",
+        "zumo de piña Gold",
+        "jugo de piña Gold"
+      ]
+    }
+  },
+  "en:e1440": {
+    "wikidata": {
+      "en": "Q1640437"
+    },
+    "synonyms": {
+      "da": [
+        "E1440",
+        "Hydroxypropylstivelse"
+      ],
+      "ro": [
+        "E1440",
+        "Hidroxipropilamidon"
+      ],
+      "en": [
+        "E1440",
+        "Hydroxypropyl starch"
+      ],
+      "fr": [
+        "E1440",
+        "Amidon hydroxypropyle",
+        "Amidon hydroxypropylé"
+      ],
+      "sk": [
+        "E1440",
+        "Hydroxypropylškrob"
+      ],
+      "nl": [
+        "E1440",
+        "Hydroxypropylzetmeel"
+      ],
+      "sl": [
+        "E1440",
+        "Hidroksipropil škrob",
+        "hidroksipropil škrob je škrob"
+      ],
+      "it": [
+        "E1440",
+        "Amido idrossipropilato"
+      ],
+      "es": [
+        "E1440",
+        "Hidroxipropilalmidón"
+      ],
+      "lt": [
+        "E1440",
+        "Hidroksipropilkrakmolas"
+      ],
+      "bg": [
+        "E1440",
+        "Хидроксипропил нишесте"
+      ],
+      "lv": [
+        "E1440",
+        "Hidroksipropilciete",
+        "Hidroksipropilciete ir ciete"
+      ],
+      "el": [
+        "E1440",
+        "Υδροξυπροπυλαμυλο"
+      ],
+      "de": [
+        "E1440",
+        "Hydroxypropylstärke"
+      ],
+      "mt": [
+        "E1440",
+        "Lamtu idrossipropiliku"
+      ],
+      "cs": [
+        "E1440",
+        "Hydroxypropylether škrobu"
+      ],
+      "pl": [
+        "E1440",
+        "Hydroksypropyloskrobia"
+      ],
+      "xx": [
+        "E1440"
+      ],
+      "ca": [
+        "E1440",
+        "Midó hidroxipropilat"
+      ],
+      "pt": [
+        "E1440",
+        "Hidroxipropilamido"
+      ],
+      "hu": [
+        "E1440",
+        "Hidroxi-propil-keményítő"
+      ],
+      "fi": [
+        "E1440",
+        "Hydroksipropyylitärkkelys",
+        "Hydroksipropyylitärkkelystä"
+      ],
+      "et": [
+        "E1440",
+        "Hüdroksüpropüültärklis"
+      ],
+      "sv": [
+        "E1440",
+        "Hydroxipropylstärkelse"
+      ]
+    },
+    "e_number": {
+      "en": "1440"
+    },
+    "name": {
+      "nl": "E1440",
+      "sl": "E1440",
+      "it": "E1440",
+      "es": "E1440",
+      "lt": "E1440",
+      "bg": "E1440",
+      "da": "E1440",
+      "ro": "E1440",
+      "en": "E1440",
+      "fr": "E1440",
+      "sk": "E1440",
+      "pt": "E1440",
+      "fi": "E1440",
+      "hu": "E1440",
+      "et": "E1440",
+      "sv": "E1440",
+      "el": "E1440",
+      "de": "E1440",
+      "lv": "E1440",
+      "mt": "E1440",
+      "cs": "E1440",
+      "pl": "E1440",
+      "xx": "E1440",
+      "ca": "E1440"
+    },
+    "vegan": {
+      "en": "yes"
+    },
+    "vegetarian": {
+      "en": "yes"
+    },
+    "additives_classes": {
+      "en": "en:emulsifier, en:stabiliser, en:thickener"
+    }
+  },
+  "en:modified-tapioca-starch": {
+    "synonyms": {
+      "pt": [
+        "amido modificado de tapioca"
+      ],
+      "hu": [
+        "módosított tápiókakeményítő"
+      ],
+      "fi": [
+        "muunnettu tapiokatärkkelys"
+      ],
+      "nl": [
+        "gemodificeerd tapiocazetmeel"
+      ],
+      "nb": [
+        "modifisert tapiokastivelse"
+      ],
+      "es": [
+        "almidón modificado de tapioca",
+        "almidón modificado de mandioca"
+      ],
+      "sv": [
+        "modifierad tapiokastärkelse",
+        "modifierad tapioka stärkelse"
+      ],
+      "it": [
+        "amido modificato di tapioca"
+      ],
+      "hr": [
+        "modificirani škrob tapioke"
+      ],
+      "de": [
+        "modifizierte Tapiokastärke"
+      ],
+      "en": [
+        "modified tapioca starch",
+        "modified manioc starch"
+      ],
+      "da": [
+        "modificeret tapiokastivelse"
+      ],
+      "pl": [
+        "Skrobia modyfikowana z tapioki"
+      ],
+      "fr": [
+        "amidon modifié de tapioca",
+        "amidon transformé de tapioca",
+        "amidon de tapioca modifié",
+        "amidon modifié de manioc"
+      ]
+    },
+    "parents": [
+      "en:modified-starch",
+      "en:tapioca"
+    ],
+    "name": {
+      "nl": "Gemodificeerd tapiocazetmeel",
+      "hu": "Módosított tápiókakeményítő",
+      "fi": "Muunnettu tapiokatärkkelys",
+      "pt": "Amido modificado de tapioca",
+      "it": "Amido modificato di tapioca",
+      "sv": "Modifierad tapiokastärkelse",
+      "es": "Almidón modificado de tapioca",
+      "nb": "Modifisert tapiokastivelse",
+      "da": "Modificeret tapiokastivelse",
+      "en": "Modified tapioca starch",
+      "de": "Modifizierte Tapiokastärke",
+      "hr": "Modificirani škrob tapioke",
+      "pl": "Skrobia modyfikowana z tapioki",
+      "fr": "Amidon modifié de tapioca"
+    },
+    "children": [
+      "fi:muunnettu-maissi-ja-tapiokatärkkelys"
+    ]
+  },
+  "en:red-shiso": {
+    "synonyms": {
+      "it": [
+        "shiso rosso"
+      ],
+      "ja": [
+        "アカジソ",
+        "赤紫蘇",
+        "赤じそ",
+        "赤ジソ"
+      ],
+      "en": [
+        "Red shiso"
+      ]
+    },
+    "name": {
+      "en": "Red shiso",
+      "ja": "アカジソ",
+      "it": "Shiso rosso"
+    },
+    "parents": [
+      "en:shiso"
+    ]
+  },
+  "en:peach-pulp": {
+    "synonyms": {
+      "cs": [
+        "broskvová dřeň"
+      ],
+      "en": [
+        "peach pulp"
+      ]
+    },
+    "parents": [
+      "en:peach"
+    ],
+    "name": {
+      "cs": "Broskvová dřeň",
+      "en": "Peach pulp"
+    }
+  },
+  "en:dl-alpha-tocopheryl-acetate": {
+    "wikidata": {
+      "en": "Q27292783"
+    },
+    "synonyms": {
+      "sv": [
+        "DL-alfa-tokoferylacetat"
+      ],
+      "et": [
+        "DL-alfa-tokoferüülatsetaat"
+      ],
+      "hu": [
+        "DL-alfa-tokoferil-acetát"
+      ],
+      "fi": [
+        "DL-alfa-tokoferyyliasetaatti"
+      ],
+      "pt": [
+        "acetato de DL-alfa-tocoferilo"
+      ],
+      "nn": [
+        "dl-α-tokoferylacetat"
+      ],
+      "pl": [
+        "octan DL-alfa-tokoferylu"
+      ],
+      "mt": [
+        "Aċetat ta' DL-alfa-tokoferil"
+      ],
+      "cs": [
+        "DL-α-tokoferyl-acetát"
+      ],
+      "de": [
+        "DL-alpha-Tocopherylacetat"
+      ],
+      "hr": [
+        "DL-alfa-tokoferil acetat",
+        "DL-a-tokoferilacetat",
+        "DL-alpha-tokoferil acetat",
+        "dl-alfa-tokoferil-acetat",
+        "DL-a-tokoferil acetat"
+      ],
+      "lv": [
+        "DL-alfa-tokoferilacetāts"
+      ],
+      "el": [
+        "οξική DL-α-τοκοφερόλη"
+      ],
+      "lt": [
+        "DL-alfa-tokoferilacetatas"
+      ],
+      "es": [
+        "acetato de DL-alfa tocoferilo",
+        "acetato de DL-alfa tocoferol"
+      ],
+      "bg": [
+        "DL-алфатокоферил ацетат"
+      ],
+      "it": [
+        "acetato di DL-alfa-tocoferile"
+      ],
+      "sl": [
+        "DL-alfa-tokoferil acetat"
+      ],
+      "nl": [
+        "DL-alfa-tocoferylacetaat"
+      ],
+      "sk": [
+        "DL-alfa-tokoferylacetát"
+      ],
+      "fr": [
+        "acétate de DL-alpha-tocophérol",
+        "acétate de DL-alpha-tocophéryle"
+      ],
+      "sr": [
+        "DL-a-tokoferil-acetat"
+      ],
+      "en": [
+        "DL-alpha tocopheryl acetate",
+        "dl-alpha tocopherol acetate"
+      ],
+      "ro": [
+        "acetat de tocoferil DL-alfa"
+      ]
+    },
+    "name": {
+      "nn": "Dl-α-tokoferylacetat",
+      "fi": "DL-alfa-tokoferyyliasetaatti",
+      "hu": "DL-alfa-tokoferil-acetát",
+      "pt": "Acetato de DL-alfa-tocoferilo",
+      "et": "DL-alfa-tokoferüülatsetaat",
+      "sv": "DL-alfa-tokoferylacetat",
+      "mt": "Aċetat ta' DL-alfa-tokoferil",
+      "cs": "DL-α-tokoferyl-acetát",
+      "de": "DL-alpha-Tocopherylacetat",
+      "hr": "DL-alfa-tokoferil acetat",
+      "lv": "DL-alfa-tokoferilacetāts",
+      "el": "Οξική DL-α-τοκοφερόλη",
+      "pl": "Octan DL-alfa-tokoferylu",
+      "nl": "DL-alfa-tocoferylacetaat",
+      "it": "Acetato di DL-alfa-tocoferile",
+      "sl": "DL-alfa-tokoferil acetat",
+      "lt": "DL-alfa-tokoferilacetatas",
+      "es": "Acetato de DL-alfa tocoferilo",
+      "bg": "DL-алфатокоферил ацетат",
+      "ro": "Acetat de tocoferil DL-alfa",
+      "sr": "DL-a-tokoferil-acetat",
+      "en": "DL-alpha tocopheryl acetate",
+      "sk": "DL-alfa-tokoferylacetát",
+      "fr": "Acétate de DL-alpha-tocophérol"
+    },
+    "parents": [
+      "en:vitamin-e"
+    ]
+  },
+  "en:donkey": {
+    "children": [
+      "en:donkey-meat"
+    ],
+    "vegetarian": {
+      "en": "no"
+    },
+    "vegan": {
+      "en": "no"
+    },
+    "synonyms": {
+      "en": [
+        "donkey"
+      ],
+      "it": [
+        "asino"
+      ],
+      "fr": [
+        "âne"
+      ]
+    },
+    "name": {
+      "fr": "Âne",
+      "it": "Asino",
+      "en": "Donkey"
+    },
+    "parents": [
+      "en:animal"
+    ],
+    "nutriscore_red_meat": {
+      "en": "yes"
+    }
+  },
+  "en:laver": {
+    "parents": [
+      "en:seaweed"
+    ],
+    "name": {
+      "it": "Porphyra (alga nori)",
+      "en": "Laver",
+      "de": "Laver"
+    },
+    "synonyms": {
+      "it": [
+        "porphyra (alga nori)"
+      ],
+      "en": [
+        "laver"
+      ],
+      "de": [
+        "laver"
+      ]
+    }
+  },
+  "en:corn-dextrose": {
+    "synonyms": {
+      "fr": [
+        "dextrose de maïs"
+      ],
+      "pl": [
+        "dekstroza kukurydziana"
+      ],
+      "hr": [
+        "kukuruzna dekstroza"
+      ],
+      "de": [
+        "Maisdextrose"
+      ],
+      "en": [
+        "corn dextrose",
+        "dextrose from corn"
+      ],
+      "ro": [
+        "dextroza din porumb"
+      ],
+      "da": [
+        "majsdextrose"
+      ],
+      "es": [
+        "dextrosa de maíz"
+      ],
+      "sv": [
+        "majssocker",
+        "druvsocker från majs"
+      ],
+      "lt": [
+        "kukuruzu dekstrose"
+      ],
+      "bg": [
+        "царевична декстроза"
+      ],
+      "bs": [
+        "kukuruzna dekstroza"
+      ],
+      "it": [
+        "destrosio di mais"
+      ],
+      "et": [
+        "maisidekstroos"
+      ],
+      "sl": [
+        "dekstroza iz koruze"
+      ],
+      "hu": [
+        "dextróz kukoricából"
+      ],
+      "fi": [
+        "maissidekstroosi"
+      ],
+      "tr": [
+        "misir dekstrozu"
+      ],
+      "pt": [
+        "dextrose de milho"
+      ],
+      "nn": [
+        "maisdekstrose"
+      ],
+      "nl": [
+        "maïsdextrose"
+      ]
+    },
+    "parents": [
+      "en:dextrose"
+    ],
+    "children": [
+      "en:wheat-or-corn-dextrose"
+    ],
+    "name": {
+      "pl": "Dekstroza kukurydziana",
+      "fr": "Dextrose de maïs",
+      "de": "Maisdextrose",
+      "hr": "Kukuruzna dekstroza",
+      "en": "Corn dextrose",
+      "da": "Majsdextrose",
+      "ro": "Dextroza din porumb",
+      "lt": "Kukuruzu dekstrose",
+      "sv": "Majssocker",
+      "bg": "Царевична декстроза",
+      "es": "Dextrosa de maíz",
+      "bs": "Kukuruzna dekstroza",
+      "it": "Destrosio di mais",
+      "et": "Maisidekstroos",
+      "sl": "Dekstroza iz koruze",
+      "fi": "Maissidekstroosi",
+      "hu": "Dextróz kukoricából",
+      "pt": "Dextrose de milho",
+      "tr": "Misir dekstrozu",
+      "nn": "Maisdekstrose",
+      "nl": "Maïsdextrose"
+    }
+  },
+  "en:milk-and-hazelnut-coating": {
+    "name": {
+      "it": "Copertura al latte e nocciole",
+      "en": "Milk and hazelnut coating",
+      "hr": "Preljev s mlijekom i lješnjacima"
+    },
+    "parents": [
+      "en:hazelnut-coating",
+      "en:milk"
+    ],
+    "synonyms": {
+      "hr": [
+        "preljev s mlijekom i lješnjacima"
+      ],
+      "en": [
+        "milk and hazelnut coating"
+      ],
+      "it": [
+        "copertura al latte e nocciole"
+      ]
+    }
+  },
+  "en:whole-grain-millet-flour": {
+    "synonyms": {
+      "en": [
+        "whole grain millet flour"
+      ],
+      "de": [
+        "Hirsevollkornmehl",
+        "Hirse-Vollkornmehl",
+        "Hirsevollmehl"
+      ],
+      "hr": [
+        "brašno od cijelog zrna prosa"
+      ],
+      "it": [
+        "farina di miglio integrale"
+      ]
+    },
+    "parents": [
+      "en:millet-flour",
+      "en:wholemeal-flour"
+    ],
+    "name": {
+      "it": "Farina di miglio integrale",
+      "en": "Whole grain millet flour",
+      "de": "Hirsevollkornmehl",
+      "hr": "Brašno od cijelog zrna prosa"
+    }
+  },
+  "en:e140ii": {
+    "parents": [
+      "en:e140"
+    ],
+    "e_number": {
+      "en": "140"
+    },
+    "name": {
+      "nl": "E140ii",
+      "sl": "E140ii",
+      "it": "E140ii",
+      "bg": "E140ii",
+      "lt": "E140ii",
+      "es": "E140ii",
+      "da": "E140ii",
+      "ro": "E140ii",
+      "en": "E140ii",
+      "fr": "E140ii",
+      "sk": "E140ii",
+      "pt": "E140ii",
+      "fi": "E140ii",
+      "hu": "E140ii",
+      "et": "E140ii",
+      "sv": "E140ii",
+      "el": "E140ii",
+      "lv": "E140ii",
+      "de": "E140ii",
+      "mt": "E140ii",
+      "cs": "E140ii",
+      "pl": "E140ii",
+      "xx": "E140ii"
+    },
+    "efsa_evaluation_url": {
+      "en": "http://dx.doi.org/10.2903/j.efsa.2015.4089"
+    },
+    "efsa_evaluation": {
+      "en": "Scientific Opinion on the re-evaluation of chlorophylls -E 140i- as food additives"
+    },
+    "wikidata": {
+      "en": "Q82182"
+    },
+    "synonyms": {
+      "fr": [
+        "E140ii",
+        "Chlorophyllines",
+        "sels basiques des chlorophyllines",
+        "Vert naturel CI no5",
+        "Vert naturel CI n°5",
+        "chlorophylline sodique",
+        "chlorophylline potassique",
+        "Vert naturel C. I. no 5"
+      ],
+      "sk": [
+        "E140ii",
+        "Chlorofylíny",
+        "CI prírodná zelená 5",
+        "sodný chlorofylín"
+      ],
+      "da": [
+        "E140ii",
+        "Chlorophylliner",
+        "CI Natural Green 5",
+        "natriumchlorophyllin"
+      ],
+      "ro": [
+        "E140ii",
+        "Clorofiline",
+        "Verde natural CI 5",
+        "Clorofilină sodică"
+      ],
+      "en": [
+        "E140ii",
+        "Chlorophyllins",
+        "CI Natural Green 5",
+        "Sodium Chlorophyllin"
+      ],
+      "sl": [
+        "E140ii",
+        "Klorofilini",
+        "CI Natural Green 5",
+        "natrijev klorofilin"
+      ],
+      "it": [
+        "E140ii",
+        "Clorofilline",
+        "CI verde naturale 5",
+        "clorofillina di sodio"
+      ],
+      "lt": [
+        "E140ii",
+        "Chlorofilinai",
+        "Natūralus žaliasis CI Nr. 5",
+        "natrio chlorofilinas"
+      ],
+      "bg": [
+        "E140ii",
+        "Хлорофилини",
+        "CI натурално зелено 5",
+        "натриев хлорофилин"
+      ],
+      "es": [
+        "E140ii",
+        "Clorofilinas",
+        "CI Natural Green 5",
+        "clorofilina sódica"
+      ],
+      "nl": [
+        "E140ii",
+        "Chlorofylinen",
+        "CI Natural Green 5",
+        "natriumchlorofyline"
+      ],
+      "pl": [
+        "E140ii",
+        "Chlorofiliny",
+        "CI zieleń naturalna 5",
+        "chlorofilina sodowa"
+      ],
+      "xx": [
+        "E140ii"
+      ],
+      "el": [
+        "E140ii",
+        "Χλωροφυλλινες",
+        "Πράσινο CI natural 5",
+        "χλωροφυλλινικό νάτριο"
+      ],
+      "lv": [
+        "E140ii",
+        "Hlorofilīni",
+        "CI dabīgais zaļais 5",
+        "nātrija hlorofilīns"
+      ],
+      "de": [
+        "E140ii",
+        "Chlorophylline"
+      ],
+      "mt": [
+        "E140ii",
+        "Klorofillini",
+        "CI Natural Green 5",
+        "Klorofillin tas-Sodju"
+      ],
+      "cs": [
+        "E140ii",
+        "Chlorofyliny",
+        "CI přírodní zeleň 5",
+        "chlorofylin sodíku"
+      ],
+      "et": [
+        "E140ii",
+        "Klorofülliinid",
+        "CI looduslik roheline 5",
+        "naatriumklorofülliin"
+      ],
+      "sv": [
+        "E140ii",
+        "Klorofylliner",
+        "CI Natural Green 5",
+        "natriumklorofyllin"
+      ],
+      "pt": [
+        "E140ii",
+        "Clorofilinas",
+        "Verde natural CI 5",
+        "clorofilina de sódio"
+      ],
+      "fi": [
+        "E140ii",
+        "Klorofylliinit",
+        "Klorofylliinejä",
+        "CI Natural Green 5",
+        "Natriumklorofylliini",
+        "Natriumklorofylliiniä"
+      ],
+      "hu": [
+        "E140ii",
+        "Klorofillinek",
+        "CI Natural Green 5",
+        "Nátrium-klorofillin"
+      ]
+    },
+    "colour_index": {
+      "en": "CI 5"
+    },
+    "additives_classes": {
+      "en": "en:colour"
+    },
+    "efsa_evaluation_date": {
+      "en": "2015-05-07"
+    }
+  },
+  "en:sequestrant": {
+    "synonyms": {
+      "ro": [
+        "Agenți de sechestrare"
+      ],
+      "da": [
+        "Kompleksdannere"
+      ],
+      "en": [
+        "Sequestrant"
+      ],
+      "sk": [
+        "Komplexotvorné látky",
+        "sekvestranty"
+      ],
+      "fr": [
+        "Séquestrant"
+      ],
+      "zh": [
+        "螯合剂"
+      ],
+      "vi": [
+        "Phụ gia cô lập"
+      ],
+      "nl": [
+        "Complexvormer",
+        "Complexvormers"
+      ],
+      "ga": [
+        "Leithliseoir"
+      ],
+      "it": [
+        "Sequestrante",
+        "sequestranti",
+        "agente sequestrante",
+        "agenti sequestranti"
+      ],
+      "sl": [
+        "Sredstvo za vzhajanje"
+      ],
+      "lt": [
+        "Atskyriklis"
+      ],
+      "bg": [
+        "Комплексообразуватели"
+      ],
+      "es": [
+        "Secuestrante",
+        "secuestrantes",
+        "agente quelante",
+        "agentes quelantes",
+        "agente secuestrante",
+        "agentes secuestrantes"
+      ],
+      "mt": [
+        "Aġenti sekwestranti"
+      ],
+      "cs": [
+        "Sekvestrant"
+      ],
+      "lv": [
+        "Sekvestrants"
+      ],
+      "el": [
+        "Συμπλοκοποιητές"
+      ],
+      "de": [
+        "Komplexbildner"
+      ],
+      "pl": [
+        "sekwestrant",
+        "Sekwestranty"
+      ],
+      "ja": [
+        "金属イオン封鎖剤"
+      ],
+      "ca": [
+        "Segrestant",
+        "quelant",
+        "quelants",
+        "agent quelant",
+        "agents quelants"
+      ],
+      "fi": [
+        "Kompleksinmuodostaja",
+        "Kompleksinmuodostajaa",
+        "Kompleksinmuodostajat",
+        "Kompleksinmuodostajia"
+      ],
+      "hu": [
+        "Kelátképző anyag"
+      ],
+      "pt": [
+        "Sequestrante"
+      ],
+      "eo": [
+        "Sekvestranto"
+      ],
+      "et": [
+        "Sekvestrant"
+      ],
+      "sv": [
+        "Komplexbildare"
+      ]
+    },
+    "wikidata": {
+      "en": "Q905648"
+    },
+    "name": {
+      "lv": "Sekvestrants",
+      "el": "Συμπλοκοποιητές",
+      "de": "Komplexbildner",
+      "mt": "Aġenti sekwestranti",
+      "cs": "Sekvestrant",
+      "ca": "Segrestant",
+      "pl": "Sekwestrant",
+      "ja": "金属イオン封鎖剤",
+      "eo": "Sekvestranto",
+      "pt": "Sequestrante",
+      "fi": "Kompleksinmuodostaja",
+      "hu": "Kelátképző anyag",
+      "sv": "Komplexbildare",
+      "et": "Sekvestrant",
+      "en": "Sequestrant",
+      "ro": "Agenți de sechestrare",
+      "da": "Kompleksdannere",
+      "fr": "Séquestrant",
+      "sk": "Komplexotvorné látky",
+      "ga": "Leithliseoir",
+      "nl": "Complexvormer",
+      "zh": "螯合剂",
+      "vi": "Phụ gia cô lập",
+      "es": "Secuestrante",
+      "lt": "Atskyriklis",
+      "bg": "Комплексообразуватели",
+      "sl": "Sredstvo za vzhajanje",
+      "it": "Sequestrante"
+    },
+    "description": {
+      "da": "Kompleksdannere: stoffer, der danner kemiske kompleksforbindelser med metalioner.",
+      "el": "Συμπλοκοποιητές, οι ουσίες που σχηματίζουν χημικά σύμπλοκα με μεταλλικά ιόντα·",
+      "lv": "Sekvestranti ir vielas, kas veido ķīmiskus kompleksus ar metālu joniem.",
+      "de": "Komplexbildner sind Stoffe, die mit Metallionen chemische Komplexe bilden.",
+      "en": "Sequestrants are substances which form chemical complexes with metallic ions.",
+      "cs": "Sekvestranty se rozumějí látky, které vytvářejí chemické komplexy s ionty kovů.",
+      "fr": "Les séquestrants sont des substances qui forment des complexes chimiques avec les ions métalliques.",
+      "pl": "Sekwestranty to substancje tworzące związki chemiczne z jonami metali.",
+      "sk": "Komplexotvorné látky -sekvestranty- sú látky, ktoré tvoria chemické komplexy s iónmi kovov.",
+      "nl": "Complexvormers: stoffen die chemische complexen vormen met metaalionen.",
+      "pt": "Sequestrantes: substâncias que formam complexos químicos com iões metálicos.",
+      "hu": "Kelátképző anyagok: olyan anyagok, amelyek fémionokkal kémiai komplexeket képeznek.",
+      "fi": "Kompleksinmuodostajat ovat aineita, jotka muodostavat kemiallisia yhdisteitä metalli-ionien kanssa.",
+      "et": "Sekvestrandid – ained, seovad toidus metalliioonid keemilisse kompleksi.",
+      "sl": "Veziva so snovi, ki tvorijo kemične komplekse s kovinskimi ioni.",
+      "it": "Gli agenti sequestranti sono sostanze che formano complessi chimici con ioni metallici.",
+      "sv": "Komplexbildare: ämnen som bildar kemiska komplex med metalljoner.",
+      "es": "Secuestrantes: sustancias que forman complejos químicos con iones metálicos.",
+      "lt": "Izoliuojančios medžiagos – medžiagos, sudarančios cheminius junginius su metalo jonais."
+    }
+  },
+  "en:e650": {
+    "vegan": {
+      "en": "yes"
+    },
+    "vegetarian": {
+      "en": "yes"
+    },
+    "wikidata": {
+      "en": "Q204639"
+    },
+    "synonyms": {
+      "no": [
+        "E650",
+        "Sinkacetat",
+        "sinksalt"
+      ],
+      "da": [
+        "E650",
+        "Zinkacetat"
+      ],
+      "ms": [
+        "E650",
+        "Zink asetat",
+        "garam zink"
+      ],
+      "en": [
+        "E650",
+        "Zinc acetate",
+        "zinc salt",
+        "zinc acetate"
+      ],
+      "fr": [
+        "E650",
+        "Acétate de zinc",
+        "sel de zinc",
+        "acétate de zinc"
+      ],
+      "sk": [
+        "E650",
+        "Octan zinočnatý",
+        "zinková soľ",
+        "octan zinočnatý"
+      ],
+      "nl": [
+        "E650",
+        "Zinkacetaat",
+        "zinkzout",
+        "zinkacetaat"
+      ],
+      "it": [
+        "E650",
+        "Acetato di zinco",
+        "sale di zinco",
+        "acetato di zinco"
+      ],
+      "id": [
+        "E650",
+        "Seng asetat",
+        "garam seng"
+      ],
+      "ru": [
+        "E650",
+        "Ацетат цинка",
+        "цинковая соль"
+      ],
+      "es": [
+        "E650",
+        "Acetato de cinc",
+        "acetato de cinc"
+      ],
+      "bg": [
+        "E650",
+        "Цинков ацетат",
+        "цинкова сол",
+        "Цинков ацетат"
+      ],
+      "hr": [
+        "E650",
+        "Cinkov acetat",
+        "cinkova sol"
+      ],
+      "lv": [
+        "E650",
+        "Cinka acetāts",
+        "cinka sāls",
+        "cinka acetāts"
+      ],
+      "de": [
+        "E650",
+        "Zinkacetat",
+        "Zinkacetat"
+      ],
+      "sq": [
+        "E650",
+        "Acetat zinku",
+        "kripë zinku"
+      ],
+      "mt": [
+        "E650",
+        "Aċetat taż-żingu",
+        "melħ taż-żingu",
+        "aċetat taż-żingu"
+      ],
+      "ja": [
+        "E650",
+        "酢酸亜鉛",
+        "亜鉛塩"
+      ],
+      "mk": [
+        "E650",
+        "Цинков ацетат",
+        "цинкова сол"
+      ],
+      "sh": [
+        "E650",
+        "Cink acetat",
+        "cinkova sol"
+      ],
+      "ca": [
+        "E650",
+        "Acetat de zinc"
+      ],
+      "he": [
+        "E650",
+        "אבץ אצטט",
+        "מלח אבץ"
+      ],
+      "pt": [
+        "E650",
+        "Acetato de zinco",
+        "Sal de zinco do ácido acético",
+        "acetato de zinco"
+      ],
+      "tr": [
+        "E650",
+        "Çinko asetat",
+        "çinko tuzu"
+      ],
+      "et": [
+        "E650",
+        "Tsinkatsetaat",
+        "tsinkatsetaat"
+      ],
+      "is": [
+        "E650",
+        "Sinkasetat",
+        "sink salt"
+      ],
+      "uk": [
+        "E650",
+        "Цинк ацетат",
+        "цинкова сіль"
+      ],
+      "ro": [
+        "E650",
+        "Acetat de zinc",
+        "sare de zinc",
+        "acetat de zinc"
+      ],
+      "sr": [
+        "E650",
+        "Цинк ацетат",
+        "цинкова со"
+      ],
+      "az": [
+        "E650",
+        "Sink asetat",
+        "sink duzu"
+      ],
+      "zh": [
+        "E650",
+        "醋酸锌，锌盐"
+      ],
+      "vi": [
+        "E650",
+        "Kẽm axetat",
+        "muối kẽm"
+      ],
+      "sl": [
+        "E650",
+        "Cinkov acetat",
+        "cinkova sol",
+        "cinkov acetat"
+      ],
+      "hi": [
+        "E650",
+        "जस्ता एसीटेट",
+        "जस्ता नमक"
+      ],
+      "th": [
+        "E650",
+        "ซิงค์อะซิเตต",
+        "เกลือสังกะสี"
+      ],
+      "lt": [
+        "E650",
+        "Cinko acetatas",
+        "cinko druska",
+        "cinko acetatas"
+      ],
+      "ko": [
+        "E650",
+        "아세트산 아연",
+        "아연 염"
+      ],
+      "el": [
+        "E650",
+        "Οξικός ψευδάργυρος",
+        "άλας ψευδαργύρου",
+        "οξικός ψευδάργυρος"
+      ],
+      "cs": [
+        "E650",
+        "Octan zinečnatý",
+        "Zinečnatá sůl octové kyseliny",
+        "octan zinečnatý"
+      ],
+      "pl": [
+        "E650",
+        "Octan cynku",
+        "Sól cynkowa kwasu octowego",
+        "octan cynku"
+      ],
+      "xx": [
+        "E650"
+      ],
+      "eo": [
+        "E650",
+        "Zinka acetato",
+        "zinka salo"
+      ],
+      "ar": [
+        "E650",
+        "أسيتات الزنك، ملح الزنك"
+      ],
+      "hu": [
+        "E650",
+        "Cink-acetát",
+        "cinksó",
+        "cink-acetát"
+      ],
+      "fi": [
+        "E650",
+        "Sinkkiasetaatti",
+        "Etikkahapon sinkkisuola",
+        "Sinkkiasetaattia",
+        "Etikkahapon sinkkisuolaa",
+        "sinkkiasetaatti"
+      ],
+      "af": [
+        "E650",
+        "Sinkasetaat",
+        "sink sout"
+      ],
+      "sv": [
+        "E650",
+        "Zinkacetat",
+        "zinkacetat"
+      ]
+    },
+    "e_number": {
+      "en": "650"
+    },
+    "name": {
+      "af": "E650",
+      "sv": "E650",
+      "eo": "E650",
+      "hu": "E650",
+      "fi": "E650",
+      "ar": "E650",
+      "pl": "E650",
+      "xx": "E650",
+      "ko": "E650",
+      "el": "E650",
+      "cs": "E650",
+      "sl": "E650",
+      "hi": "E650",
+      "th": "E650",
+      "lt": "E650",
+      "vi": "E650",
+      "zh": "E650",
+      "uk": "E650",
+      "ro": "E650",
+      "sr": "E650",
+      "az": "E650",
+      "et": "E650",
+      "is": "E650",
+      "tr": "E650",
+      "pt": "E650",
+      "mk": "E650",
+      "ja": "E650",
+      "sh": "E650",
+      "he": "E650",
+      "ca": "E650",
+      "sq": "E650",
+      "lv": "E650",
+      "de": "E650",
+      "hr": "E650",
+      "mt": "E650",
+      "it": "E650",
+      "id": "E650",
+      "bg": "E650",
+      "es": "E650",
+      "ru": "E650",
+      "nl": "E650",
+      "fr": "E650",
+      "sk": "E650",
+      "ms": "E650",
+      "da": "E650",
+      "no": "E650",
+      "en": "E650"
+    }
+  },
+  "en:cow-s-cheese-with-chives": {
+    "synonyms": {
+      "en": [
+        "cow's cheese with chives"
+      ],
+      "hr": [
+        "kravlji sir s vlascom"
+      ]
+    },
+    "name": {
+      "en": "Cow's cheese with chives",
+      "hr": "Kravlji sir s vlascom"
+    },
+    "parents": [
+      "en:cow-cheese"
+    ]
+  },
+  "en:ground-hazelnuts": {
+    "synonyms": {
+      "it": [
+        "nocciole macinate"
+      ],
+      "en": [
+        "ground hazelnuts"
+      ]
+    },
+    "name": {
+      "en": "Ground hazelnuts",
+      "it": "Nocciole macinate"
+    },
+    "children": [
+      "en:ground-piedmont-hazelnut",
+      "en:nibbed-and-ground-hazelnuts"
+    ],
+    "parents": [
+      "en:hazelnut"
+    ]
+  },
+  "en:50-63-unsalted-vegetable-fat": {
+    "parents": [
+      "en:vegetable-margarine"
+    ],
+    "name": {
+      "en": "50-63% unsalted vegetable fat",
+      "fr": "Matière grasse végétale allégée à 50-63%"
+    },
+    "ciqual_food_code": {
+      "en": "16741"
+    },
+    "ciqual_food_name": {
+      "fr": "Matière grasse végétale -type margarine- à 50-63% MG, allégée, doux",
+      "en": "Vegetable fat -margarine type-, spreadable, 50-63% fat, light, unsalted"
+    },
+    "synonyms": {
+      "en": [
+        "50-63% unsalted vegetable fat"
+      ],
+      "fr": [
+        "Matière grasse végétale allégée à 50-63%"
+      ]
+    }
+  },
+  "en:flour-blend": {
+    "synonyms": {
+      "fr": [
+        "mélange de farine"
+      ],
+      "it": [
+        "Miscela di farina"
+      ],
+      "sv": [
+        "mjölblanding"
+      ],
+      "bg": [
+        "смес от брашна"
+      ],
+      "es": [
+        "mezcla de harinas"
+      ],
+      "en": [
+        "flour blend",
+        "flour mix"
+      ],
+      "hr": [
+        "mješavina brašna"
+      ],
+      "de": [
+        "mehlmischung"
+      ],
+      "fi": [
+        "jauhoseos"
+      ]
+    },
+    "parents": [
+      "en:flour"
+    ],
+    "children": [
+      "en:whole-grain-flour-blend"
+    ],
+    "name": {
+      "hr": "Mješavina brašna",
+      "de": "Mehlmischung",
+      "en": "Flour blend",
+      "fi": "Jauhoseos",
+      "sv": "Mjölblanding",
+      "es": "Mezcla de harinas",
+      "bg": "Смес от брашна",
+      "fr": "Mélange de farine",
+      "it": "Miscela di farina"
+    }
+  },
+  "en:pyridoxine-hydrochloride": {
+    "wikidata": {
+      "en": "Q26841284"
+    },
+    "synonyms": {
+      "nl": [
+        "pyridoxinehydrochloride",
+        "pyridoxine hydrochloride"
+      ],
+      "it": [
+        "cloridrato di piridossina"
+      ],
+      "sl": [
+        "piridoksin hidroklorid"
+      ],
+      "lt": [
+        "piridoksino hidrochloridas"
+      ],
+      "bg": [
+        "пиридоксин хидрохлорид"
+      ],
+      "es": [
+        "clorhidrato de piridoxina"
+      ],
+      "ru": [
+        "пиридоксин гидрохлорид"
+      ],
+      "ro": [
+        "clorhidrat de piridoxină"
+      ],
+      "en": [
+        "pyridoxine hydrochloride"
+      ],
+      "sr": [
+        "piridoksin-hidrohlorid"
+      ],
+      "sk": [
+        "pyridoxínhydrochlorid"
+      ],
+      "fr": [
+        "chlorhydrate de pyridoxine"
+      ],
+      "fi": [
+        "pyridoksiinihydrokloridi"
+      ],
+      "hu": [
+        "piridoxin-hidroklorid"
+      ],
+      "pt": [
+        "cloridrato de piridoxina"
+      ],
+      "et": [
+        "püridoksiinvesinikkloriid"
+      ],
+      "sv": [
+        "pyridoxinhydroklorid"
+      ],
+      "cs": [
+        "pyridoxin-hydrochlorid"
+      ],
+      "mt": [
+        "idroklorur tal-piridossina"
+      ],
+      "hr": [
+        "piridoksin-hidroklorid",
+        "piridoksinhidrohlorid"
+      ],
+      "el": [
+        "υδροχλωρική πυριδοξίνη"
+      ],
+      "de": [
+        "Pyridoxinhydrochlorid"
+      ],
+      "lv": [
+        "piridoksīna hidrohlorīds"
+      ],
+      "pl": [
+        "chlorowodorek pirydoksyny"
+      ]
+    },
+    "parents": [
+      "en:vitamin-b6"
+    ],
+    "name": {
+      "pl": "Chlorowodorek pirydoksyny",
+      "mt": "Idroklorur tal-piridossina",
+      "cs": "Pyridoxin-hydrochlorid",
+      "el": "Υδροχλωρική πυριδοξίνη",
+      "lv": "Piridoksīna hidrohlorīds",
+      "de": "Pyridoxinhydrochlorid",
+      "hr": "Piridoksin-hidroklorid",
+      "sv": "Pyridoxinhydroklorid",
+      "et": "Püridoksiinvesinikkloriid",
+      "hu": "Piridoxin-hidroklorid",
+      "fi": "Pyridoksiinihydrokloridi",
+      "pt": "Cloridrato de piridoxina",
+      "sk": "Pyridoxínhydrochlorid",
+      "fr": "Chlorhydrate de pyridoxine",
+      "en": "Pyridoxine hydrochloride",
+      "sr": "Piridoksin-hidrohlorid",
+      "ro": "Clorhidrat de piridoxină",
+      "es": "Clorhidrato de piridoxina",
+      "lt": "Piridoksino hidrochloridas",
+      "bg": "Пиридоксин хидрохлорид",
+      "ru": "Пиридоксин гидрохлорид",
+      "it": "Cloridrato di piridossina",
+      "sl": "Piridoksin hidroklorid",
+      "nl": "Pyridoxinehydrochloride"
+    }
+  },
+  "en:camargue-whole-long-grain-black-rice": {
+    "parents": [
+      "en:camargue-rice"
+    ],
+    "name": {
+      "fr": "Riz de Camargue noir long complet",
+      "it": "Riso nero integrale a grani lunghi Camargue",
+      "en": "Camargue whole long grain black rice",
+      "hr": "Camargue crna riža cijelog dugog zrna",
+      "de": "Schwarzer Langkorn Naturreis aus der Camargue"
+    },
+    "synonyms": {
+      "fr": [
+        "Riz de Camargue noir long complet"
+      ],
+      "it": [
+        "riso nero integrale a grani lunghi Camargue"
+      ],
+      "en": [
+        "Camargue whole long grain black rice"
+      ],
+      "de": [
+        "schwarzer Langkorn Naturreis aus der Camargue"
+      ],
+      "hr": [
+        "camargue crna riža cijelog dugog zrna"
+      ]
+    }
+  },
+  "en:pizza-sauce": {
+    "synonyms": {
+      "en": [
+        "pizza sauce"
+      ],
+      "ja": [
+        "ピザソース"
+      ],
+      "it": [
+        "salsa per pizza"
+      ]
+    },
+    "parents": [
+      "en:tomato-sauce"
+    ],
+    "name": {
+      "en": "Pizza sauce",
+      "ja": "ピザソース",
+      "it": "Salsa per pizza"
+    }
+  },
+  "en:white-quinoa": {
+    "name": {
+      "hu": "Fehér kinoa",
+      "fi": "Valkoinen kvinoa",
+      "pt": "Quinoa branco",
+      "bg": "Бяла киноа",
+      "es": "Quinoa blanca",
+      "it": "Quinoa bianca",
+      "de": "Weiße Quinoa",
+      "hr": "Bijela kvinoja",
+      "en": "White quinoa",
+      "fr": "Quinoa blanc",
+      "pl": "Komosa ryżowa biała"
+    },
+    "children": [
+      "en:oganic-white-quinoa",
+      "en:red-and-white-quinoa"
+    ],
+    "parents": [
+      "en:quinoa"
+    ],
+    "synonyms": {
+      "pt": [
+        "quinoa branco"
+      ],
+      "fi": [
+        "valkoinen kvinoa"
+      ],
+      "hu": [
+        "fehér kinoa"
+      ],
+      "bg": [
+        "бяла киноа"
+      ],
+      "es": [
+        "quinoa blanca"
+      ],
+      "it": [
+        "quinoa bianca"
+      ],
+      "hr": [
+        "bijela kvinoja",
+        "quinoa bijela"
+      ],
+      "de": [
+        "weiße Quinoa",
+        "weißer Quinoa",
+        "Quinoa weiß"
+      ],
+      "en": [
+        "white quinoa"
+      ],
+      "fr": [
+        "quinoa blanc",
+        "quinoa blond"
+      ],
+      "pl": [
+        "komosa ryżowa biała"
+      ]
+    }
+  },
+  "en:rowanberry": {
+    "eurocode_2_group_3": {
+      "en": "9.30.54"
+    },
+    "parents": [
+      "en:berries"
+    ],
+    "name": {
+      "hu": "Madárberkenye",
+      "fi": "Pihlajanmarjaa",
+      "pt": "Sorvas",
+      "la": "Sorbus aucaparia",
+      "sv": "Rönnbär",
+      "et": "Hariliku pihlaka",
+      "cs": "Jeřabin",
+      "mt": "Ittut tas-sigra rowan",
+      "lv": "Pīlādžogām",
+      "el": "Καρπούς σορβιάς",
+      "hr": "Jarebiku",
+      "de": "Vogelbeeren",
+      "pl": "Owoców jarzębiny",
+      "nl": "Lĳsterbessen",
+      "es": "Serbas",
+      "lt": "Šermukšnių",
+      "bg": "Калина",
+      "it": "Sorbe",
+      "sl": "Jerebike",
+      "en": "Rowanberry",
+      "ro": "Scorușelor",
+      "da": "Rønnebær",
+      "sk": "Jarabinu",
+      "fr": "Sorbe"
+    },
+    "synonyms": {
+      "et": [
+        "hariliku pihlaka"
+      ],
+      "sv": [
+        "rönnbär"
+      ],
+      "la": [
+        "sorbus aucaparia"
+      ],
+      "pt": [
+        "sorvas"
+      ],
+      "fi": [
+        "pihlajanmarjaa"
+      ],
+      "hu": [
+        "madárberkenye"
+      ],
+      "pl": [
+        "owoców jarzębiny"
+      ],
+      "de": [
+        "Vogelbeeren"
+      ],
+      "el": [
+        "καρπούς σορβιάς"
+      ],
+      "hr": [
+        "jarebiku"
+      ],
+      "lv": [
+        "pīlādžogām"
+      ],
+      "mt": [
+        "ittut tas-sigra rowan"
+      ],
+      "cs": [
+        "jeřabin"
+      ],
+      "sl": [
+        "jerebike"
+      ],
+      "it": [
+        "sorbe"
+      ],
+      "lt": [
+        "šermukšnių"
+      ],
+      "es": [
+        "serbas"
+      ],
+      "bg": [
+        "калина"
+      ],
+      "nl": [
+        "lĳsterbessen"
+      ],
+      "fr": [
+        "sorbe",
+        "sorbes"
+      ],
+      "sk": [
+        "jarabinu"
+      ],
+      "da": [
+        "rønnebær"
+      ],
+      "ro": [
+        "scorușelor"
+      ],
+      "en": [
+        "rowanberry",
+        "rowanberries"
+      ]
+    }
+  },
+  "en:calcium-citrate-malate": {
+    "name": {
+      "sk": "Citran-malát vápenatý",
+      "pl": "Cytrynian i jabłczan wapnia",
+      "fr": "Citrate-malate de calcium",
+      "mt": "Malat ċitrat tal-kalċju",
+      "cs": "Vápenatá sůl kyseliny citronové a jablečné",
+      "en": "Calcium citrate malate",
+      "lv": "Kalcija citrāta malāts",
+      "el": "Κιτρικό μηλικό ασβέστιο",
+      "de": "Calciumcitratmalat",
+      "ro": "Malat citrat de calciu",
+      "es": "Citrato malato de calcio",
+      "sv": "Kalciumcitratmalat",
+      "bg": "Калциев цитрат малат",
+      "lt": "Kalcio citrato malatas",
+      "it": "Citrato-malato di calcio",
+      "et": "Kaltsiumtsitraatmalaat",
+      "sl": "Kalcijev citrat malat",
+      "hu": "Kalcium-citrát-malát",
+      "fi": "Kalsiumsitraattimalaatti",
+      "pt": "Citrato-malato de cálcio",
+      "nl": "Calciumcitraatmalaat"
+    },
+    "parents": [
+      "en:calcium"
+    ],
+    "synonyms": {
+      "nl": [
+        "calciumcitraatmalaat"
+      ],
+      "pt": [
+        "Citrato-malato de cálcio"
+      ],
+      "fi": [
+        "kalsiumsitraattimalaatti"
+      ],
+      "hu": [
+        "kalcium-citrát-malát"
+      ],
+      "sl": [
+        "kalcijev citrat malat"
+      ],
+      "et": [
+        "kaltsiumtsitraatmalaat"
+      ],
+      "it": [
+        "citrato-malato di calcio"
+      ],
+      "sv": [
+        "kalciumcitratmalat"
+      ],
+      "es": [
+        "citrato malato de calcio"
+      ],
+      "bg": [
+        "Калциев цитрат малат"
+      ],
+      "lt": [
+        "kalcio citrato malatas"
+      ],
+      "ro": [
+        "malat citrat de calciu"
+      ],
+      "lv": [
+        "kalcija citrāta malāts"
+      ],
+      "el": [
+        "κιτρικό μηλικό ασβέστιο"
+      ],
+      "de": [
+        "Calciumcitratmalat"
+      ],
+      "en": [
+        "calcium citrate malate"
+      ],
+      "cs": [
+        "vápenatá sůl kyseliny citronové a jablečné"
+      ],
+      "mt": [
+        "malat ċitrat tal-kalċju"
+      ],
+      "fr": [
+        "citrate-malate de calcium"
+      ],
+      "pl": [
+        "cytrynian i jabłczan wapnia"
+      ],
+      "sk": [
+        "citran-malát vápenatý"
+      ]
+    }
+  },
+  "en:stale-wine": {
+    "name": {
+      "ca": "Vi ranci",
+      "es": "Vino rancio",
+      "hr": "Ustajalo vino",
+      "en": "Stale wine",
+      "it": "Vino stantio"
+    },
+    "parents": [
+      "en:wine"
+    ],
+    "synonyms": {
+      "es": [
+        "vino rancio"
+      ],
+      "ca": [
+        "vi ranci"
+      ],
+      "en": [
+        "stale wine"
+      ],
+      "hr": [
+        "ustajalo vino"
+      ],
+      "it": [
+        "vino stantio"
+      ]
+    }
+  },
+  "en:cheese-powder": {
+    "parents": [
+      "en:cheese"
+    ],
+    "name": {
+      "da": "Ostepulver",
+      "it": "Formaggio in polvere",
+      "en": "Cheese powder",
+      "sv": "Ostpulver"
+    },
+    "children": [
+      "en:mixture-of-melted-cheeses-and-powdered-cheeses"
+    ],
+    "synonyms": {
+      "en": [
+        "cheese powder"
+      ],
+      "sv": [
+        "ostpulver"
+      ],
+      "da": [
+        "ostepulver",
+        "ostpulver"
+      ],
+      "it": [
+        "formaggio in polvere"
+      ]
+    }
+  },
+  "en:e333i": {
+    "parents": [
+      "en:e333"
+    ],
+    "e_number": {
+      "en": "333"
+    },
+    "organic_eu": {
+      "en": "authorized"
+    },
+    "name": {
+      "nl": "E333i",
+      "lt": "E333i",
+      "es": "E333i",
+      "bg": "E333i",
+      "sl": "E333i",
+      "it": "E333i",
+      "en": "E333i",
+      "da": "E333i",
+      "ro": "E333i",
+      "fr": "E333i",
+      "sk": "E333i",
+      "pt": "E333i",
+      "fi": "E333i",
+      "hu": "E333i",
+      "sv": "E333i",
+      "et": "E333i",
+      "lv": "E333i",
+      "de": "E333i",
+      "el": "E333i",
+      "cs": "E333i",
+      "mt": "E333i",
+      "pl": "E333i",
+      "xx": "E333i"
+    },
+    "mandatory_additive_class": {
+      "en": "en:acidity-regulator, en:sequestrant, en:stabiliser, en:firming-agent"
+    },
+    "wikidata": {
+      "en": "Q420280"
+    },
+    "synonyms": {
+      "et": [
+        "E333i",
+        "Kaltsiumdivesiniktsitraat"
+      ],
+      "sv": [
+        "E333i",
+        "Monokalciumcitrat"
+      ],
+      "pt": [
+        "E333i",
+        "Citrato monocálcico"
+      ],
+      "fi": [
+        "E333i",
+        "Monokalsiumsitraatti",
+        "Monokalsiumsitraattia"
+      ],
+      "hu": [
+        "E333i",
+        "Monokalcium-citrát"
+      ],
+      "pl": [
+        "E333i",
+        "Cytrynian monowapniowy"
+      ],
+      "xx": [
+        "E333i"
+      ],
+      "el": [
+        "E333i",
+        "Δισοξινο κιτρικο ασβεστιο"
+      ],
+      "lv": [
+        "E333i",
+        "Monokalcija citrāts"
+      ],
+      "de": [
+        "E333i",
+        "Monocalciumcitrat"
+      ],
+      "mt": [
+        "E333i",
+        "Ċitrat monokalċiku"
+      ],
+      "cs": [
+        "E333i",
+        "Monocalcium citrate"
+      ],
+      "sl": [
+        "E333i",
+        "Monokalcijev citrat"
+      ],
+      "it": [
+        "E333i",
+        "Citrato monocalcico"
+      ],
+      "es": [
+        "E333i",
+        "Citrato monocálcico"
+      ],
+      "lt": [
+        "E333i",
+        "Monokalcio citratas"
+      ],
+      "bg": [
+        "E333i",
+        "Монокалциев цитрат"
+      ],
+      "nl": [
+        "E333i",
+        "Monocalciumcitraat"
+      ],
+      "fr": [
+        "E333i",
+        "Citrate monocalcique",
+        "Citrate de monocalcium"
+      ],
+      "sk": [
+        "E333i",
+        "Citran monovápenatý",
+        "Kalcium-citrát"
+      ],
+      "ro": [
+        "E333i",
+        "Citrat monocalcic"
+      ],
+      "da": [
+        "E333i",
+        "Monocalciumcitrat"
+      ],
+      "en": [
+        "E333i",
+        "Monocalcium citrate"
+      ]
+    },
+    "additives_classes": {
+      "en": "en:sequestrant, en:stabiliser"
+    }
+  },
+  "en:organic-olive-oil": {
+    "synonyms": {
+      "fr": [
+        "Huile d'olive bio"
+      ],
+      "pl": [
+        "organiczna oliwa z oliwek"
+      ],
+      "de": [
+        "Bio-Olivenöl"
+      ],
+      "hr": [
+        "organsko maslinovo ulje"
+      ],
+      "en": [
+        "organic olive oil"
+      ],
+      "it": [
+        "Olio di oliva biologico"
+      ],
+      "bg": [
+        "био зехтин",
+        "био маслиново масло"
+      ],
+      "nl": [
+        "olie van biologische olijven"
+      ],
+      "pt": [
+        "azeite biológico",
+        "azeite de oliva biológico"
+      ],
+      "hu": [
+        "bio olívaolaj",
+        "bio olíva olaj"
+      ],
+      "fi": [
+        "luomu oliiviöljy"
+      ]
+    },
+    "children": [
+      "en:organic-extra-virgin-olive-oil",
+      "en:spanish-organic-olive-oil"
+    ],
+    "name": {
+      "bg": "Био зехтин",
+      "it": "Olio di oliva biologico",
+      "hu": "Bio olívaolaj",
+      "fi": "Luomu oliiviöljy",
+      "pt": "Azeite biológico",
+      "nl": "Olie van biologische olijven",
+      "fr": "Huile d'olive bio",
+      "pl": "Organiczna oliwa z oliwek",
+      "de": "Bio-Olivenöl",
+      "hr": "Organsko maslinovo ulje",
+      "en": "Organic olive oil"
+    },
+    "parents": [
+      "en:olive-oil"
+    ]
+  },
+  "en:xylose": {
+    "name": {
+      "en": "Xylose",
+      "xx": "Xylose",
+      "ja": "キシロース"
+    },
+    "synonyms": {
+      "en": [
+        "xylose"
+      ],
+      "ja": [
+        "キシロース"
+      ],
+      "xx": [
+        "xylose"
+      ]
+    },
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Xylose"
+    }
+  },
+  "en:high-oleic-sunflower": {
+    "synonyms": {
+      "da": [
+        "solsikkeolie med højt fedtsyreindhold"
+      ],
+      "en": [
+        "high oleic sunflower"
+      ],
+      "de": [
+        "High-Oleic-Sonnenblumen",
+        "HO-Sonnenblumen"
+      ],
+      "hr": [
+        "visoko oleinskog suncokreta"
+      ],
+      "it": [
+        "girasole alto oleico"
+      ],
+      "pl": [
+        "wysoko oleinowy olej słonecznikowy"
+      ],
+      "fr": [
+        "tournesol oléique"
+      ],
+      "es": [
+        "girasol alto oleico"
+      ]
+    },
+    "parents": [
+      "en:sunflower-oil"
+    ],
+    "name": {
+      "pl": "Wysoko oleinowy olej słonecznikowy",
+      "fr": "Tournesol oléique",
+      "it": "Girasole alto oleico",
+      "es": "Girasol alto oleico",
+      "da": "Solsikkeolie med højt fedtsyreindhold",
+      "en": "High oleic sunflower",
+      "de": "High-Oleic-Sonnenblumen",
+      "hr": "Visoko oleinskog suncokreta"
+    }
+  },
+  "en:colour-retention-agent": {
+    "synonyms": {
+      "de": [
+        "Farbstabilisator"
+      ],
+      "en": [
+        "colour retention agent",
+        "colour adjunct",
+        "colour fixative",
+        "colour stabilizer",
+        "maintain color",
+        "color retention"
+      ],
+      "pt": [
+        "estabilizador de cor"
+      ],
+      "pl": [
+        "do korekcji barwy",
+        "substancja wzmacniająca kolor"
+      ],
+      "fr": [
+        "agent de rétention de la couleur",
+        "fixateur de la couleur",
+        "fixateur de couleur",
+        "adjuvant de la couleur",
+        "stabilisant de la couleur",
+        "agent de rétention de couleur",
+        "fixateur de couleur",
+        "adjuvant de couleur",
+        "stabilisant de couleur"
+      ],
+      "es": [
+        "Agente de retención de color",
+        "complementos del color",
+        "estabilizador del color",
+        "estabilizadores del color",
+        "fijadores del color",
+        "fijador del color"
+      ]
+    },
+    "name": {
+      "es": "Agente de retención de color",
+      "fr": "Agent de rétention de la couleur",
+      "pl": "Do korekcji barwy",
+      "de": "Farbstabilisator",
+      "pt": "Estabilizador de cor",
+      "en": "Colour retention agent"
+    },
+    "description": {
+      "fr": "Additif alimentaire qui stabilise, retient ou intensifie la couleur d'une denrée alimentaire.",
+      "es": "Aditivos alimentarios que estabilizan, retienen o intensifican el color de un alimento."
+    }
+  },
+  "en:cereal-flakes": {
+    "synonyms": {
+      "pl": [
+        "płatki zbożowe"
+      ],
+      "fr": [
+        "flocons de céréales"
+      ],
+      "de": [
+        "Getreideflocken",
+        "Kornflockenmischung"
+      ],
+      "hr": [
+        "pahuljice od žitarica"
+      ],
+      "en": [
+        "cereal flakes"
+      ],
+      "ro": [
+        "fulgi de cereale"
+      ],
+      "ru": [
+        "хлопья из зерна"
+      ],
+      "es": [
+        "copos de cereales"
+      ],
+      "sv": [
+        "spannmålsflingor"
+      ],
+      "it": [
+        "fiocchi di cereali"
+      ],
+      "pt": [
+        "flocos de cereais"
+      ],
+      "fi": [
+        "viljahiutaleet"
+      ],
+      "nl": [
+        "graanvlokken"
+      ]
+    },
+    "children": [
+      "en:crispy-flakes",
+      "en:wholemeal-cereal-flakes"
+    ],
+    "name": {
+      "it": "Fiocchi di cereali",
+      "sv": "Spannmålsflingor",
+      "es": "Copos de cereales",
+      "ru": "Хлопья из зерна",
+      "nl": "Graanvlokken",
+      "fi": "Viljahiutaleet",
+      "pt": "Flocos de cereais",
+      "fr": "Flocons de céréales",
+      "pl": "Płatki zbożowe",
+      "ro": "Fulgi de cereale",
+      "en": "Cereal flakes",
+      "hr": "Pahuljice od žitarica",
+      "de": "Getreideflocken"
+    },
+    "parents": [
+      "en:cereal"
+    ]
+  },
+  "en:reblochon": {
+    "ciqual_food_name": {
+      "en": "Reblochon cheese, from cow's milk",
+      "fr": "Reblochon"
+    },
+    "ciqual_food_code": {
+      "en": "12045"
+    },
+    "description": {
+      "en": "Reblochon is a soft washed-rind and smear-ripened French cheese made in the Alpine region of Savoy from raw cow's milk.",
+      "de": "Reblochon ist ein feinwürziger AOC Kuhmilch-Käse aus der französischen Region Hochsavoyen und Savoyen.",
+      "es": "El reblochon es un queso francés AOC,a base de leche de vaca de raza Abondance, Tarine y Montbéliarde, de la Alta Saboya.",
+      "fr": "Reblochon, ou reblochon de Savoie, est un fromage français AOC au lait cru et entier de vache à pâte pressée non cuite et croûte lavée, produit principalement en Haute-Savoie."
+    },
+    "children": [
+      "fr:reblochon-aop"
+    ],
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Reblochon"
+    },
+    "synonyms": {
+      "en": [
+        "reblochon"
+      ],
+      "ar": [
+        "ريبلوتشون"
+      ],
+      "hu": [
+        "reblochon sajt"
+      ],
+      "uk": [
+        "Реблошон"
+      ],
+      "zh": [
+        "瑞布羅申芝士"
+      ],
+      "ko": [
+        "르블로숑"
+      ],
+      "ru": [
+        "реблошон"
+      ],
+      "he": [
+        "רבלושון"
+      ],
+      "fr": [
+        "fromage reblochon"
+      ],
+      "xx": [
+        "reblochon"
+      ]
+    },
+    "wikidata": {
+      "en": "Q543805"
+    },
+    "reblochon": {
+      "nl": "De reblochon is een Franse gewassenkorstkaas, geproduceerd in Haute-Savoie, Frankrijk.",
+      "it": "Il Reblochon o Reblochon di Savoia è un formaggio francese a pasta pressata da latte crudo di vacca."
+    },
+    "name": {
+      "ko": "르블로숑",
+      "zh": "瑞布羅申芝士",
+      "uk": "Реблошон",
+      "hu": "Reblochon sajt",
+      "ar": "ريبلوتشون",
+      "en": "Reblochon",
+      "xx": "Reblochon",
+      "fr": "Fromage reblochon",
+      "he": "רבלושון",
+      "ru": "Реблошон"
+    },
+    "parents": [
+      "en:cheese",
+      "en:cow-cheese"
+    ]
+  },
+  "en:berry-blend": {
+    "synonyms": {
+      "fi": [
+        "marjaseos"
+      ],
+      "en": [
+        "berry blend",
+        "berry mix"
+      ],
+      "hr": [
+        "mješavina bobičastog voća"
+      ],
+      "de": [
+        "Beerenmischung"
+      ],
+      "sv": [
+        "bärblandning"
+      ],
+      "it": [
+        "miscela di bacche"
+      ],
+      "fr": [
+        "mélange de fruits rouges"
+      ]
+    },
+    "parents": [
+      "en:berries"
+    ],
+    "name": {
+      "it": "Miscela di bacche",
+      "fr": "Mélange de fruits rouges",
+      "sv": "Bärblandning",
+      "fi": "Marjaseos",
+      "en": "Berry blend",
+      "hr": "Mješavina bobičastog voća",
+      "de": "Beerenmischung"
+    }
+  },
+  "en:phosphor": {
+    "name": {
+      "en": "Phosphor",
+      "es": "Fosforo",
+      "it": "Fosforo"
+    },
+    "synonyms": {
+      "en": [
+        "phosphor"
+      ],
+      "es": [
+        "fosforo"
+      ],
+      "it": [
+        "fosforo"
+      ]
+    }
+  },
+  "en:liquid-smoke": {
+    "wikipedia": {
+      "en": "https://en.wikipedia.org/wiki/Liquid_smoke"
+    },
+    "wikidata": {
+      "en": "Q909463"
+    },
+    "synonyms": {
+      "it": [
+        "fumo liquido"
+      ],
+      "lt": [
+        "Dūminis mirkalas"
+      ],
+      "es": [
+        "Humo líquido"
+      ],
+      "ru": [
+        "Жидкий дым"
+      ],
+      "nb": [
+        "flytende røyk"
+      ],
+      "jv": [
+        "Asap Cair"
+      ],
+      "id": [
+        "Asap cair"
+      ],
+      "zh": [
+        "煙熏液"
+      ],
+      "fi": [
+        "nestemäinen savuaromi"
+      ],
+      "hu": [
+        "füstaroma"
+      ],
+      "pt": [
+        "fumaça líquida"
+      ],
+      "eo": [
+        "likva fumo"
+      ],
+      "fr": [
+        "fumée liquide"
+      ],
+      "ja": [
+        "くん液"
+      ],
+      "he": [
+        "עשן נוזלי"
+      ],
+      "uk": [
+        "Рідкий дим"
+      ],
+      "fa": [
+        "دود مایع"
+      ],
+      "en": [
+        "liquid smoke"
+      ],
+      "hr": [
+        "tekući dim"
+      ],
+      "de": [
+        "Flüssigrauch"
+      ]
+    },
+    "parents": [
+      "en:smoke"
+    ],
+    "name": {
+      "he": "עשן נוזלי",
+      "fr": "Fumée liquide",
+      "ja": "くん液",
+      "fa": "دود مایع",
+      "en": "Liquid smoke",
+      "de": "Flüssigrauch",
+      "hr": "Tekući dim",
+      "uk": "Рідкий дим",
+      "es": "Humo líquido",
+      "lt": "Dūminis mirkalas",
+      "ru": "Жидкий дым",
+      "nb": "Flytende røyk",
+      "jv": "Asap Cair",
+      "id": "Asap cair",
+      "it": "Fumo liquido",
+      "hu": "Füstaroma",
+      "fi": "Nestemäinen savuaromi",
+      "eo": "Likva fumo",
+      "pt": "Fumaça líquida",
+      "zh": "煙熏液"
+    }
+  },
+  "en:superior-quality-organic-long-grain-rice": {
+    "synonyms": {
+      "en": [
+        "superior quality organic long grain rice"
+      ],
+      "fr": [
+        "riz long grain biologique de qualite superieure"
+      ],
+      "it": [
+        "riso a grani lunghi biologico di qualità superiore"
+      ]
+    },
+    "parents": [
+      "en:superior-quality-long-grain-rice"
+    ],
+    "name": {
+      "en": "Superior quality organic long grain rice",
+      "fr": "Riz long grain biologique de qualite superieure",
+      "it": "Riso a grani lunghi biologico di qualità superiore"
+    }
+  }
+}
