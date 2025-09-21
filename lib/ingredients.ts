@@ -44,7 +44,10 @@ export interface IngredientData {
 }
 
 let ingredientsCache: Promise<IngredientData[]> | null = null;
-const wikipediaSummaryCache = new Map<string, { summary: string | null; imageUrl: string | null }>();
+const wikipediaSummaryCache = new Map<
+  string,
+  { summary: string | null; imageUrl: string | null; found: boolean }
+>();
 
 async function fetchDataset(): Promise<Record<string, RawIngredient>> {
   try {
@@ -156,22 +159,23 @@ function determineWikipediaTitle(name: string, url?: string): { title: string; u
 async function fetchWikipediaSummary(
   name: string,
   url?: string
-): Promise<{ summary?: string; wikipediaUrl?: string; imageUrl?: string }> {
+): Promise<{ summary?: string; wikipediaUrl?: string; imageUrl?: string; found: boolean }> {
   const { title, url: resolvedUrl } = determineWikipediaTitle(name, url);
   if (wikipediaSummaryCache.has(title)) {
     const cached = wikipediaSummaryCache.get(title);
     return {
       summary: cached?.summary ?? undefined,
       imageUrl: cached?.imageUrl ?? undefined,
-      wikipediaUrl: resolvedUrl,
+      wikipediaUrl: cached?.found ? resolvedUrl : undefined,
+      found: cached?.found ?? false,
     };
   }
 
   try {
     const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
     if (!response.ok) {
-      wikipediaSummaryCache.set(title, { summary: null, imageUrl: null });
-      return { wikipediaUrl: resolvedUrl };
+      wikipediaSummaryCache.set(title, { summary: null, imageUrl: null, found: false });
+      return { wikipediaUrl: undefined, found: false };
     }
     const data = (await response.json()) as {
       extract?: string;
@@ -180,15 +184,16 @@ async function fetchWikipediaSummary(
     };
     const summary = data.extract?.trim() ?? null;
     const imageUrl = data.originalimage?.source ?? data.thumbnail?.source ?? null;
-    wikipediaSummaryCache.set(title, { summary, imageUrl });
+    wikipediaSummaryCache.set(title, { summary, imageUrl, found: true });
     return {
       summary: summary ?? undefined,
       imageUrl: imageUrl ?? undefined,
       wikipediaUrl: resolvedUrl,
+      found: true,
     };
   } catch {
-    wikipediaSummaryCache.set(title, { summary: null, imageUrl: null });
-    return { wikipediaUrl: resolvedUrl };
+    wikipediaSummaryCache.set(title, { summary: null, imageUrl: null, found: false });
+    return { wikipediaUrl: undefined, found: false };
   }
 }
 
@@ -214,37 +219,45 @@ async function buildIngredientList(): Promise<IngredientData[]> {
     })
     .filter((entry) => entry.displayName);
 
-  const sorted = candidates
-    .sort((a, b) => b.totalSearches - a.totalSearches)
-    .slice(0, TARGET_INGREDIENT_COUNT);
+  const sorted = candidates.sort((a, b) => b.totalSearches - a.totalSearches);
 
-  return Promise.all(
-    sorted.map(async (candidate, index) => {
-      const metrics = buildMetricsFromTrend(candidate.trend, index + 1);
-      const { summary, wikipediaUrl, imageUrl } = await fetchWikipediaSummary(
-        candidate.displayName,
-        pickPreferredValue(candidate.raw.wikipedia)
-      );
-      const wikidataId = pickPreferredValue(candidate.raw.wikidata);
+  const selected: IngredientData[] = [];
 
-      const attributes = buildAttributes(candidate.raw);
+  for (const candidate of sorted) {
+    if (selected.length >= TARGET_INGREDIENT_COUNT) {
+      break;
+    }
 
-      return {
-        slug: candidate.slug,
-        originalId: candidate.originalId,
-        displayName: candidate.displayName,
-        superIngredients: candidate.superIngredients,
-        description: summary ?? null,
-        wikipediaUrl: wikipediaUrl ?? null,
-        wikidataId: wikidataId ?? null,
-        imageUrl: imageUrl ?? null,
-        synonyms: flattenMultiValues(candidate.raw.synonyms).filter((synonym) => !synonym.includes('(')),
-        search: metrics,
-        trend: candidate.trend,
-        attributes,
-      };
-    })
-  );
+    const wiki = await fetchWikipediaSummary(
+      candidate.displayName,
+      pickPreferredValue(candidate.raw.wikipedia)
+    );
+
+    if (!wiki.found || !wiki.imageUrl) {
+      continue;
+    }
+
+    const metrics = buildMetricsFromTrend(candidate.trend, selected.length + 1);
+    const wikidataId = pickPreferredValue(candidate.raw.wikidata);
+    const attributes = buildAttributes(candidate.raw);
+
+    selected.push({
+      slug: candidate.slug,
+      originalId: candidate.originalId,
+      displayName: candidate.displayName,
+      superIngredients: candidate.superIngredients,
+      description: wiki.summary ?? null,
+      wikipediaUrl: wiki.wikipediaUrl ?? null,
+      wikidataId: wikidataId ?? null,
+      imageUrl: wiki.imageUrl ?? null,
+      synonyms: flattenMultiValues(candidate.raw.synonyms).filter((synonym) => !synonym.includes('(')),
+      search: metrics,
+      trend: candidate.trend,
+      attributes,
+    });
+  }
+
+  return selected;
 }
 
 export async function getIngredients(): Promise<IngredientData[]> {

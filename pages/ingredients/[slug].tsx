@@ -45,7 +45,10 @@ const HeaderContent = styled.div`
 
 const Title = styled.h1`
   margin: 0;
-  font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+  font-size: clamp(1.9rem, 4.5vw, 2.75rem);
+  font-weight: ${({ theme }) => theme.typography.headingWeight};
+  letter-spacing: -0.01em;
+  color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 const Metadata = styled.div`
@@ -53,8 +56,22 @@ const Metadata = styled.div`
   flex-wrap: wrap;
   gap: 1rem 1.25rem;
   color: ${({ theme }) => theme.colors.textSecondary};
-  font-size: 0.95rem;
+  font-size: 0.97rem;
   line-height: 1.5;
+
+  span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  span:first-child {
+    color: ${({ theme }) => theme.colors.textPrimary};
+    font-weight: ${({ theme }) => theme.typography.headingWeight};
+    text-transform: uppercase;
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+  }
 `;
 
 const Actions = styled.div`
@@ -64,14 +81,25 @@ const Actions = styled.div`
 `;
 
 const ActionLink = styled.a`
-  padding: 0.6rem 1.2rem;
+  padding: 0.62rem 1.35rem;
   border-radius: 999px;
   background: ${({ theme }) => theme.colors.accent};
   color: #0d0d12;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(255, 183, 3, 0.35);
+    outline: none;
+  }
 `;
 
 const Section = styled.section`

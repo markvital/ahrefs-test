@@ -69,8 +69,9 @@ export default function HomePage({ ingredients, generatedAt }: HomePageProps) {
             the ingredient label as a fallback when a direct taxonomy URL is absent.
           </p>
           <p>
-            Click on any ingredient to inspect additional parameters such as CIQUAL names/codes,
-            synonyms across languages, carbon impact values, and notable sub-ingredients.
+            Open any ingredient card to inspect additional parameters such as CIQUAL names/codes,
+            synonyms across languages, carbon impact values, and notable sub-ingredients on a
+            dedicated detail page.
           </p>
           <GeneratedAt>
             Dataset refreshed: {new Date(generatedAt).toLocaleString('en-US', {

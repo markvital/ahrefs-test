@@ -6,8 +6,7 @@ export const theme = {
     accentSecondary: '#8ecae6',
     textPrimary: '#f1f5f9',
     textSecondary: '#94a3b8',
-    border: '#312f4b',
-    modalBackdrop: 'rgba(6, 7, 14, 0.8)'
+    border: '#312f4b'
   },
   layout: {
     maxWidth: '1200px'
