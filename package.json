@@ -1,0 +1,37 @@
+{
+  "name": "additives-ahrefs",
+  "version": "1.0.0",
+  "description": "Catalogue of food additives built with Next.js, TypeScript, and MUI.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "nextjs",
+    "mui",
+    "catalogue",
+    "food-additives"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.4",
+    "@mui/icons-material": "^5.15.18",
+    "@mui/material": "^5.15.18",
+    "next": "^14.2.33",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.5.4",
+    "typescript": "^5.9.2"
+  }
+}
