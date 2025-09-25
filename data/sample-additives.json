@@ -1,0 +1,221 @@
+{
+  "additives": [
+    {
+      "title": "Allura Red AC",
+      "eNumber": "E129",
+      "synonyms": [
+        "E129",
+        "Allura red",
+        "Allura red ac",
+        "Allura Red AC",
+        "FD&C Red 40",
+        "FD and C Red 40",
+        "Red 40",
+        "Red no40",
+        "Red no. 40",
+        "FD and C Red no. 40",
+        "Food Red 17",
+        "C.I. 16035",
+        "Red 40 lake"
+      ],
+      "functions": [
+        "colour"
+      ],
+      "description": "Allura Red AC is a red azo dye that goes by several names, including FD&C Red 40. It is used as a food dye and has the E number E129. It is usually supplied as its red sodium salt, but can also be used as the calcium and potassium salts. These salts are soluble in water. In solution, its maximum absorbance lies at about 504 nm.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Allura Red AC",
+      "wikidata": "Q419895"
+    },
+    {
+      "title": "Titanium dioxide",
+      "eNumber": "E171",
+      "synonyms": [
+        "E171",
+        "Titanium dioxide"
+      ],
+      "functions": [
+        "colour"
+      ],
+      "description": "Titanium dioxide, also known as titaniumIV oxide or titania, is the naturally occurring oxide of titanium, chemical formula TiO2. When used as a pigment, it is called titanium white, Pigment White 6 -PW6-, or CI 77891. Generally, it is sourced from ilmenite, rutile and anatase. It has a wide range of applications, including paint, sunscreen and food coloring. When used as a food coloring, it has E number E171. World production in 2014 exceeded 9 million metric tons. It has been estimated that titanium dioxide is used in two-thirds of all pigments, and the oxide has been valued at $13.2 billion.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Titanium_dioxide",
+      "wikidata": "Q193521"
+    },
+    {
+      "title": "Sorbic acid",
+      "eNumber": "E200",
+      "synonyms": [
+        "E200",
+        "Sorbic acid"
+      ],
+      "functions": [
+        "preservative"
+      ],
+      "description": "Sorbic acid, or 2‚4-hexadienoic acid, is a natural organic compound used as a food preservative. It has the chemical formula CH3-CH-4CO2H. It is a colourless solid that is slightly soluble in water and sublimes readily. It was first isolated from the unripe berries of the Sorbus aucuparia -rowan tree-, hence its name.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sorbic_acid",
+      "wikidata": "Q407131"
+    },
+    {
+      "title": "Sulfur dioxide",
+      "eNumber": "E220",
+      "synonyms": [
+        "E220",
+        "Sulphur dioxide",
+        "Sulfur dioxide"
+      ],
+      "functions": [
+        "antioxidant",
+        "preservative"
+      ],
+      "description": "Sulfur dioxide -also sulphur dioxide in British English- is the chemical compound with the formula SO2. It is a toxic gas with a burnt match smell. It is released naturally by volcanic activity and is produced as a by-product of the burning of fossil fuels contaminated with sulfur compounds.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sulfur_dioxide",
+      "wikidata": "Q5282"
+    },
+    {
+      "title": "Lactic acid",
+      "eNumber": "E270",
+      "synonyms": [
+        "E270",
+        "Lactic acid",
+        "milk acid",
+        "2-Hydroxypropanoic acid"
+      ],
+      "functions": [],
+      "description": "Lactic acid is an organic compound with the formula CH3CH-OH-COOH.  In its solid state, it is white and water-soluble. In its liquid state, it is colorless. It is produced both naturally and synthetically. With a hydroxyl group adjacent to the carboxyl group, lactic acid is classified as an alpha-hydroxy acid -AHA-.  In the form of its conjugate base called lactate, it plays a role in several biochemical processes. In solution, it can ionize a proton from the carboxyl group, producing the lactate ion CH3CH-OH-CO−2. Compared to acetic acid, its pKa is 1 unit less, meaning lactic acid deprotonates ten times more easily than acetic acid does. This higher acidity is the consequence of the intramolecular hydrogen bonding between the α-hydroxyl and the carboxylate group. Lactic acid is chiral, consisting of two optical isomers. One is known as L--+--lactic acid or -S--lactic acid and the other, its mirror image, is D--−--lactic acid or -R--lactic acid. A mixture of the two in equal amounts is called DL-lactic acid, or racemic lactic acid. Lactic acid is hygroscopic. DL-lactic acid is miscible with water and with ethanol above its melting point which is around 17 or 18 °C. D-lactic acid and L-lactic acid have a higher melting point. In animals, L-lactate is constantly produced from pyruvate via the enzyme lactate dehydrogenase -LDH- in a process of fermentation during normal metabolism and exercise. It does not increase in concentration until the rate of lactate production exceeds the rate of lactate removal, which is governed by a number of factors, including monocarboxylate transporters, concentration and isoform of LDH, and oxidative capacity of tissues. The concentration of blood lactate is usually 1–2 mM at rest, but can rise to over 20 mM during intense exertion and as high as 25 mM afterward. In addition to other biological roles, L-lactic acid is the primary endogenous agonist of hydroxycarboxylic acid receptor 1 -HCA1-, which is a Gi/o-coupled G protein-coupled receptor -GPCR-.In industry, lactic acid fermentation is performed by lactic acid bacteria, which convert simple carbohydrates such as glucose, sucrose, or galactose to lactic acid. These bacteria can also grow in the mouth; the acid they produce is responsible for the tooth decay known as caries. In medicine, lactate is one of the main components of lactated Ringer's solution and Hartmann's solution. These intravenous fluids consist of sodium and potassium cations along with lactate and chloride anions in solution with distilled water, generally in concentrations isotonic with human blood. It is most commonly used for fluid resuscitation after blood loss due to trauma, surgery, or burns.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lactic_acid",
+      "wikidata": "Q56626856"
+    },
+    {
+      "title": "Citric acid",
+      "eNumber": "E330",
+      "synonyms": [
+        "E330",
+        "Citric acid"
+      ],
+      "functions": [
+        "antioxidant",
+        "sequestrant"
+      ],
+      "description": "Citric acid is a weak organic acid that has the chemical formula C6H8O7. It occurs naturally in citrus fruits. In biochemistry, it is an intermediate in the citric acid cycle, which occurs in the metabolism of all aerobic organisms. More than a million tons of citric acid are manufactured every year. It is used  widely as an acidifier, as a flavoring and chelating agent.A citrate is a derivative of citric acid; that is, the salts, esters, and the polyatomic anion found in solution. An example of the former, a salt is trisodium citrate; an ester is triethyl citrate. When part of a salt, the formula of the citrate ion is written as C6H5O3−7 or C3H5O-COO-3−3.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Citric_acid",
+      "wikidata": "Q159683"
+    },
+    {
+      "title": "Carrageenan",
+      "eNumber": "E407",
+      "synonyms": [
+        "E407",
+        "Carrageenan",
+        "e407 stabilizer"
+      ],
+      "functions": [
+        "carrier",
+        "emulsifier",
+        "humectant",
+        "stabiliser",
+        "thickener"
+      ],
+      "description": "Carrageenans or carrageenins - karr-ə-gee-nənz, from Irish carraigín, \"little rock\"- are a family of linear sulfated polysaccharides that are extracted from red edible seaweeds. They are widely used in the food industry, for their gelling, thickening, and stabilizing properties. Their main application is in dairy and meat products, due to their strong binding to food proteins. There are three main varieties of carrageenan, which differ in their degree of sulfation. Kappa-carrageenan has one sulfate group per disaccharide, iota-carrageenan has two, and lambda-carrageenan has three. Gelatinous extracts of the Chondrus crispus -Irish moss- seaweed have been used as food additives since approximately the fifteenth century. Carrageenan is a vegetarian and vegan alternative to gelatin in some applications or may be used to replace gelatin in confectionery.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Carrageenan",
+      "wikidata": "Q421991"
+    },
+    {
+      "title": "Locust bean gum",
+      "eNumber": "E410",
+      "synonyms": [
+        "E410",
+        "Locust bean gum",
+        "Carob bean gum",
+        "Carob gum",
+        "garrofin gum",
+        "peruvian carob gum"
+      ],
+      "functions": [
+        "emulsifier",
+        "stabiliser",
+        "thickener"
+      ],
+      "description": "Locust bean gum -LBG, also known as carob gum, carob bean gum, carobin, E410- is a thickening agent and a gelling agent used in food technology.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Locust bean gum",
+      "wikidata": "Q221391"
+    },
+    {
+      "title": "Guar gum",
+      "eNumber": "E412",
+      "synonyms": [
+        "E412",
+        "Guar gum",
+        "Gum cyamopsis",
+        "guar flour"
+      ],
+      "functions": [
+        "emulsifier",
+        "stabiliser",
+        "thickener"
+      ],
+      "description": "Guar gum, also called guaran, is a galactomannan polysaccharide extracted from guar beans that has thickening and stabilizing properties useful in the food, feed and industrial applications. The guar seeds are mechanically dehusked, hydrated, milled and screened according to application. It is typically produced as a free-flowing, off-white powder.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Guar gum",
+      "wikidata": "Q422071"
+    },
+    {
+      "title": "Gum arabic",
+      "eNumber": "E414",
+      "synonyms": [
+        "E414",
+        "Acacia gum",
+        "gum arabic",
+        "gum acacia",
+        "arabic gum",
+        "Gum arabic",
+        "E-414",
+        "E 414",
+        "INS414",
+        "INS 414"
+      ],
+      "functions": [
+        "carrier",
+        "emulsifier",
+        "stabiliser",
+        "thickener"
+      ],
+      "description": "Gum arabic, also known as acacia gum, arabic gum, gum acacia, acacia, Senegal gum and Indian gum, and by other names, is a natural gum consisting of the hardened sap of various species of the acacia tree. Originally, gum arabic was collected from Acacia nilotica which was called the \"gum arabic tree\"; in the present day, gum arabic is collected from acacia species, predominantly Acacia senegal and Vachellia -Acacia- seyal; the term \"gum arabic\" does not indicate a particular botanical source. In a few cases so‐called \"gum arabic\" may not even have been collected from Acacia species, but may originate from Combretum, Albizia or some other genus. Producers harvest the gum commercially from wild trees, mostly in Sudan -80%- and throughout the Sahel, from Senegal to Somalia—though it is historically cultivated in Arabia and West Asia. Gum arabic is a complex mixture of glycoproteins and polysaccharides. It is the original source of the sugars arabinose and ribose, both of which were first discovered and isolated from it, and are named after it. Gum arabic is soluble in water. It is edible, and used primarily in the food industry as a stabilizer, with EU E number E414. Gum arabic is a key ingredient in traditional lithography and is used in printing, paint production, glue, cosmetics and various industrial applications, including viscosity control in inks and in textile industries, though less expensive materials compete with it for many of these roles. While gum arabic is now produced throughout the African Sahel, it is still harvested and used in the Middle East.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gum_arabic",
+      "wikidata": "Q535814"
+    },
+    {
+      "title": "Xanthan gum",
+      "eNumber": "E415",
+      "synonyms": [
+        "E415",
+        "Xanthan gum",
+        "xanthan",
+        "E-415",
+        "e 415"
+      ],
+      "functions": [
+        "emulsifier",
+        "stabiliser",
+        "thickener"
+      ],
+      "description": "Xanthan gum -- is a polysaccharide with many industrial uses, including as a common food additive. It is an effective thickening agent and stabilizer to prevent ingredients from separating. It can be produced from simple sugars using a fermentation process, and derives its name from the species of bacteria used, Xanthomonas campestris.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Xanthan_gum",
+      "wikidata": "Q410768"
+    },
+    {
+      "title": "Glycerol",
+      "eNumber": "E422",
+      "synonyms": [
+        "E422",
+        "Glycerol",
+        "Glycerin",
+        "Glycerine",
+        "vegetable glycerine"
+      ],
+      "functions": [
+        "humectant",
+        "thickener"
+      ],
+      "description": "Glycerol -; also called glycerine or glycerin; see spelling differences- is a simple polyol compound. It is a colorless, odorless, viscous liquid that is sweet-tasting and non-toxic. The glycerol backbone is found in all lipids known as triglycerides. It is widely used in the food industry as a sweetener and humectant and in pharmaceutical formulations. Glycerol has three hydroxyl groups that are responsible for its solubility in water and its hygroscopic nature.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Glycerol",
+      "wikidata": "Q132501"
+    }
+  ]
+}
