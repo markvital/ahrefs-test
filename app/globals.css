@@ -36,7 +36,17 @@ a {
 }
 
 .site-header {
+  padding: 1rem 0;
   border-bottom: 1px solid #e0e0e0;
+}
+
+.site-header .content-shell {
+  width: 100%;
+  margin: 0;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .site-footer {
@@ -59,6 +69,10 @@ a {
   .site-header,
   .site-footer {
     padding: 1rem 0;
+  }
+
+  .site-header {
+    padding: 0.75rem 0;
   }
 
   .main-content {

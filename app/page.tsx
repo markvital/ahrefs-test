@@ -21,7 +21,13 @@ export default function HomePage() {
       <Box
         display="grid"
         gap={{ xs: 2, sm: 3 }}
-        gridTemplateColumns={{ xs: '1fr', sm: 'repeat(2, 1fr)', md: 'repeat(3, 1fr)' }}
+        gridTemplateColumns={{
+          xs: '1fr',
+          sm: 'repeat(2, 1fr)',
+          md: 'repeat(3, 1fr)',
+          lg: 'repeat(4, 1fr)',
+          xl: 'repeat(6, 1fr)',
+        }}
       >
         {additives.map((additive) => (
           <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -36,15 +42,13 @@ export default function HomePage() {
                   </Typography>
                 </Box>
                 {additive.functions.length > 0 ? (
-                  <Stack direction="row" flexWrap="wrap" gap={1}>
+                  <Stack direction="row" flexWrap="wrap" gap={1} useFlexGap>
                     {additive.functions.map((fn) => (
                       <Chip key={fn} label={fn} variant="outlined" />
                     ))}
                   </Stack>
                 ) : (
-                  <Typography variant="body2" color="text.secondary">
-                    No function information available.
-                  </Typography>
+                  <Box minHeight={24} />
                 )}
               </CardContent>
             </CardActionArea>
