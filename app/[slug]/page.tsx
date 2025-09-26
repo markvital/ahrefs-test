@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { Box, Chip, Divider, Link as MuiLink, Stack, Typography } from '@mui/material';
+import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
 
 import { getAdditiveBySlug, getAdditiveSlugs } from '../../lib/additives';
 
 interface AdditivePageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: AdditivePageProps): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
   const additive = getAdditiveBySlug(slug);
 
   if (!additive) {
@@ -31,8 +31,8 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
   };
 }
 
-export default function AdditivePage({ params }: AdditivePageProps) {
-  const { slug } = params;
+export default async function AdditivePage({ params }: AdditivePageProps) {
+  const { slug } = await params;
   const additive = getAdditiveBySlug(slug);
 
   if (!additive) {
@@ -43,22 +43,40 @@ export default function AdditivePage({ params }: AdditivePageProps) {
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={3} maxWidth={760}>
-      <Box display="flex" flexDirection="column" gap={1}>
+      <Box display="flex" flexDirection="column" gap={1.5}>
         <Typography component="h1" variant="h1">
           {additive.eNumber} - {additive.title}
         </Typography>
         {synonymList.length > 0 && (
-          <Typography variant="body1" color="text.secondary">
-            <strong>Synonyms:</strong> {synonymList.join(', ')}
-          </Typography>
+          <Stack direction="row" alignItems="baseline" flexWrap="wrap" gap={1.5} useFlexGap>
+            <Typography component="span" variant="body1" color="text.secondary" sx={{ fontWeight: 600 }}>
+              Synonyms:
+            </Typography>
+            {synonymList.map((synonym) => (
+              <Typography
+                key={synonym}
+                component="span"
+                variant="body1"
+                color="text.secondary"
+                sx={{ whiteSpace: 'nowrap' }}
+              >
+                {synonym}
+              </Typography>
+            ))}
+          </Stack>
         )}
       </Box>
 
       {additive.functions.length > 0 && (
-        <Stack direction="row" flexWrap="wrap" gap={1}>
-          {additive.functions.map((fn) => (
-            <Chip key={fn} label={fn} variant="outlined" />
-          ))}
+        <Stack direction="row" alignItems="center" flexWrap="wrap" gap={1.5} useFlexGap>
+          <Typography component="span" variant="body1" color="text.secondary" sx={{ fontWeight: 600 }}>
+            Function:
+          </Typography>
+          <Stack direction="row" flexWrap="wrap" gap={1} useFlexGap>
+            {additive.functions.map((fn) => (
+              <Chip key={fn} label={fn} variant="outlined" />
+            ))}
+          </Stack>
         </Stack>
       )}
 
@@ -82,11 +100,6 @@ export default function AdditivePage({ params }: AdditivePageProps) {
         </Typography>
       )}
 
-      <Divider />
-
-      <Typography variant="body2" color="text.secondary">
-        This page is part of the Food Additives catalogue. More details and related resources will be added in future updates.
-      </Typography>
     </Box>
   );
 }
