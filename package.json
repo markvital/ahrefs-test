@@ -18,20 +18,22 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.4",
-    "@mui/icons-material": "^5.15.18",
-    "@mui/material": "^5.15.18",
-    "next": "^14.2.33",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "@mui/material-nextjs": "^7.3.2",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@types/node": "^24.5.2",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.1.14",
+    "@types/react-dom": "^19.1.9",
     "eslint": "^8.57.0",
     "eslint-config-next": "^15.5.4",
+    "playwright": "^1.55.1",
     "typescript": "^5.9.2"
   }
 }

@@ -30,7 +30,7 @@ export default function RootLayout({
         <Providers>
           <div className="layout">
             <header className="site-header">
-              <div className="content-shell">
+              <div className="content-shell header-shell">
                 <Link href="/">
                   <Typography
                     component="span"
