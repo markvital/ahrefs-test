@@ -44,21 +44,6 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
   const hasSearchHistory = !!searchHistory && searchHistory.metrics.length > 0;
-  const latestVolume = hasSearchHistory
-    ? searchHistory.metrics[searchHistory.metrics.length - 1]?.volume
-    : undefined;
-
-  const formatMonthlyVolume = (value: number) => {
-    if (value >= 1_000_000) {
-      return `${Math.round(value / 100_000) / 10}M`;
-    }
-
-    if (value >= 1_000) {
-      return `${Math.round(value / 100) / 10}K`;
-    }
-
-    return `${Math.round(value)}`;
-  };
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -122,18 +107,9 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             px: { xs: 0, md: 2 },
           }}
         >
-          {typeof latestVolume === 'number' && (
-            <Typography variant="body1" color="text.secondary">
-              <Box component="span" sx={{ fontWeight: 600 }}>
-                Search interest:
-              </Box>{' '}
-              {formatMonthlyVolume(latestVolume)} / mo
-            </Typography>
-          )}
-
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" textAlign="center">
             Interest over time on &ldquo;{additive.title}&rdquo; in the U.S. for the last 10 years
           </Typography>
         </Box>

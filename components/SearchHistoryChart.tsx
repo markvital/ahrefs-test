@@ -87,11 +87,7 @@ export function SearchHistoryChart({ metrics }: SearchHistoryChartProps) {
             },
           },
         }}
-        enablePoints
-        pointSize={6}
-        pointColor={theme.palette.background.paper}
-        pointBorderWidth={2}
-        pointBorderColor={theme.palette.primary.main}
+        enablePoints={false}
         useMesh
         enableArea
         areaOpacity={0.08}

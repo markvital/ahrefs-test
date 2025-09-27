@@ -2,6 +2,7 @@
 
 import { useMemo } from 'react';
 import { ResponsiveLine } from '@nivo/line';
+import type { LineCustomSvgLayer } from '@nivo/line';
 import { Box, useTheme } from '@mui/material';
 
 interface SearchSparklineProps {
@@ -18,12 +19,33 @@ const buildSparklineData = (values: Array<number | null>) => {
   }));
 };
 
+const firstPointLayer: LineCustomSvgLayer<any> = ({ series, xScale, yScale }) => {
+  const [primarySeries] = series;
+
+  if (!primarySeries) {
+    return null;
+  }
+
+  const firstPoint = primarySeries.data.find((datum) => typeof datum.data.y === 'number');
+
+  if (!firstPoint || typeof firstPoint.data.x !== 'number' || typeof firstPoint.data.y !== 'number') {
+    return null;
+  }
+
+  const cx = xScale(firstPoint.data.x);
+  const cy = yScale(firstPoint.data.y);
+
+  return <circle cx={cx} cy={cy} r={4} fill={primarySeries.color} />;
+};
+
 export function SearchSparkline({ values }: SearchSparklineProps) {
   const theme = useTheme();
   const series = useMemo(() => buildSparklineData(values), [values]);
+  const color = theme.palette.grey[700] ?? theme.palette.text.secondary;
+  const chartMargins = { top: 12, right: 12, bottom: 12, left: 16 } as const;
 
   return (
-    <Box sx={{ width: '100%', height: 56 }}>
+    <Box sx={{ width: '100%', height: 40 }}>
       <ResponsiveLine
         data={[
           {
@@ -31,21 +53,24 @@ export function SearchSparkline({ values }: SearchSparklineProps) {
             data: series,
           },
         ]}
-        margin={{ top: 8, right: 0, bottom: 8, left: 0 }}
+        margin={chartMargins}
         xScale={{ type: 'linear', min: 'auto', max: 'auto' }}
         yScale={{ type: 'linear', min: 'auto', max: 'auto' }}
         axisBottom={null}
         axisLeft={null}
-        colors={[theme.palette.primary.main]}
+        colors={[color]}
         theme={{
           axis: { ticks: { text: { fill: theme.palette.text.secondary } } },
         }}
         curve="monotoneX"
-        enableArea
-        areaOpacity={0.08}
+        enableArea={false}
         enablePoints={false}
+        enableGridX={false}
+        enableGridY={false}
+        lineWidth={2}
         useMesh={false}
         isInteractive={false}
+        layers={['lines', firstPointLayer]}
       />
     </Box>
   );
