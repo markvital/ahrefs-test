@@ -159,11 +159,22 @@ async function main() {
     additives.map((item) => ({ title: item.title, volume: volumes.get(item.title) ?? null })),
   );
 
-  const updatedAdditives = additives.map((item) => ({
-    ...item,
-    searchVolume: volumes.get(item.title) ?? null,
-    searchRank: rankMap.get(item.title) ?? null,
-  }));
+  const updatedAdditives = additives.map((item) => {
+    const volume = volumes.has(item.title) ? volumes.get(item.title) : undefined;
+    const rank = rankMap.has(item.title) ? rankMap.get(item.title) : undefined;
+
+    const { searchVolume, searchRank, ...rest } = item;
+    const next = { ...rest };
+
+    if (typeof volume === 'number') {
+      next.searchVolume = volume;
+      if (typeof rank === 'number') {
+        next.searchRank = rank;
+      }
+    }
+
+    return next;
+  });
 
   await writeAdditives(updatedAdditives);
   console.log('additives.json updated successfully.');
