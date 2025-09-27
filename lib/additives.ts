@@ -7,6 +7,7 @@ export interface RawAdditive {
   functions: string[];
   description?: string;
   wikipedia?: string;
+  searchSparkline?: Array<number | null>;
 }
 
 export interface Additive extends RawAdditive {
