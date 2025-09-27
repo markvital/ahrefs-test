@@ -7,6 +7,7 @@ export interface RawAdditive {
   functions: string[];
   description?: string;
   wikipedia?: string;
+  searchSparkline?: Array<number | null>;
   searchVolume?: number | null;
   searchRank?: number | null;
 }
@@ -33,6 +34,11 @@ const mapAdditives = (): Additive[] => {
       typeof additive.searchRank === 'number' && Number.isFinite(additive.searchRank)
         ? additive.searchRank
         : null,
+    searchSparkline: Array.isArray(additive.searchSparkline)
+      ? additive.searchSparkline.map((value) =>
+          typeof value === 'number' && Number.isFinite(value) ? value : null,
+        )
+      : [],
     slug: toSlug(additive.title),
   }));
 
