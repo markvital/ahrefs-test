@@ -9,7 +9,17 @@ interface SearchSparklineProps {
   values: Array<number | null>;
 }
 
-const buildSparklineData = (values: Array<number | null>) => {
+type SparklineDatum = {
+  x: number;
+  y: number | null;
+};
+
+type SparklineSeries = {
+  id: string;
+  data: SparklineDatum[];
+};
+
+const buildSparklineData = (values: Array<number | null>): SparklineDatum[] => {
   const endYear = new Date().getUTCFullYear();
   const startYear = endYear - values.length + 1;
 
@@ -19,7 +29,7 @@ const buildSparklineData = (values: Array<number | null>) => {
   }));
 };
 
-const firstPointLayer: LineCustomSvgLayer<any> = ({ series, xScale, yScale }) => {
+const firstPointLayer: LineCustomSvgLayer<SparklineSeries> = ({ series, xScale, yScale }) => {
   const [primarySeries] = series;
 
   if (!primarySeries) {
@@ -28,7 +38,7 @@ const firstPointLayer: LineCustomSvgLayer<any> = ({ series, xScale, yScale }) =>
 
   const firstPoint = primarySeries.data.find((datum) => typeof datum.data.y === 'number');
 
-  if (!firstPoint || typeof firstPoint.data.x !== 'number' || typeof firstPoint.data.y !== 'number') {
+  if (!firstPoint || typeof firstPoint.data.y !== 'number') {
     return null;
   }
 
