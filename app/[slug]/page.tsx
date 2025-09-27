@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
 
 import { getAdditiveBySlug, getAdditiveSlugs } from '../../lib/additives';
+import { formatMonthlySearchVolume } from '../../lib/format';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -40,6 +41,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   }
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
+  const hasSearchMetrics =
+    typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
 
   return (
     <Box component="article" display="flex" flexDirection="column" gap={3} maxWidth={760}>
@@ -72,6 +75,22 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
             ))}
           </Typography>
         )}
+        <Typography variant="body1" color="text.secondary">
+          <Box component="span" sx={{ fontWeight: 600 }}>
+            Search interest:
+          </Box>{' '}
+          {hasSearchMetrics ? (
+            <>
+              #{additive.searchRank}{' '}
+              {formatMonthlySearchVolume(additive.searchVolume!)} / mo{' '}
+              <Box component="span" role="img" aria-label="United States flag">
+                🇺🇸
+              </Box>
+            </>
+          ) : (
+            'Not available'
+          )}
+        </Typography>
       </Box>
 
       {additive.functions.length > 0 && (
