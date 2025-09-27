@@ -128,12 +128,17 @@ async function main() {
   const data = JSON.parse(raw);
 
   const updatedAdditives = [];
+  const total = data.additives.length;
+  let processed = 0;
 
   for (const additive of data.additives) {
     const slug = toSlug(additive.title);
     const historyPath = path.join(OUTPUT_DIR, `${slug}.json`);
 
     try {
+      processed += 1;
+      console.log(`[${processed}/${total}] Fetching history for "${additive.title}"`);
+
       const payload = await fetchHistory(additive.title);
       await sleep(REQUEST_DELAY_MS);
 
@@ -185,6 +190,8 @@ async function main() {
   };
 
   await fs.writeFile(ADDITIVES_PATH, `${JSON.stringify(output, null, 2)}\n`);
+
+  console.log(`Completed fetching history for ${processed} additives.`);
 }
 
 main().catch((error) => {
