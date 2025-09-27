@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from '@mui/material';
 
 import { getAdditives } from '../lib/additives';
+import { formatMonthlySearchVolume } from '../lib/format';
 
 const additives = getAdditives();
 
@@ -50,6 +51,18 @@ export default function HomePage() {
                     {additive.functions.map((fn) => (
                       <Chip key={fn} label={fn} variant="outlined" />
                     ))}
+                  </Stack>
+                ) : (
+                  <Box sx={{ minHeight: '1.5rem' }} />
+                )}
+                {typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number' ? (
+                  <Stack direction="row" alignItems="baseline" gap={1}>
+                    <Typography component="span" variant="subtitle1" fontWeight={600}>
+                      #{additive.searchRank}
+                    </Typography>
+                    <Typography component="span" variant="body2" color="text.secondary">
+                      {formatMonthlySearchVolume(additive.searchVolume)} / mo
+                    </Typography>
                   </Stack>
                 ) : (
                   <Box sx={{ minHeight: '1.5rem' }} />
