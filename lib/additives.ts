@@ -8,6 +8,8 @@ export interface RawAdditive {
   description?: string;
   wikipedia?: string;
   searchSparkline?: Array<number | null>;
+  searchVolume?: number | null;
+  searchRank?: number | null;
 }
 
 export interface Additive extends RawAdditive {
@@ -21,11 +23,49 @@ const toSlug = (value: string): string =>
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)/g, '');
 
-const mapAdditives = (): Additive[] =>
-  additivesSource.additives.map((additive) => ({
+const mapAdditives = (): Additive[] => {
+  const enriched = additivesSource.additives.map((additive) => ({
     ...additive,
+    searchVolume:
+      typeof additive.searchVolume === 'number' && Number.isFinite(additive.searchVolume)
+        ? additive.searchVolume
+        : null,
+    searchRank:
+      typeof additive.searchRank === 'number' && Number.isFinite(additive.searchRank)
+        ? additive.searchRank
+        : null,
+    searchSparkline: Array.isArray(additive.searchSparkline)
+      ? additive.searchSparkline.map((value) =>
+          typeof value === 'number' && Number.isFinite(value) ? value : null,
+        )
+      : [],
     slug: toSlug(additive.title),
   }));
+
+  enriched.sort((a, b) => {
+    const aHasRank = typeof a.searchRank === 'number';
+    const bHasRank = typeof b.searchRank === 'number';
+
+    if (aHasRank && bHasRank) {
+      if (a.searchRank === b.searchRank) {
+        return a.title.localeCompare(b.title);
+      }
+      return (a.searchRank ?? 0) - (b.searchRank ?? 0);
+    }
+
+    if (aHasRank) {
+      return -1;
+    }
+
+    if (bHasRank) {
+      return 1;
+    }
+
+    return a.title.localeCompare(b.title);
+  });
+
+  return enriched;
+};
 
 const additiveCache = mapAdditives();
 

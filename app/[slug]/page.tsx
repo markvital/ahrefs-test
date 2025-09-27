@@ -44,7 +44,6 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
   const hasSearchHistory = !!searchHistory && searchHistory.metrics.length > 0;
-
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>

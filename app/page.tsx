@@ -3,6 +3,7 @@ import { Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from 
 
 import { getAdditives } from '../lib/additives';
 import { SearchSparkline } from '../components/SearchSparkline';
+import { formatMonthlySearchVolume } from '../lib/format';
 
 const additives = getAdditives();
 
@@ -38,6 +39,8 @@ export default function HomePage() {
           const hasSparkline =
             Array.isArray(additive.searchSparkline) &&
             additive.searchSparkline.some((value) => value !== null);
+          const hasSearchMetrics =
+            typeof additive.searchRank === 'number' && typeof additive.searchVolume === 'number';
 
           return (
             <Card key={additive.slug} sx={{ display: 'flex', flexDirection: 'column' }}>
@@ -56,6 +59,18 @@ export default function HomePage() {
                       {additive.functions.map((fn) => (
                         <Chip key={fn} label={fn} variant="outlined" />
                       ))}
+                    </Stack>
+                  ) : (
+                    <Box sx={{ minHeight: '1.5rem' }} />
+                  )}
+                  {hasSearchMetrics ? (
+                    <Stack direction="row" alignItems="baseline" gap={1}>
+                      <Typography component="span" variant="subtitle1" fontWeight={600}>
+                        #{additive.searchRank}
+                      </Typography>
+                      <Typography component="span" variant="body2" color="text.secondary">
+                        {formatMonthlySearchVolume(additive.searchVolume!)} / mo
+                      </Typography>
                     </Stack>
                   ) : (
                     <Box sx={{ minHeight: '1.5rem' }} />
