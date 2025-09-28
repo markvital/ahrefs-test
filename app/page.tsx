@@ -3,7 +3,7 @@ import { Box, Card, CardActionArea, CardContent, Chip, Stack, Typography } from 
 
 import { getAdditives } from '../lib/additives';
 import { SearchSparkline } from '../components/SearchSparkline';
-import { formatMonthlySearchVolume } from '../lib/format';
+import { formatMonthlyVolume } from '../lib/format';
 
 const additives = getAdditives();
 
@@ -69,7 +69,7 @@ export default function HomePage() {
                         #{additive.searchRank}
                       </Typography>
                       <Typography component="span" variant="body2" color="text.secondary">
-                        {formatMonthlySearchVolume(additive.searchVolume!)} / mo
+                        {formatMonthlyVolume(additive.searchVolume!)} / mo
                       </Typography>
                     </Stack>
                   ) : (
