@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Box, Chip, Link as MuiLink, Stack, Typography } from '@mui/material';
 
 import { getAdditiveBySlug, getAdditiveSlugs } from '../../lib/additives';
+import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
 
@@ -59,6 +60,13 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
     searchHistory.metrics.length > 0 &&
     !!searchKeyword;
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
+  const searchRank = typeof additive.searchRank === 'number' ? additive.searchRank : null;
+  const searchVolume = typeof additive.searchVolume === 'number' ? additive.searchVolume : null;
+  const searchCountryCode = searchHistory?.country;
+  const searchFlagEmoji = searchCountryCode ? getCountryFlagEmoji(searchCountryCode) : null;
+  const searchCountryLabel =
+    searchCountryCode && searchFlagEmoji ? getCountryLabel(searchCountryCode) ?? searchCountryCode.toUpperCase() : null;
+
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
@@ -89,6 +97,33 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
                   {synonym}
                 </Box>
               ))}
+            </Typography>
+          )}
+          {(searchRank !== null || searchVolume !== null || searchFlagEmoji) && (
+            <Typography variant="body1" color="text.secondary" sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75 }}>
+              <Box component="span" sx={{ fontWeight: 600 }}>
+                Search interest:
+              </Box>
+              {searchRank !== null && (
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                  #{searchRank}
+                </Box>
+              )}
+              {searchVolume !== null && (
+                <Box component="span" sx={{ fontVariantNumeric: 'tabular-nums' }}>
+                  {formatMonthlyVolume(searchVolume)} / mo
+                </Box>
+              )}
+              {searchFlagEmoji && (
+                <Box
+                  component="span"
+                  role="img"
+                  aria-label={searchCountryLabel ?? undefined}
+                  sx={{ fontSize: '1rem', lineHeight: 1 }}
+                >
+                  {searchFlagEmoji}
+                </Box>
+              )}
             </Typography>
           )}
         </Box>
