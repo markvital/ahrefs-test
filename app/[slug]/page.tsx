@@ -53,7 +53,11 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
-  const hasSearchHistory = !!searchHistory && searchHistory.metrics.length > 0;
+  const searchKeyword = searchHistory?.keyword?.trim();
+  const hasSearchHistory =
+    !!searchHistory &&
+    searchHistory.metrics.length > 0 &&
+    !!searchKeyword;
   const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   return (
     <Box component="article" display="flex" flexDirection="column" gap={4} alignItems="center" width="100%">
@@ -105,7 +109,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         )}
       </Box>
 
-      {hasSearchHistory && searchHistory && (
+      {hasSearchHistory && searchHistory && searchKeyword && (
         <Box
           id="search-history"
           sx={{
@@ -120,7 +124,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
           <Typography variant="body2" color="text.secondary" textAlign="center">
-            Interest over time on &ldquo;{displayName}&rdquo; in the U.S. for the last 10 years
+            Interest over time on &ldquo;{searchKeyword}&rdquo; in the U.S. for the last 10 years
           </Typography>
         </Box>
       )}
