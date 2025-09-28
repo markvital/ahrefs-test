@@ -1,0 +1,30 @@
+{
+  "title": "Sodium sulphite",
+  "eNumber": "E221",
+  "synonyms": [
+    "E221",
+    "Sodium sulphite",
+    "Sodium sulfite"
+  ],
+  "functions": [
+    "antioxidant",
+    "preservative"
+  ],
+  "description": "Sodium sulfite -sodium sulphite- is a soluble sodium salt of sulfurous acid -sulfite- with the chemical formula Na2SO3. It is a product of sulfur dioxide scrubbing, a part of the flue-gas desulfurization process. It is also used as a preservative to prevent dried fruit from discoloring, and for preserving meats, and is used in the same way as sodium thiosulfate to convert elemental halogens to their respective hydrohalic acids, in photography and for reducing chlorine levels in pools.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Sodium_sulfite",
+  "wikidata": "Q407806",
+  "searchVolume": 20,
+  "searchRank": 419,
+  "searchSparkline": [
+    205,
+    138,
+    191,
+    184,
+    149,
+    26,
+    21,
+    16,
+    14,
+    27
+  ]
+}

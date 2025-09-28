@@ -1,0 +1,31 @@
+{
+  "title": "Ascorbic acid",
+  "eNumber": "E300",
+  "synonyms": [
+    "E300",
+    "Ascorbic acid",
+    "l-ascorbic acid",
+    "Synonyms L-xylo-Ascorbic acid"
+  ],
+  "functions": [
+    "antioxidant",
+    "sequestrant"
+  ],
+  "description": "",
+  "wikipedia": "",
+  "wikidata": "Q193598",
+  "searchVolume": 50000,
+  "searchRank": 47,
+  "searchSparkline": [
+    43602,
+    43922,
+    45083,
+    43975,
+    47657,
+    45915,
+    47442,
+    50357,
+    50051,
+    48337
+  ]
+}

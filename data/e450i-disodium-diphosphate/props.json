@@ -1,0 +1,39 @@
+{
+  "title": "Disodium diphosphate",
+  "eNumber": "E450I",
+  "synonyms": [
+    "E450i",
+    "Disodium diphosphate",
+    "Sodium Acid Pyrophosphate",
+    "sapp",
+    "disodium dihydrogen pyrophosphate",
+    "disodium pyrophosphate",
+    "sodium acid pyrophosphate",
+    "disodium diphosphate",
+    "disodium dihydrogen diphosphate"
+  ],
+  "functions": [
+    "emulsifier",
+    "humectant",
+    "sequestrant",
+    "stabiliser",
+    "thickener"
+  ],
+  "description": "",
+  "wikipedia": "https://en.wikipedia.org/wiki/Disodium_pyrophosphate",
+  "wikidata": "Q418498",
+  "searchVolume": 300,
+  "searchRank": 269,
+  "searchSparkline": [
+    53,
+    102,
+    58,
+    41,
+    47,
+    40,
+    84,
+    152,
+    264,
+    301
+  ]
+}

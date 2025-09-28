@@ -1,0 +1,32 @@
+{
+  "title": "Polyvinylpyrrolidone",
+  "eNumber": "E1201",
+  "synonyms": [
+    "E1201",
+    "Polyvinylpyrrolidone",
+    "Povidone",
+    "PVP"
+  ],
+  "functions": [
+    "emulsifier",
+    "stabiliser",
+    "thickener"
+  ],
+  "description": "Polyvinylpyrrolidone -PVP-, also commonly called polyvidone or povidone, is a water-soluble polymer made from the monomer N-vinylpyrrolidone:",
+  "wikipedia": "https://en.wikipedia.org/wiki/Polyvinylpyrrolidone",
+  "wikidata": "Q413433",
+  "searchVolume": 1800,
+  "searchRank": 191,
+  "searchSparkline": [
+    2601,
+    2423,
+    2744,
+    2495,
+    1887,
+    1855,
+    1964,
+    1979,
+    1813,
+    1720
+  ]
+}

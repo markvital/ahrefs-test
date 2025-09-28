@@ -16,7 +16,7 @@ export interface SearchHistoryDataset {
 const historyCache = new Map<string, SearchHistoryDataset | null>();
 
 const getHistoryPath = (slug: string): string =>
-  path.join(process.cwd(), 'data', 'search-history', `${slug}.json`);
+  path.join(process.cwd(), 'data', slug, 'searchHistory.json');
 
 export const getSearchHistory = (slug: string): SearchHistoryDataset | null => {
   if (historyCache.has(slug)) {
