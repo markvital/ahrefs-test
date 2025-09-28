@@ -4,6 +4,8 @@ import { useMemo } from 'react';
 import { ResponsiveLine } from '@nivo/line';
 import { Box, useTheme } from '@mui/material';
 
+import { formatMonthlyVolume } from '../lib/format';
+
 export interface SearchHistoryPoint {
   date: string;
   volume: number;
@@ -12,18 +14,6 @@ export interface SearchHistoryPoint {
 interface SearchHistoryChartProps {
   metrics: SearchHistoryPoint[];
 }
-
-const formatVolumeLabel = (value: number): string => {
-  if (value >= 1_000_000) {
-    return `${Math.round(value / 100_000) / 10}M`;
-  }
-
-  if (value >= 1_000) {
-    return `${Math.round(value / 100) / 10}K`;
-  }
-
-  return `${Math.round(value)}`;
-};
 
 export function SearchHistoryChart({ metrics }: SearchHistoryChartProps) {
   const theme = useTheme();
@@ -58,7 +48,7 @@ export function SearchHistoryChart({ metrics }: SearchHistoryChartProps) {
         axisLeft={{
           tickSize: 6,
           tickPadding: 8,
-          format: (value) => formatVolumeLabel(Number(value)),
+          format: (value) => formatMonthlyVolume(Number(value)),
         }}
         theme={{
           axis: {
@@ -115,7 +105,7 @@ export function SearchHistoryChart({ metrics }: SearchHistoryChartProps) {
                   })}
                 </Box>
                 <Box component="span" sx={{ fontSize: 14, fontWeight: 600 }}>
-                  {formatVolumeLabel(point.data.y as number)} / mo
+                  {formatMonthlyVolume(point.data.y as number)} / mo
                 </Box>
               </Box>
             ))}
