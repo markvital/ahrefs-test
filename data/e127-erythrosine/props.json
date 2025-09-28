@@ -1,0 +1,35 @@
+{
+  "title": "Erythrosine",
+  "eNumber": "E127",
+  "synonyms": [
+    "E127",
+    "Erythrosine",
+    "FD&C Red 3",
+    "FD & C Red No.3",
+    "Red No. 3",
+    "FD&C Red no3",
+    "FD and C Red 3",
+    "Red 3",
+    "Red 3 lake"
+  ],
+  "functions": [
+    "colour"
+  ],
+  "description": "Erythrosine, also known as Red No. 3, is an organoiodine compound, specifically a derivative of fluorone.  It is cherry-pink synthetic, primarily used for food coloring. It is the disodium salt of 2‚4,5‚7-tetraiodofluorescein. Its maximum absorbance is at 530 nm in an aqueous solution, and it is subject to photodegradation.",
+  "wikipedia": "https://en.wikipedia.org/wiki/Erythrosine",
+  "wikidata": "Q420101",
+  "searchVolume": 1500,
+  "searchRank": 201,
+  "searchSparkline": [
+    897,
+    655,
+    747,
+    584,
+    354,
+    573,
+    415,
+    585,
+    908,
+    1667
+  ]
+}

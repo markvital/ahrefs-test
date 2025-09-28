@@ -2,7 +2,7 @@
 
 /**
  * Fetches Ahrefs Keywords Explorer search volume data for each additive
- * and updates the `data/additives.json` file with `searchVolume` and
+ * and updates the per-additive `props.json` file with `searchVolume` and
  * `searchRank` properties.
  */
 
@@ -11,9 +11,12 @@ const path = require('path');
 const { execFile } = require('child_process');
 const { promisify } = require('util');
 
+const { createAdditiveSlug } = require('./utils/slug');
+
 const execFileAsync = promisify(execFile);
 
-const DATA_PATH = path.join(__dirname, '..', 'data', 'additives.json');
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const API_URL = 'https://api.ahrefs.com/v3/keywords-explorer/overview';
 const COUNTRY = 'us';
 const BATCH_SIZE = 10;
@@ -30,8 +33,8 @@ const getApiKey = () => {
   return apiKey;
 };
 
-const readAdditives = async () => {
-  const raw = await fs.readFile(DATA_PATH, 'utf8');
+const readAdditivesIndex = async () => {
+  const raw = await fs.readFile(ADDITIVES_INDEX_PATH, 'utf8');
   const parsed = JSON.parse(raw);
   if (!Array.isArray(parsed.additives)) {
     throw new Error('Unexpected additives.json format.');
@@ -39,10 +42,58 @@ const readAdditives = async () => {
   return parsed.additives;
 };
 
-const writeAdditives = async (additives) => {
-  const payload = { additives };
-  const contents = `${JSON.stringify(payload, null, 2)}\n`;
-  await fs.writeFile(DATA_PATH, contents, 'utf8');
+const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
+
+const readProps = async (slug, fallback) => {
+  try {
+    const raw = await fs.readFile(propsPathForSlug(slug), 'utf8');
+    const data = JSON.parse(raw);
+    return ensureProps(data, fallback);
+  } catch (error) {
+    return ensureProps(null, fallback);
+  }
+};
+
+const ensureProps = (props, fallback) => {
+  const result = props && typeof props === 'object' ? { ...props } : {};
+
+  if (typeof result.title !== 'string') {
+    result.title = fallback.title || '';
+  }
+  if (typeof result.eNumber !== 'string') {
+    result.eNumber = fallback.eNumber || '';
+  }
+  if (!Array.isArray(result.synonyms)) {
+    result.synonyms = [];
+  }
+  if (!Array.isArray(result.functions)) {
+    result.functions = [];
+  }
+  if (typeof result.description !== 'string') {
+    result.description = '';
+  }
+  if (typeof result.wikipedia !== 'string') {
+    result.wikipedia = '';
+  }
+  if (typeof result.wikidata !== 'string') {
+    result.wikidata = '';
+  }
+  if (!Array.isArray(result.searchSparkline)) {
+    result.searchSparkline = [];
+  }
+  if (typeof result.searchVolume !== 'number') {
+    result.searchVolume = null;
+  }
+  if (typeof result.searchRank !== 'number') {
+    result.searchRank = null;
+  }
+
+  return result;
+};
+
+const writeProps = async (slug, props) => {
+  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
+  await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
 };
 
 const fetchBatch = async (apiKey, titles) => {
@@ -116,7 +167,7 @@ const assignRanks = (volumes) => {
 
 async function main() {
   const apiKey = getApiKey();
-  const additives = await readAdditives();
+  const additives = await readAdditivesIndex();
 
   console.log(`Total additives: ${additives.length}`);
 
@@ -159,25 +210,30 @@ async function main() {
     additives.map((item) => ({ title: item.title, volume: volumes.get(item.title) ?? null })),
   );
 
-  const updatedAdditives = additives.map((item) => {
-    const volume = volumes.has(item.title) ? volumes.get(item.title) : undefined;
-    const rank = rankMap.has(item.title) ? rankMap.get(item.title) : undefined;
+  await Promise.all(
+    additives.map(async (additive) => {
+      const slug = createAdditiveSlug({ eNumber: additive.eNumber, title: additive.title });
+      const props = await readProps(slug, additive);
+      const volume = volumes.has(additive.title) ? volumes.get(additive.title) : null;
+      const rank = rankMap.has(additive.title) ? rankMap.get(additive.title) : null;
 
-    const { searchVolume, searchRank, ...rest } = item;
-    const next = { ...rest };
-
-    if (typeof volume === 'number') {
-      next.searchVolume = volume;
-      if (typeof rank === 'number') {
-        next.searchRank = rank;
+      if (typeof volume === 'number') {
+        props.searchVolume = volume;
+        if (typeof rank === 'number') {
+          props.searchRank = rank;
+        } else {
+          props.searchRank = null;
+        }
+      } else {
+        props.searchVolume = null;
+        props.searchRank = null;
       }
-    }
 
-    return next;
-  });
+      await writeProps(slug, props);
+    }),
+  );
 
-  await writeAdditives(updatedAdditives);
-  console.log('additives.json updated successfully.');
+  console.log('Additive props updated successfully.');
 }
 
 main().catch((error) => {

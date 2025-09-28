@@ -5,11 +5,13 @@ const path = require('path');
 const { execFile } = require('child_process');
 const { promisify } = require('util');
 
+const { createAdditiveSlug } = require('./utils/slug');
+
 const execFileAsync = promisify(execFile);
 
 const API_BASE_URL = 'https://api.ahrefs.com/v3/keywords-explorer/volume-history';
-const OUTPUT_DIR = path.join(__dirname, '..', 'data', 'search-history');
-const ADDITIVES_PATH = path.join(__dirname, '..', 'data', 'additives.json');
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVES_PATH = path.join(DATA_DIR, 'additives.json');
 
 const API_TOKEN =
   process.env.AHREFS_API_KEY ||
@@ -22,12 +24,68 @@ const MAX_ATTEMPTS = 5;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-const toSlug = (value) =>
-  value
-    .toLowerCase()
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)/g, '');
+async function readAdditivesIndex() {
+  const raw = await fs.readFile(ADDITIVES_PATH, 'utf8');
+  const data = JSON.parse(raw);
+  if (!Array.isArray(data.additives)) {
+    throw new Error('Unexpected additives index format.');
+  }
+  return data.additives;
+}
+
+const propsPathForSlug = (slug) => path.join(DATA_DIR, slug, 'props.json');
+const historyPathForSlug = (slug) => path.join(DATA_DIR, slug, 'searchHistory.json');
+
+async function readProps(slug) {
+  try {
+    const raw = await fs.readFile(propsPathForSlug(slug), 'utf8');
+    return JSON.parse(raw);
+  } catch (error) {
+    return null;
+  }
+}
+
+async function writeProps(slug, props) {
+  await fs.mkdir(path.join(DATA_DIR, slug), { recursive: true });
+  await fs.writeFile(propsPathForSlug(slug), `${JSON.stringify(props, null, 2)}\n`);
+}
+
+const ensureProps = (props, additive) => {
+  const result = props && typeof props === 'object' ? { ...props } : {};
+
+  if (typeof result.title !== 'string') {
+    result.title = additive.title || '';
+  }
+  if (typeof result.eNumber !== 'string') {
+    result.eNumber = additive.eNumber || '';
+  }
+  if (!Array.isArray(result.synonyms)) {
+    result.synonyms = [];
+  }
+  if (!Array.isArray(result.functions)) {
+    result.functions = [];
+  }
+  if (typeof result.description !== 'string') {
+    result.description = '';
+  }
+  if (typeof result.wikipedia !== 'string') {
+    result.wikipedia = '';
+  }
+  if (typeof result.wikidata !== 'string') {
+    result.wikidata = '';
+  }
+  if (typeof result.searchVolume !== 'number') {
+    result.searchVolume = null;
+  }
+  if (typeof result.searchRank !== 'number') {
+    result.searchRank = null;
+  }
+  if (!Array.isArray(result.searchSparkline)) {
+    result.searchSparkline = [];
+  }
+
+  return result;
+};
 
 async function fetchHistory(keyword) {
   const baseArgs = [
@@ -123,17 +181,16 @@ async function main() {
     throw new Error('Missing Ahrefs API token. Set AHREFS_API_KEY or related env variable.');
   }
 
-  await fs.mkdir(OUTPUT_DIR, { recursive: true });
-  const raw = await fs.readFile(ADDITIVES_PATH, 'utf8');
-  const data = JSON.parse(raw);
+  const additives = await readAdditivesIndex();
 
-  const updatedAdditives = [];
-  const total = data.additives.length;
+  const total = additives.length;
   let processed = 0;
 
-  for (const additive of data.additives) {
-    const slug = toSlug(additive.title);
-    const historyPath = path.join(OUTPUT_DIR, `${slug}.json`);
+  for (const additive of additives) {
+    const slug = createAdditiveSlug({ eNumber: additive.eNumber, title: additive.title });
+    const dirPath = path.join(DATA_DIR, slug);
+    await fs.mkdir(dirPath, { recursive: true });
+    const historyPath = historyPathForSlug(slug);
 
     try {
       processed += 1;
@@ -157,7 +214,9 @@ async function main() {
           )}\n`,
         );
 
-        updatedAdditives.push({ ...additive, searchSparkline: [] });
+        const props = ensureProps(await readProps(slug), additive);
+        props.searchSparkline = [];
+        await writeProps(slug, props);
         continue;
       }
 
@@ -178,18 +237,16 @@ async function main() {
         )}\n`,
       );
 
-      updatedAdditives.push({ ...additive, searchSparkline: sparkline });
+      const props = ensureProps(await readProps(slug), additive);
+      props.searchSparkline = sparkline;
+      await writeProps(slug, props);
     } catch (error) {
       console.error(`Error processing ${additive.title}: ${error.message}`);
-      updatedAdditives.push({ ...additive, searchSparkline: [] });
+      const props = ensureProps(await readProps(slug), additive);
+      props.searchSparkline = [];
+      await writeProps(slug, props);
     }
   }
-
-  const output = {
-    additives: updatedAdditives,
-  };
-
-  await fs.writeFile(ADDITIVES_PATH, `${JSON.stringify(output, null, 2)}\n`);
 
   console.log(`Completed fetching history for ${processed} additives.`);
 }

@@ -11,6 +11,14 @@ interface AdditivePageProps {
   params: Promise<{ slug: string }>;
 }
 
+const formatAdditiveDisplayName = (eNumber: string, title: string): string => {
+  const parts = [eNumber, title]
+    .map((part) => part.trim())
+    .filter((part, index, list) => part.length > 0 && list.indexOf(part) === index);
+
+  return parts.join(' - ') || 'Additive';
+};
+
 export async function generateStaticParams() {
   return getAdditiveSlugs().map((slug) => ({ slug }));
 }
@@ -25,8 +33,10 @@ export async function generateMetadata({ params }: AdditivePageProps): Promise<M
     };
   }
 
+  const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
+
   return {
-    title: `${additive.eNumber} - ${additive.title}`,
+    title: displayName,
     description: additive.description,
     alternates: {
       canonical: `/${additive.slug}`,
@@ -44,7 +54,12 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
 
   const synonymList = additive.synonyms.filter((value, index, list) => list.indexOf(value) === index);
   const searchHistory = getSearchHistory(additive.slug);
-  const hasSearchHistory = !!searchHistory && searchHistory.metrics.length > 0;
+  const searchKeyword = searchHistory?.keyword?.trim();
+  const hasSearchHistory =
+    !!searchHistory &&
+    searchHistory.metrics.length > 0 &&
+    !!searchKeyword;
+  const displayName = formatAdditiveDisplayName(additive.eNumber, additive.title);
   const searchRank = typeof additive.searchRank === 'number' ? additive.searchRank : null;
   const searchVolume = typeof additive.searchVolume === 'number' ? additive.searchVolume : null;
   const searchCountryCode = searchHistory?.country;
@@ -57,7 +72,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
         <Box display="flex" flexDirection="column" gap={1.5}>
           <Typography component="h1" variant="h1">
-            {additive.eNumber} - {additive.title}
+            {displayName}
           </Typography>
           {synonymList.length > 0 && (
             <Typography variant="body1" color="text.secondary">
@@ -129,7 +144,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
         )}
       </Box>
 
-      {hasSearchHistory && searchHistory && (
+      {hasSearchHistory && searchHistory && searchKeyword && (
         <Box
           id="search-history"
           sx={{
@@ -144,7 +159,7 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
           <SearchHistoryChart metrics={searchHistory.metrics} />
 
           <Typography variant="body2" color="text.secondary" textAlign="center">
-            Interest over time on &ldquo;{additive.title}&rdquo; in the U.S. for the last 10 years
+            Interest over time on &ldquo;{searchKeyword}&rdquo; in the U.S. for the last 10 years
           </Typography>
         </Box>
       )}

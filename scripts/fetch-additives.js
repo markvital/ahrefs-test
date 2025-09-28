@@ -2,13 +2,14 @@
 
 /**
  * This script downloads the full list of food additives from Open Food Facts
- * and stores a normalized snapshot in `data/additives.json`.
+ * and stores a normalized snapshot in `data`.
  *
  * Steps:
  * 1. Retrieve all additive IDs by paging through the facets API.
  * 2. Fetch taxonomy details for each additive to collect metadata.
  * 3. Normalize the data structure (names, synonyms, functions, links).
- * 4. Persist the consolidated dataset so the app can statically import it.
+ * 4. Persist the consolidated dataset across `data/additives.json` and
+ *    per-additive `props.json` files.
  */
 
 const fs = require('fs/promises');
@@ -16,11 +17,14 @@ const path = require('path');
 const { execFile } = require('child_process');
 const { promisify } = require('util');
 
+const { createAdditiveSlug } = require('./utils/slug');
+
 const execFileAsync = promisify(execFile);
 
 const FACETS_BASE_URL = 'https://world.openfoodfacts.org/facets/additives.json';
 const TAXONOMY_BASE_URL = 'https://world.openfoodfacts.org/api/v2/taxonomy?tagtype=additives&tags=';
-const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'additives.json');
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const MAX_PAGE_CHECK = 10; // Guard to avoid infinite loops if the API changes.
 const REQUEST_DELAY_MS = 50; // Gentle delay between batch requests.
 const BATCH_SIZE = 10;
@@ -257,6 +261,79 @@ async function fetchAdditiveDetails(id, index, total) {
   };
 }
 
+async function readExistingProps(slug) {
+  const propsPath = path.join(DATA_DIR, slug, 'props.json');
+  try {
+    const raw = await fs.readFile(propsPath, 'utf8');
+    return JSON.parse(raw);
+  } catch (error) {
+    return null;
+  }
+}
+
+async function writeAdditiveDataset(additives) {
+  await fs.mkdir(DATA_DIR, { recursive: true });
+
+  const indexEntries = [];
+
+  for (const additive of additives) {
+    const slug = createAdditiveSlug({
+      eNumber: additive.eNumber,
+      title: additive.title,
+    });
+    const dirPath = path.join(DATA_DIR, slug);
+    await fs.mkdir(dirPath, { recursive: true });
+
+    const existingProps = await readExistingProps(slug);
+    const propsPath = path.join(dirPath, 'props.json');
+    const payload = {
+      title: additive.title || '',
+      eNumber: additive.eNumber || '',
+      synonyms: additive.synonyms || [],
+      functions: additive.functions || [],
+      description: additive.description || '',
+      wikipedia: additive.wikipedia || '',
+      wikidata: additive.wikidata || '',
+      searchVolume: existingProps && typeof existingProps.searchVolume === 'number'
+        ? existingProps.searchVolume
+        : null,
+      searchRank: existingProps && typeof existingProps.searchRank === 'number'
+        ? existingProps.searchRank
+        : null,
+      searchSparkline: Array.isArray(existingProps?.searchSparkline)
+        ? existingProps.searchSparkline
+        : [],
+    };
+
+    await fs.writeFile(propsPath, `${JSON.stringify(payload, null, 2)}\n`);
+
+    indexEntries.push({
+      title: payload.title,
+      eNumber: payload.eNumber,
+    });
+  }
+
+  indexEntries.sort((a, b) => {
+    if (a.title && b.title) {
+      return a.title.localeCompare(b.title, 'en');
+    }
+    if (a.title) {
+      return -1;
+    }
+    if (b.title) {
+      return 1;
+    }
+    return (a.eNumber || '').localeCompare(b.eNumber || '', 'en');
+  });
+
+  const indexPayload = {
+    additives: indexEntries,
+  };
+
+  await fs.writeFile(ADDITIVES_INDEX_PATH, `${JSON.stringify(indexPayload, null, 2)}\n`);
+  console.log(`Saved ${additives.length} additives to ${DATA_DIR}`);
+}
+
 async function main() {
   const ids = await fetchAllAdditiveIds();
   const additives = [];
@@ -275,12 +352,7 @@ async function main() {
 
   additives.sort((a, b) => a.title.localeCompare(b.title, 'en'));
 
-  const payload = {
-    additives,
-  };
-
-  await fs.writeFile(OUTPUT_PATH, `${JSON.stringify(payload, null, 2)}\n`);
-  console.log(`Saved ${additives.length} additives to ${OUTPUT_PATH}`);
+  await writeAdditiveDataset(additives);
 }
 
 main().catch((error) => {
