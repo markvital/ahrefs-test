@@ -1,14 +1,13 @@
 {
-  "title": "E543 food additive",
+  "title": "Questionable placeholder (E543)",
   "eNumber": "E543",
   "synonyms": [
-    "E543",
-    "E543 food additive"
+    "E543"
   ],
   "functions": [],
-  "description": "",
+  "description": "Placeholder entry retained for review: there is no authorised EU additive with the designation E543, and the associated Wikidata item lacks regulatory sourcing.",
   "wikipedia": "",
-  "wikidata": "Q18967200",
+  "wikidata": "",
   "searchVolume": null,
   "searchRank": null,
   "searchSparkline": []
