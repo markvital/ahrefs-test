@@ -1,9 +1,11 @@
 {
-  "title": "E390",
+  "title": "Questionable placeholder (E390)",
   "eNumber": "E390",
-  "synonyms": [],
+  "synonyms": [
+    "E390"
+  ],
   "functions": [],
-  "description": "",
+  "description": "Placeholder entry retained for review: no authorised EU food additive currently carries the code E390.",
   "wikipedia": "",
   "wikidata": "Q13081806",
   "searchVolume": 30,

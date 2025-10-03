@@ -1,9 +1,11 @@
 {
-  "title": "E387",
+  "title": "Questionable placeholder (E387)",
   "eNumber": "E387",
-  "synonyms": [],
+  "synonyms": [
+    "E387"
+  ],
   "functions": [],
-  "description": "",
+  "description": "Placeholder entry retained for review: no authorised EU food additive currently carries the code E387.",
   "wikipedia": "",
   "wikidata": "Q13081802",
   "searchVolume": 0,

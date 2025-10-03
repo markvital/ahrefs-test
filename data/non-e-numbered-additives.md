@@ -15,3 +15,13 @@ The following records in the dataset do not map to a single authorised EU E-numb
 | Nucleic acids | Regulation lists specific ribonucleotide salts (E 626–E 635) but not a generic "Nucleic acids" additive. | Retain on the non-E-numbered list pending clarification. | [CELEX:32011R1129](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011R1129) |
 | Organic acids | Umbrella label covering multiple authorised acids (e.g., acetic acid E 260, citric acid E 330); no single E-number matches the generic term. | Keep in non-E-numbered list or map to precise acids. | [CELEX:32011R1129](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011R1129) |
 | Potassium iodide | Not listed in the EU additive register; only potassium iodate (E 917) is authorised for certain uses. | Keep out of enrichment until regulations change or a mapping is required. | [CELEX:32011R1129](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32011R1129) |
+
+## Questionable E-number placeholders pending validation
+
+These records currently carry E-numbers as their titles but lack any corroborating evidence of authorised additives in the EU register or reputable compilations of E-codes. They should be reviewed and likely removed to avoid polluting enrichment workflows.
+
+| Placeholder | Rationale | Suggested handling | Notes |
+| --- | --- | --- | --- |
+| E387 | No authorised additive listed for E 387 in consolidated Regulation (EC) No 1333/2008 schedules or public E-number directories; likely an artefact from legacy ingestion. | Flag for removal after confirming no regional authorisations exist. | Matches Wikidata item Q13081802 but without label or external sources. |
+| E390 | Not present in EU additive schedules or reputable E-number listings; repeated placeholder entries with no supporting metadata. | Flag for removal after confirmation. | Appears only as numeric query term in historical search metrics. |
+| E638 | Sequential gap between authorised flavour enhancers E 636, E 637 and E 640; no evidence of an assigned additive labelled E 638. | Flag for removal after confirmation. | No Wikidata identifier; zero search volume observed. |
