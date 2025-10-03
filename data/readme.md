@@ -33,3 +33,7 @@ This folder stores the static dataset that powers the catalogue. All files are c
 3. **Ahrefs volume history** — `scripts/fetch-search-history.js` collects the ten-year volume trend for each additive and writes `searchHistory.json`. It also updates the `searchSparkline` array inside `props.json` for quick access on the grid view.
 
 The scripts are idempotent and can be re-run to refresh the dataset. Each script expects the `data/` directory to exist and will create per-additive folders as needed.
+
+## Non-E-numbered additives
+
+Some Open Food Facts records describe ingredient families or additive blends that do not correspond to a single EU E-number. These are documented in [`non-e-numbered-additives.md`](./non-e-numbered-additives.md) so they can be reviewed or mapped to specific authorised additives without blocking enrichment scripts.
