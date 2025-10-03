@@ -1,9 +1,11 @@
 {
-  "title": "E364",
+  "title": "Questionable placeholder (E364)",
   "eNumber": "E364",
-  "synonyms": [],
+  "synonyms": [
+    "E364"
+  ],
   "functions": [],
-  "description": "",
+  "description": "Placeholder entry retained for review: no authorised EU food additive currently carries the code E 364 per Regulation (EU) No 231/2012 specifications.",
   "wikipedia": "",
   "wikidata": "",
   "searchVolume": 100,

@@ -1,14 +1,11 @@
 {
-  "title": "E386",
+  "title": "Questionable placeholder (E386)",
   "eNumber": "E386",
-  "synonyms": [],
-  "functions": [
-    "antioxidant",
-    "preservative",
-    "sequestrant",
-    "stabiliser"
+  "synonyms": [
+    "E386"
   ],
-  "description": "",
+  "functions": [],
+  "description": "Placeholder entry retained for review: no authorised EU food additive currently carries the code E 386 according to Regulation (EU) No 231/2012 specifications.",
   "wikipedia": "",
   "wikidata": "Q13081804",
   "searchVolume": 20,

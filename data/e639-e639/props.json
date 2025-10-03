@@ -1,9 +1,11 @@
 {
-  "title": "E639",
+  "title": "Questionable placeholder (E639)",
   "eNumber": "E639",
-  "synonyms": [],
+  "synonyms": [
+    "E639"
+  ],
   "functions": [],
-  "description": "",
+  "description": "Placeholder entry retained for review: no authorised EU food additive currently carries the code E 639 according to Regulation (EU) No 231/2012 specifications.",
   "wikipedia": "",
   "wikidata": "",
   "searchVolume": 30,
