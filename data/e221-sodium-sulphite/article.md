@@ -1,10 +1,3 @@
-# E221 — Sodium sulfite
-
-## Summary (3 sentences)
-Sodium sulfite (E221) is a preservative and antioxidant that helps prevent browning and spoilage in certain foods and drinks.
-Upsides: it protects color and flavor and can extend shelf life.
-Risks: a subset of people—especially some with asthma—are sensitive to sulfites and should avoid them.
-
 **PubChem:** https://pubchem.ncbi.nlm.nih.gov/compound/24437
 
 ## At a glance

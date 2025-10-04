@@ -166,13 +166,13 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       )}
 
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
-        {additive.article && <MarkdownArticle content={additive.article} />}
-
         {additive.description && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">
             {additive.description}
           </Typography>
         )}
+
+        {additive.article && <MarkdownArticle content={additive.article} />}
 
         {additive.wikipedia && (
           <Typography variant="body1">
