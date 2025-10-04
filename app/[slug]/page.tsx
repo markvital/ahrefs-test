@@ -6,6 +6,7 @@ import { getAdditiveBySlug, getAdditiveSlugs } from '../../lib/additives';
 import { formatMonthlyVolume, getCountryFlagEmoji, getCountryLabel } from '../../lib/format';
 import { getSearchHistory } from '../../lib/search-history';
 import { SearchHistoryChart } from '../../components/SearchHistoryChart';
+import { MarkdownArticle } from '../../components/MarkdownArticle';
 
 interface AdditivePageProps {
   params: Promise<{ slug: string }>;
@@ -165,6 +166,8 @@ export default async function AdditivePage({ params }: AdditivePageProps) {
       )}
 
       <Box sx={{ width: '100%', maxWidth: 760, display: 'flex', flexDirection: 'column', gap: 3 }}>
+        {additive.article && <MarkdownArticle content={additive.article} />}
+
         {additive.description && (
           <Typography variant="body1" color="text.primary" whiteSpace="pre-line">
             {additive.description}

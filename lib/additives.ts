@@ -24,6 +24,7 @@ export interface Additive {
   synonyms: string[];
   functions: string[];
   description: string;
+  article: string;
   wikipedia: string;
   wikidata: string;
   searchSparkline: Array<number | null>;
@@ -37,6 +38,24 @@ interface AdditiveIndexEntry {
 }
 
 const dataDir = path.join(process.cwd(), 'data');
+
+const readAdditiveArticle = (slug: string): string => {
+  const filePath = path.join(dataDir, slug, 'article.md');
+
+  if (!fs.existsSync(filePath)) {
+    return '';
+  }
+
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8');
+
+    return raw.trim();
+  } catch (error) {
+    console.error(`Failed to read article for ${slug}:`, error);
+
+    return '';
+  }
+};
 
 const toString = (value: unknown): string => (typeof value === 'string' ? value : '');
 
@@ -81,6 +100,7 @@ const readAdditiveProps = (
   fallback: AdditiveIndexEntry,
 ): Omit<Additive, 'slug'> => {
   const filePath = path.join(dataDir, slug, 'props.json');
+  const article = readAdditiveArticle(slug);
 
   if (!fs.existsSync(filePath)) {
     const title = fallback.title ? fallback.title : '';
@@ -92,6 +112,7 @@ const readAdditiveProps = (
       synonyms: [],
       functions: [],
       description: '',
+      article,
       wikipedia: '',
       wikidata: '',
       searchSparkline: [],
@@ -113,6 +134,7 @@ const readAdditiveProps = (
       synonyms: toStringArray(parsed.synonyms),
       functions: toStringArray(parsed.functions),
       description: toString(parsed.description),
+      article,
       wikipedia: toString(parsed.wikipedia),
       wikidata: toString(parsed.wikidata),
       searchSparkline: toSparkline(parsed.searchSparkline),
@@ -130,6 +152,7 @@ const readAdditiveProps = (
       synonyms: [],
       functions: [],
       description: '',
+      article,
       wikipedia: '',
       wikidata: '',
       searchSparkline: [],
