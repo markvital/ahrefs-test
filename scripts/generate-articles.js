@@ -8,16 +8,17 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 const { stdin, stdout } = require('process');
 
+const OpenAI = require('openai');
+
 const { createAdditiveSlug } = require('./utils/slug');
 
 const execFileAsync = promisify(execFile);
 
 dns.setDefaultResultOrder('ipv4first');
 
-const DEFAULT_LIMIT = 20;
+const DEFAULT_LIMIT = 10;
 const DEFAULT_BATCH_SIZE = 10;
-const OPENAI_MODEL = 'gpt-5.0';
-const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
+const OPENAI_MODEL = 'gpt-5';
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-article.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
@@ -246,81 +247,93 @@ function normaliseFunctions(functions) {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 }
 
-async function callOpenAi(apiKey, systemPrompt, payload) {
-  const messages = [
-    { role: 'system', content: systemPrompt },
-    {
-      role: 'user',
-      content: [
-        'Create a Markdown article and short textual summary using the additive metadata provided.',
-        'Respect all layout, linking, and validation requirements in the system prompt.',
-        'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
-        'Return a JSON object with keys `article_markdown` and `article_summary`. No additional text.',
-        '',
-        `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
-      ].join('\n'),
-    },
-  ];
+async function callOpenAi(client, systemPrompt, payload) {
+  const additiveLabel = [payload.eNumber, payload.title].filter(Boolean).join(' — ') || 'the additive';
 
-  const body = JSON.stringify({
-    model: OPENAI_MODEL,
-    messages,
-    temperature: 0.4,
-    response_format: { type: 'json_object' },
-    max_tokens: 1800,
-  });
-
-  let stdout;
   try {
-    ({ stdout } = await execFileAsync('curl', [
-      '-fsS',
-      '-X',
-      'POST',
-      '-H',
-      'Content-Type: application/json',
-      '-H',
-      `Authorization: Bearer ${apiKey}`,
-      '-d',
-      body,
-      OPENAI_API_URL,
-    ]));
+    const response = await client.responses.create({
+      model: OPENAI_MODEL,
+      reasoning: { effort: 'high' },
+      temperature: 0.4,
+      max_output_tokens: 1800,
+      input: [
+        {
+          role: 'system',
+          content: [{ type: 'text', text: systemPrompt }],
+        },
+        {
+          role: 'user',
+          content: [
+            {
+              type: 'text',
+              text: [
+                `Create a Markdown article and short textual summary about ${additiveLabel}.`,
+                'Respect all layout, linking, and validation requirements in the system prompt.',
+                'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
+                'Return a JSON object with keys `article_markdown` and `article_summary`. No additional text.',
+                '',
+                `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
+              ].join('\n'),
+            },
+          ],
+        },
+      ],
+      response_format: {
+        type: 'json_schema',
+        json_schema: {
+          name: 'additive_article',
+          schema: {
+            type: 'object',
+            additionalProperties: false,
+            required: ['article_markdown', 'article_summary'],
+            properties: {
+              article_markdown: { type: 'string' },
+              article_summary: { type: 'string' },
+            },
+          },
+        },
+      },
+    });
+
+    let parsed = response.output_parsed;
+
+    if (!parsed && response.output_text) {
+      try {
+        parsed = JSON.parse(response.output_text);
+      } catch (parseError) {
+        throw new Error(`Unable to parse OpenAI response JSON: ${parseError.message}`);
+      }
+    }
+
+    if (!parsed || typeof parsed !== 'object') {
+      throw new Error('OpenAI API returned an empty response.');
+    }
+
+    const { article_markdown: articleMarkdown, article_summary: articleSummary } = parsed;
+    if (typeof articleMarkdown !== 'string' || typeof articleSummary !== 'string') {
+      throw new Error('OpenAI response JSON must include string keys `article_markdown` and `article_summary`.');
+    }
+
+    return { articleMarkdown, articleSummary };
   } catch (error) {
-    const stderr = error.stderr ? error.stderr.toString() : error.message;
-    throw new Error(`OpenAI API request failed: ${stderr}`);
-  }
+    if (error instanceof OpenAI.APIError) {
+      const details = error.error?.message || error.message;
+      throw new Error(`OpenAI API request failed (status ${error.status ?? 'unknown'}): ${details}`);
+    }
 
-  let data;
-  try {
-    data = JSON.parse(stdout);
-  } catch (error) {
-    throw new Error(`Unable to parse OpenAI response JSON: ${error.message}`);
-  }
+    if (error && typeof error === 'object' && 'message' in error) {
+      throw new Error(error.message);
+    }
 
-  const messageContent = data?.choices?.[0]?.message?.content;
-  if (!messageContent || typeof messageContent !== 'string') {
-    throw new Error('OpenAI API returned an unexpected response format.');
+    throw error;
   }
-
-  let parsed;
-  try {
-    parsed = JSON.parse(messageContent);
-  } catch (error) {
-    throw new Error(`Failed to parse OpenAI response as JSON: ${error.message}`);
-  }
-
-  const { article_markdown: articleMarkdown, article_summary: articleSummary } = parsed;
-  if (typeof articleMarkdown !== 'string' || typeof articleSummary !== 'string') {
-    throw new Error('OpenAI response JSON must include string keys `article_markdown` and `article_summary`.');
-  }
-
-  return { articleMarkdown, articleSummary };
 }
 
 async function processAdditive({
   additive,
   props,
   promptTemplate,
-  apiKey,
+  apiClient,
   index,
   total,
 }) {
@@ -347,7 +360,7 @@ async function processAdditive({
     faqQuestions,
   };
 
-  const { articleMarkdown, articleSummary } = await callOpenAi(apiKey, promptTemplate, metadataPayload);
+  const { articleMarkdown, articleSummary } = await callOpenAi(apiClient, promptTemplate, metadataPayload);
 
   await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
@@ -364,6 +377,7 @@ async function processAdditive({
 async function run() {
   try {
     const apiKey = await loadApiKey();
+    const apiClient = new OpenAI({ apiKey });
     const promptTemplate = await readPromptTemplate();
     const additives = await readAdditivesIndex();
 
@@ -416,7 +430,7 @@ async function run() {
               additive,
               props,
               promptTemplate,
-              apiKey,
+              apiClient,
               index: localIndex,
               total,
             });
