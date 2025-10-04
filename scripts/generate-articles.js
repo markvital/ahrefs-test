@@ -8,6 +8,9 @@ const { execFile } = require('child_process');
 const { promisify } = require('util');
 const { stdin, stdout } = require('process');
 
+const OpenAI = require('openai');
+const { ProxyAgent } = require('undici');
+
 const { createAdditiveSlug } = require('./utils/slug');
 
 const execFileAsync = promisify(execFile);
@@ -16,14 +19,33 @@ dns.setDefaultResultOrder('ipv4first');
 
 const DEFAULT_LIMIT = 20;
 const DEFAULT_BATCH_SIZE = 10;
-const OPENAI_MODEL = 'gpt-5.0';
-const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
+const OPENAI_MODEL = 'gpt-5';
 const PROMPT_PATH = path.join(__dirname, 'prompts', 'additive-article.txt');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ADDITIVES_INDEX_PATH = path.join(DATA_DIR, 'additives.json');
 const ENV_LOCAL_PATH = path.join(__dirname, '..', 'env.local');
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function createOpenAiClient(apiKey) {
+  const options = { apiKey };
+  const proxyUrl =
+    process.env.HTTPS_PROXY ||
+    process.env.https_proxy ||
+    process.env.HTTP_PROXY ||
+    process.env.http_proxy ||
+    null;
+
+  if (proxyUrl) {
+    const agent = new ProxyAgent(proxyUrl);
+    options.fetch = (url, init = {}) => {
+      const nextInit = { ...init, dispatcher: agent };
+      return globalThis.fetch(url, nextInit);
+    };
+  }
+
+  return new OpenAI(options);
+}
 
 async function fileExists(filePath) {
   try {
@@ -246,81 +268,74 @@ function normaliseFunctions(functions) {
     .filter((item, index, list) => item.length > 0 && list.indexOf(item) === index);
 }
 
-async function callOpenAi(apiKey, systemPrompt, payload) {
-  const messages = [
-    { role: 'system', content: systemPrompt },
-    {
-      role: 'user',
-      content: [
-        'Create a Markdown article and short textual summary using the additive metadata provided.',
-        'Respect all layout, linking, and validation requirements in the system prompt.',
-        'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
-        'Return a JSON object with keys `article_markdown` and `article_summary`. No additional text.',
-        '',
-        `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
-      ].join('\n'),
-    },
-  ];
-
-  const body = JSON.stringify({
+async function callOpenAi({ client, systemPrompt, payload }) {
+  const response = await client.responses.create({
     model: OPENAI_MODEL,
-    messages,
+    reasoning: { effort: 'high' },
     temperature: 0.4,
-    response_format: { type: 'json_object' },
-    max_tokens: 1800,
+    max_output_tokens: 2200,
+    input: [
+      { role: 'system', content: systemPrompt },
+      {
+        role: 'user',
+        content: [
+          'Create a Markdown article and short textual summary using the additive metadata provided.',
+          'Respect all layout, linking, and validation requirements in the system prompt.',
+          'Use the PubChem URL exactly as provided. Do not fabricate URLs.',
+          'Return a JSON object with keys `article_markdown` and `article_summary`. No additional text.',
+          '',
+          `Additive metadata:\n${JSON.stringify(payload, null, 2)}`,
+        ].join('\n'),
+      },
+    ],
+    response_format: {
+      type: 'json_schema',
+      json_schema: {
+        name: 'additive_article_payload',
+        schema: {
+          type: 'object',
+          additionalProperties: false,
+          required: ['article_markdown', 'article_summary'],
+          properties: {
+            article_markdown: { type: 'string' },
+            article_summary: { type: 'string' },
+          },
+        },
+      },
+    },
   });
 
-  let stdout;
-  try {
-    ({ stdout } = await execFileAsync('curl', [
-      '-fsS',
-      '-X',
-      'POST',
-      '-H',
-      'Content-Type: application/json',
-      '-H',
-      `Authorization: Bearer ${apiKey}`,
-      '-d',
-      body,
-      OPENAI_API_URL,
-    ]));
-  } catch (error) {
-    const stderr = error.stderr ? error.stderr.toString() : error.message;
-    throw new Error(`OpenAI API request failed: ${stderr}`);
+  const message = response?.output?.find((item) => item?.content);
+  const primaryContent = message?.content?.[0];
+
+  if (primaryContent?.type === 'json_schema' && primaryContent?.json_schema?.json) {
+    const { json } = primaryContent.json_schema;
+    const { article_markdown: articleMarkdown, article_summary: articleSummary } = json;
+    if (typeof articleMarkdown === 'string' && typeof articleSummary === 'string') {
+      return { articleMarkdown, articleSummary };
+    }
   }
 
-  let data;
-  try {
-    data = JSON.parse(stdout);
-  } catch (error) {
-    throw new Error(`Unable to parse OpenAI response JSON: ${error.message}`);
+  if (primaryContent?.type === 'text' && typeof primaryContent?.text === 'string') {
+    try {
+      const parsed = JSON.parse(primaryContent.text);
+      const { article_markdown: articleMarkdown, article_summary: articleSummary } = parsed;
+      if (typeof articleMarkdown === 'string' && typeof articleSummary === 'string') {
+        return { articleMarkdown, articleSummary };
+      }
+    } catch (error) {
+      throw new Error(`Failed to parse OpenAI response text as JSON: ${error.message}`);
+    }
   }
 
-  const messageContent = data?.choices?.[0]?.message?.content;
-  if (!messageContent || typeof messageContent !== 'string') {
-    throw new Error('OpenAI API returned an unexpected response format.');
-  }
-
-  let parsed;
-  try {
-    parsed = JSON.parse(messageContent);
-  } catch (error) {
-    throw new Error(`Failed to parse OpenAI response as JSON: ${error.message}`);
-  }
-
-  const { article_markdown: articleMarkdown, article_summary: articleSummary } = parsed;
-  if (typeof articleMarkdown !== 'string' || typeof articleSummary !== 'string') {
-    throw new Error('OpenAI response JSON must include string keys `article_markdown` and `article_summary`.');
-  }
-
-  return { articleMarkdown, articleSummary };
+  throw new Error('OpenAI API returned an unexpected response format.');
 }
 
 async function processAdditive({
   additive,
   props,
   promptTemplate,
-  apiKey,
+  client,
   index,
   total,
 }) {
@@ -347,7 +362,11 @@ async function processAdditive({
     faqQuestions,
   };
 
-  const { articleMarkdown, articleSummary } = await callOpenAi(apiKey, promptTemplate, metadataPayload);
+  const { articleMarkdown, articleSummary } = await callOpenAi({
+    client,
+    systemPrompt: promptTemplate,
+    payload: metadataPayload,
+  });
 
   await fs.mkdir(path.join(DATA_DIR, additive.slug), { recursive: true });
   await fs.writeFile(articlePath, `${articleMarkdown.trim()}\n`, 'utf8');
@@ -366,6 +385,7 @@ async function run() {
     const apiKey = await loadApiKey();
     const promptTemplate = await readPromptTemplate();
     const additives = await readAdditivesIndex();
+    const client = createOpenAiClient(apiKey);
 
     const rl = stdin.isTTY && stdout.isTTY
       ? readline.createInterface({ input: stdin, output: stdout })
@@ -383,6 +403,7 @@ async function run() {
       for (const additive of additives) {
         const articlePath = path.join(DATA_DIR, additive.slug, 'article.md');
         if (await fileExists(articlePath)) {
+          console.log(`Skipping ${additive.eNumber || additive.title || additive.slug}: article already exists.`);
           continue;
         }
         candidates.push(additive);
@@ -416,7 +437,7 @@ async function run() {
               additive,
               props,
               promptTemplate,
-              apiKey,
+              client,
               index: localIndex,
               total,
             });
