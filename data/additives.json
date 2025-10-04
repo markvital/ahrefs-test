@@ -145,10 +145,6 @@
       "eNumber": "E440II"
     },
     {
-      "title": "Amino acids",
-      "eNumber": ""
-    },
-    {
       "title": "Ammonia caramel",
       "eNumber": "E150C"
     },
@@ -589,10 +585,6 @@
       "eNumber": "E290"
     },
     {
-      "title": "Carbonat Acid De Sodi I Difosfat De Disodi",
-      "eNumber": ""
-    },
-    {
       "title": "Carbonates",
       "eNumber": "E502"
     },
@@ -737,10 +729,6 @@
       "eNumber": "E1400"
     },
     {
-      "title": "Di- and triphosphates",
-      "eNumber": ""
-    },
-    {
       "title": "Dicalcium citrate",
       "eNumber": "E333II"
     },
@@ -779,10 +767,6 @@
     {
       "title": "Diphosphates",
       "eNumber": "E450"
-    },
-    {
-      "title": "Diphosphates and sodium carbonates",
-      "eNumber": ""
     },
     {
       "title": "dipotassium dihydrogenpyrophosphate",
@@ -849,79 +833,59 @@
       "eNumber": "E312"
     },
     {
-      "title": "E101a food additive",
+      "title": "Questionable placeholder (E101A)",
       "eNumber": "E101A"
     },
     {
-      "title": "E105 food additive",
+      "title": "Questionable placeholder (E105)",
       "eNumber": "E105"
     },
     {
-      "title": "E15x food additive",
-      "eNumber": "E15X"
-    },
-    {
-      "title": "E364",
+      "title": "Sodium succinates",
       "eNumber": "E364"
     },
     {
-      "title": "E364",
-      "eNumber": "E364"
-    },
-    {
-      "title": "E386",
+      "title": "Questionable placeholder (E386)",
       "eNumber": "E386"
     },
     {
-      "title": "E386",
-      "eNumber": "E386"
-    },
-    {
-      "title": "E387",
+      "title": "Questionable placeholder (E387)",
       "eNumber": "E387"
     },
     {
-      "title": "E389",
+      "title": "Questionable placeholder (E389)",
       "eNumber": "E389"
     },
     {
-      "title": "E389",
-      "eNumber": "E389"
-    },
-    {
-      "title": "E390",
+      "title": "Questionable placeholder (E390)",
       "eNumber": "E390"
     },
     {
-      "title": "E390",
-      "eNumber": "E390"
-    },
-    {
-      "title": "E411 food additive",
+      "title": "Questionable placeholder (E411)",
       "eNumber": "E411"
     },
     {
-      "title": "E450viii",
+      "title": "Questionable placeholder (E450viii)",
       "eNumber": "E450VIII"
     },
     {
-      "title": "E543 food additive",
+      "title": "Questionable placeholder (E543)",
       "eNumber": "E543"
     },
     {
-      "title": "E571",
+      "title": "Questionable placeholder (E571)",
       "eNumber": "E571"
     },
     {
-      "title": "E638",
+      "title": "Questionable placeholder (E638)",
       "eNumber": "E638"
     },
     {
-      "title": "E639",
+      "title": "Questionable placeholder (E639)",
       "eNumber": "E639"
     },
     {
-      "title": "E642",
+      "title": "Questionable placeholder (E642)",
       "eNumber": "E642"
     },
     {
@@ -1063,10 +1027,6 @@
     {
       "title": "Gardenia Blue",
       "eNumber": "E165"
-    },
-    {
-      "title": "Gärungskohlensäure",
-      "eNumber": ""
     },
     {
       "title": "Gelatine",
@@ -1213,10 +1173,6 @@
       "eNumber": "E132"
     },
     {
-      "title": "Inorganic salts",
-      "eNumber": ""
-    },
-    {
       "title": "Inosinic acid",
       "eNumber": "E630"
     },
@@ -1239,10 +1195,6 @@
     {
       "title": "isomalt",
       "eNumber": "E953"
-    },
-    {
-      "title": "Isomaltose",
-      "eNumber": ""
     },
     {
       "title": "Isopropyl citrates",
@@ -1470,7 +1422,7 @@
     },
     {
       "title": "Mono- and diglycerides of vegetable fatty acids",
-      "eNumber": ""
+      "eNumber": "E471"
     },
     {
       "title": "Monoammonium glutamate",
@@ -1533,10 +1485,6 @@
       "eNumber": "E235"
     },
     {
-      "title": "Natürliche Quellkohlensäure",
-      "eNumber": ""
-    },
-    {
       "title": "Neohesperidine dihydrochalcone",
       "eNumber": "E959"
     },
@@ -1581,10 +1529,6 @@
       "eNumber": "E440I"
     },
     {
-      "title": "Nucleic acids",
-      "eNumber": ""
-    },
-    {
       "title": "Oat lecithin",
       "eNumber": "E322A"
     },
@@ -1607,10 +1551,6 @@
     {
       "title": "Orcein",
       "eNumber": "E182"
-    },
-    {
-      "title": "Organic acids",
-      "eNumber": ""
     },
     {
       "title": "Orthophenyl phenol",
@@ -1853,10 +1793,6 @@
       "eNumber": "E917"
     },
     {
-      "title": "Potassium iodide",
-      "eNumber": ""
-    },
-    {
       "title": "potassium lactate",
       "eNumber": "E326"
     },
@@ -1963,10 +1899,6 @@
     {
       "title": "Pullulan",
       "eNumber": "E1204"
-    },
-    {
-      "title": "Quellkohlensäure",
-      "eNumber": ""
     },
     {
       "title": "Quillaia extract",
