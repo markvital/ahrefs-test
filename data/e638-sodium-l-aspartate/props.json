@@ -1,14 +1,16 @@
 {
-  "title": "Questionable placeholder (E411)",
-  "eNumber": "E411",
+  "title": "Sodium L-aspartate",
+  "eNumber": "E638",
   "synonyms": [
-    "E411"
+    "E638",
+    "Sodium L-aspartate",
+    "Sodium L aspartate"
   ],
   "functions": [],
   "description": "",
   "wikipedia": "",
   "wikidata": "",
-  "searchVolume": null,
+  "searchVolume": 0,
   "searchRank": null,
   "searchSparkline": []
 }
